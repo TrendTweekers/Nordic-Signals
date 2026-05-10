@@ -6,7 +6,7 @@
   },
   "steps": {
     "install": {
-      "commands": ["npm ci || npm install"]
+      "commands": ["npm install"]
     },
     "build": {
       "commands": ["npm run build"]
