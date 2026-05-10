@@ -25,11 +25,11 @@ Open http://localhost:3000.
 ## Deploy on Railway
 
 1. New project → Deploy from GitHub repo → pick `Nordic-Signals`.
-2. Service settings → **Root directory: `web`**. (This is the only Railway-specific step — everything else is auto-detected via `nixpacks.toml`.)
+2. **Service Settings → Source → Root Directory: `web`** — without this, Railway builds from the repo root, sees `requirements.txt`, and tries to deploy the Python scraper. This is THE critical step.
 3. Variables → add `RESEND_API_KEY` and `RESEND_AUDIENCE_ID`.
 4. Networking → generate a Railway domain or attach a custom one (`nordicsignals.com`).
 
-Railway will build with Nixpacks, run `npm run start`, and bind to `$PORT` automatically.
+Railway uses Railpack (its current builder); `web/railpack.json` declares Node 20 + `npm run start`. The `start` script binds to `$PORT` automatically.
 
 ## Structure
 
