@@ -1,0 +1,50 @@
+name: Daily scrape + Monday digest
+
+on:
+  schedule:
+    # 06:00 UTC = 07:00 CET / 08:00 CEST
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install chromium --with-deps
+
+      - name: Run pipeline (scrape + diff + classify)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python pipeline.py
+
+      - name: Send Monday digest
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 6 * * 1'
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          DIGEST_FROM: ${{ secrets.DIGEST_FROM }}
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+        run: python notify.py
+
+      - name: Commit snapshots back to repo
+        run: |
+          git config user.name "nordic-signals-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -f data/
+          git diff --cached --quiet || git commit -m "data: snapshot $(date -u +%F)"
+          git push

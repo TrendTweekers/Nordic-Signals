@@ -1,0 +1,127 @@
+"""
+Builds the weekly digest from the last 7 days of classified diffs and emails it via Resend.
+Run this on Mondays only (the GitHub Actions workflow gates this).
+"""
+import json
+import os
+from collections import Counter, defaultdict
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+import httpx
+from dotenv import load_dotenv
+
+load_dotenv()
+
+ROOT = Path(__file__).parent
+CLASSIFIED_DIR = ROOT / "data" / "classified"
+
+RESEND_API_KEY = os.environ["RESEND_API_KEY"]
+DIGEST_FROM = os.environ["DIGEST_FROM"]
+DIGEST_TO = os.environ["DIGEST_TO"]
+
+
+def load_week():
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=7)).date()
+    files = sorted(CLASSIFIED_DIR.glob("*.json"))
+    week = []
+    for f in files:
+        d = datetime.strptime(f.stem, "%Y-%m-%d").date()
+        if d >= cutoff:
+            week.append(json.loads(f.read_text(encoding="utf-8")))
+    return week
+
+
+def build_html(week):
+    added = [j for day in week for j in day.get("added", [])]
+    removed = [j for day in week for j in day.get("removed", [])]
+    ai_roles = [j for j in added if j.get("ai_signal")]
+    infra_roles = [j for j in added if j.get("infra_signal")]
+
+    by_company = defaultdict(list)
+    for j in added:
+        by_company[j["company"]].append(j)
+
+    today_str = datetime.now(timezone.utc).strftime("%b %d, %Y")
+
+    def role_li(j):
+        tag = " · ".join(filter(None, [j.get("seniority"), j.get("specialty")]))
+        return f'<li><a href="{j["url"]}" style="color:#22d3ee;text-decoration:none">{j["title"]}</a> <span style="color:#94a3b8">— {tag}</span></li>'
+
+    headline_blocks = []
+    if ai_roles:
+        headline_blocks.append(
+            "<h2 style='color:#fff;font-size:18px;margin-top:32px'>🔥 AI capability signals</h2>"
+            "<ul style='padding-left:20px;line-height:1.7'>"
+            + "".join(f"<li><b>{j['company']}</b> — {j['title']}</li>" for j in ai_roles[:10])
+            + "</ul>"
+        )
+    if infra_roles:
+        headline_blocks.append(
+            "<h2 style='color:#fff;font-size:18px;margin-top:32px'>⚙️ Infra / platform signals</h2>"
+            "<ul style='padding-left:20px;line-height:1.7'>"
+            + "".join(f"<li><b>{j['company']}</b> — {j['title']}</li>" for j in infra_roles[:10])
+            + "</ul>"
+        )
+
+    by_company_html = ""
+    for company, jobs in sorted(by_company.items(), key=lambda kv: -len(kv[1])):
+        by_company_html += (
+            f"<h3 style='color:#fff;font-size:15px;margin-top:24px;margin-bottom:8px'>{company} <span style='color:#64748b;font-weight:400'>+{len(jobs)}</span></h3>"
+            "<ul style='padding-left:20px;line-height:1.7;margin:0'>"
+            + "".join(role_li(j) for j in jobs)
+            + "</ul>"
+        )
+
+    removed_html = ""
+    if removed:
+        removed_html = (
+            "<h2 style='color:#fff;font-size:18px;margin-top:32px'>📉 Roles closed this week</h2>"
+            "<ul style='padding-left:20px;line-height:1.7;color:#94a3b8'>"
+            + "".join(f"<li>{j['company']} — {j['title']}</li>" for j in removed[:20])
+            + "</ul>"
+        )
+
+    return f"""<!doctype html>
+<html><body style="background:#0b1220;color:#cbd5e1;font-family:-apple-system,Segoe UI,Inter,sans-serif;margin:0;padding:24px">
+  <div style="max-width:640px;margin:0 auto">
+    <div style="border-bottom:1px solid #1e293b;padding-bottom:16px">
+      <div style="color:#22d3ee;font-size:13px;letter-spacing:2px;text-transform:uppercase">Nordic Signals</div>
+      <h1 style="color:#fff;font-size:26px;margin:8px 0 0">Weekly hiring signals — {today_str}</h1>
+      <div style="color:#64748b;font-size:14px;margin-top:6px">{len(added)} new roles · {len(removed)} closed · {len(by_company)} companies active</div>
+    </div>
+    {''.join(headline_blocks)}
+    <h2 style='color:#fff;font-size:18px;margin-top:32px'>By company</h2>
+    {by_company_html}
+    {removed_html}
+    <div style="border-top:1px solid #1e293b;margin-top:40px;padding-top:16px;color:#475569;font-size:12px">
+      Tracking {len(set(j['company'] for day in week for j in day.get('added', []) + day.get('removed', [])))} active companies across the Nordics.
+    </div>
+  </div>
+</body></html>"""
+
+
+def send(html, subject):
+    r = httpx.post(
+        "https://api.resend.com/emails",
+        headers={"Authorization": f"Bearer {RESEND_API_KEY}"},
+        json={"from": DIGEST_FROM, "to": [DIGEST_TO], "subject": subject, "html": html},
+        timeout=30,
+    )
+    r.raise_for_status()
+    print(f"Sent: {r.json().get('id')}", flush=True)
+
+
+def main():
+    week = load_week()
+    if not week:
+        print("No classified data this week — skipping email.")
+        return
+    total_added = sum(len(d.get("added", [])) for d in week)
+    subject = f"Nordic Signals — {total_added} new roles · {datetime.now(timezone.utc).strftime('%b %d')}"
+    html = build_html(week)
+    send(html, subject)
+
+
+if __name__ == "__main__":
+    main()
