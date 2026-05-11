@@ -32,17 +32,61 @@ def load_week():
     return week
 
 
+SIGNAL_CONTEXT = {
+    "first-ai-capability": "First dedicated AI/ML role — likely standing up in-house ML capability",
+    "ai-infra-scaleup":    "Staff/Principal platform investment — scaling pressure",
+    "fundraise-prep":      "Senior finance/IPO-readiness hire — fundraise or exit prep",
+    "international-expansion": "Country/regional GM — new-market push",
+    "hardware-bet":        "Specialized hardware/robotics hire — physical product investment",
+    "compliance-buildout": "Senior legal/compliance hire — regulated-market entry",
+    "organizational-scaling": "Senior people/ops hire — headcount ramp ahead",
+}
+
+SENIOR = {"Staff", "Principal", "Lead", "Manager", "Director", "VP", "C-Level"}
+
+
+def role_score(j):
+    s = 0
+    if j.get("strategic_signal"): s += 100
+    if j.get("leadership_hire"):  s += 50
+    if j.get("ai_signal"):        s += 20
+    if j.get("infra_signal"):     s += 15
+    if (j.get("seniority") or "") in SENIOR: s += 5
+    return s
+
+
+def signal_oneliner(j):
+    sig = j.get("strategic_signal")
+    if sig and sig in SIGNAL_CONTEXT:
+        return SIGNAL_CONTEXT[sig]
+    if j.get("leadership_hire"):
+        return f"New {j.get('seniority','senior')}-level leadership in {j.get('specialty','their team')}"
+    if j.get("ai_signal"):
+        return "Direct AI/ML capability build"
+    if j.get("infra_signal"):
+        return "Platform/infra investment"
+    return ""
+
+
 def build_html(week):
     added = [j for day in week for j in day.get("added", [])]
     removed = [j for day in week for j in day.get("removed", [])]
-    # Only consider relevant roles for the curated sections. Non-relevant
-    # roles (Sales/Marketing/etc.) stay in the snapshot for analytics but
-    # don't pollute the digest.
     relevant = [j for j in added if j.get("is_relevant", True)]
     ai_roles = [j for j in relevant if j.get("ai_signal")]
     infra_roles = [j for j in relevant if j.get("infra_signal")]
     leadership_roles = [j for j in relevant if j.get("leadership_hire")]
     strategic_roles = [j for j in relevant if j.get("strategic_signal")]
+
+    # Top-N "high-impact" picks: pick best role per company, then top 8 overall
+    best_per_company = {}
+    for j in relevant:
+        sc = role_score(j)
+        if sc < 50:  # require leadership_hire OR strategic_signal
+            continue
+        cur = best_per_company.get(j["company"])
+        if not cur or sc > role_score(cur):
+            best_per_company[j["company"]] = j
+    high_impact = sorted(best_per_company.values(), key=role_score, reverse=True)[:8]
 
     by_company = defaultdict(list)
     for j in relevant:
@@ -55,6 +99,25 @@ def build_html(week):
         return f'<li><a href="{j["url"]}" style="color:#22d3ee;text-decoration:none">{j["title"]}</a> <span style="color:#94a3b8">— {tag}</span></li>'
 
     headline_blocks = []
+
+    # === TL;DR — the 6-8 highest-impact signals, with one-liner context ===
+    if high_impact:
+        rows = []
+        for j in high_impact:
+            ctx = signal_oneliner(j)
+            rows.append(
+                f"<li style='margin-bottom:10px'>"
+                f"<b style='color:#fff'>{j['company']}</b> — "
+                f"<a href='{j['url']}' style='color:#22d3ee;text-decoration:none'>{j['title']}</a>"
+                f"{f' <span style=\"color:#fbbf24;font-size:12px\">· {j[\"strategic_signal\"]}</span>' if j.get('strategic_signal') else ''}"
+                f"{f'<br><span style=\"color:#94a3b8;font-size:13px\">↳ {ctx}</span>' if ctx else ''}"
+                f"</li>"
+            )
+        headline_blocks.append(
+            f"<h2 style='color:#fff;font-size:20px;margin-top:32px;border-left:3px solid #22d3ee;padding-left:10px'>"
+            f"🔥 {len(high_impact)} high-impact signals this week</h2>"
+            "<ul style='padding-left:20px;line-height:1.5'>" + "".join(rows) + "</ul>"
+        )
 
     # Strategic signals — highest impact, surfaced first
     if strategic_roles:
@@ -78,7 +141,7 @@ def build_html(week):
             "<h2 style='color:#fff;font-size:18px;margin-top:32px'>👔 Leadership hires</h2>"
             "<ul style='padding-left:20px;line-height:1.7'>"
             + "".join(f"<li><b>{j['company']}</b> — {j['title']} <span style='color:#94a3b8'>({j.get('seniority','')})</span></li>"
-                      for j in leadership_roles[:12])
+                      for j in leadership_roles[:8])
             + "</ul>"
         )
 
@@ -86,47 +149,36 @@ def build_html(week):
         headline_blocks.append(
             "<h2 style='color:#fff;font-size:18px;margin-top:32px'>🔥 AI capability signals</h2>"
             "<ul style='padding-left:20px;line-height:1.7'>"
-            + "".join(f"<li><b>{j['company']}</b> — {j['title']}</li>" for j in ai_roles[:12])
+            + "".join(f"<li><b>{j['company']}</b> — {j['title']}</li>" for j in ai_roles[:10])
             + "</ul>"
         )
     if infra_roles:
         headline_blocks.append(
             "<h2 style='color:#fff;font-size:18px;margin-top:32px'>⚙️ Infra / platform signals</h2>"
             "<ul style='padding-left:20px;line-height:1.7'>"
-            + "".join(f"<li><b>{j['company']}</b> — {j['title']}</li>" for j in infra_roles[:12])
+            + "".join(f"<li><b>{j['company']}</b> — {j['title']}</li>" for j in infra_roles[:10])
             + "</ul>"
         )
 
-    # By-company section: only relevant roles, capped at 5/company, sorted by
-    # signal strength. Keeps the digest scannable.
-    SENIOR = {"Staff","Principal","Lead","Manager","Director","VP","C-Level"}
-    def role_score(j):
-        s = 0
-        if j.get("strategic_signal"): s += 100
-        if j.get("leadership_hire"): s += 50
-        if j.get("ai_signal"): s += 20
-        if j.get("infra_signal"): s += 15
-        if (j.get("seniority") or "") in SENIOR: s += 5
-        return s
-
-    relevant_by_company = {}
-    for company, jobs in by_company.items():
-        rel = [j for j in jobs if j.get("is_relevant", True)]
-        if rel:
-            relevant_by_company[company] = sorted(rel, key=role_score, reverse=True)
-
+    # By-company section: only relevant roles, capped at 3/company, top 10
+    # companies by signal score. Keeps it as a "notable companies" tail.
+    relevant_by_company = {
+        c: sorted(jobs, key=role_score, reverse=True)
+        for c, jobs in by_company.items() if jobs
+    }
+    ranked = sorted(
+        relevant_by_company.items(),
+        key=lambda kv: (-max((role_score(j) for j in kv[1]), default=0), -len(kv[1])),
+    )
     by_company_html = ""
-    # Rank companies by best-role-score, not raw volume
-    ranked = sorted(relevant_by_company.items(),
-                    key=lambda kv: (-max((role_score(j) for j in kv[1]), default=0), -len(kv[1])))
-    for company, jobs in ranked[:30]:
-        head = jobs[:5]
+    for company, jobs in ranked[:10]:
+        head = jobs[:3]
         more = len(jobs) - len(head)
         more_html = f' <span style="color:#64748b;font-weight:400">+{more} more</span>' if more > 0 else ''
         by_company_html += (
-            f"<h3 style='color:#fff;font-size:15px;margin-top:24px;margin-bottom:8px'>{company} "
+            f"<h3 style='color:#fff;font-size:15px;margin-top:20px;margin-bottom:6px'>{company} "
             f"<span style='color:#64748b;font-weight:400'>{len(jobs)} relevant</span></h3>"
-            "<ul style='padding-left:20px;line-height:1.7;margin:0'>"
+            "<ul style='padding-left:20px;line-height:1.6;margin:0'>"
             + "".join(role_li(j) for j in head)
             + (f"<li style='color:#64748b'>{more_html}</li>" if more else "")
             + "</ul>"
@@ -150,7 +202,7 @@ def build_html(week):
       <div style="color:#64748b;font-size:14px;margin-top:6px">{len(relevant)} relevant new roles · {len(removed)} closed · {len(by_company)} companies · {len(leadership_roles)} leadership · {len(strategic_roles)} strategic</div>
     </div>
     {''.join(headline_blocks)}
-    <h2 style='color:#fff;font-size:18px;margin-top:32px'>By company</h2>
+    <h2 style='color:#fff;font-size:18px;margin-top:32px'>Notable companies</h2>
     {by_company_html}
     {removed_html}
     <div style="border-top:1px solid #1e293b;margin-top:40px;padding-top:16px;color:#475569;font-size:12px">
