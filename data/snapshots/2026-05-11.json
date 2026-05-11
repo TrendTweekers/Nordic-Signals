@@ -1,7 +1,7 @@
 {
   "date": "2026-05-11",
-  "scraped_at": "2026-05-11T14:09:47.383001+00:00",
-  "total_jobs": 1840,
+  "scraped_at": "2026-05-11T15:07:27.976221+00:00",
+  "total_jobs": 1763,
   "jobs": [
     {
       "title": "Budbilschaufför - sommarjobb",
@@ -304,6 +304,14 @@
       "url": "https://heartaerospace.teamtailor.com/jobs/3710163-intern",
       "location": "",
       "company": "Heart Aerospace",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "title": "Analytics Engineer",
+      "url": "https://career.hemnet.se/jobs/7718268-analytics-engineer",
+      "location": "",
+      "company": "Hemnet",
       "country": "SE",
       "tier": "scale"
     },
@@ -660,14 +668,6 @@
       "tier": "scale"
     },
     {
-      "title": "Product Experience Specialist (APAC)",
-      "url": "https://jobs.ashbyhq.com/lovable/00ad65ae-2d29-41cf-898e-248ddf8ca7ae",
-      "location": "Remote",
-      "company": "Lovable",
-      "country": "SE",
-      "tier": "scale"
-    },
-    {
       "title": "UX Researcher",
       "url": "https://jobs.ashbyhq.com/lovable/c394b8d2-bed1-442f-bda7-ae773840d53d",
       "location": "Stockholm",
@@ -822,14 +822,6 @@
     {
       "title": "Customer Engagement Advisor | Denmark",
       "url": "https://polestar.teamtailor.com/jobs/7610594-customer-engagement-advisor-denmark",
-      "location": "",
-      "company": "Polestar",
-      "country": "SE",
-      "tier": "scale"
-    },
-    {
-      "title": "Regional Operations Manager",
-      "url": "https://polestar.teamtailor.com/jobs/7708861-regional-operations-manager",
       "location": "",
       "company": "Polestar",
       "country": "SE",
@@ -1148,14 +1140,6 @@
       "tier": "scale"
     },
     {
-      "title": "Sales Trainer, LATAM",
-      "url": "https://jobs.lever.co/spotify/9f7d47cc-8e07-4637-9f38-68db462a72e9",
-      "location": "SÃO PAULO",
-      "company": "Spotify",
-      "country": "SE",
-      "tier": "scale"
-    },
-    {
       "title": "Editorial Lead, Latin America",
       "url": "https://jobs.lever.co/spotify/aa582e2d-4e9f-4b92-ba9b-a1a9182c5d67",
       "location": "MIAMI, FL",
@@ -1343,22 +1327,6 @@
       "title": "Tax Manager",
       "url": "https://jobs.lever.co/trustly/bc42ff4e-64b2-4a74-992b-41625deb0a68",
       "location": "STOCKHOLM, SWEDEN",
-      "company": "Trustly",
-      "country": "SE",
-      "tier": "scale"
-    },
-    {
-      "title": "VP, Global Bank Partnerships",
-      "url": "https://jobs.lever.co/trustly/f5b65897-bb4b-4ba1-b847-e791e5291398",
-      "location": "HOME OFFICE, USA",
-      "company": "Trustly",
-      "country": "SE",
-      "tier": "scale"
-    },
-    {
-      "title": "Client Support Specialist",
-      "url": "https://jobs.lever.co/trustly/4aafdb2d-ebd6-4757-8ce5-161096f1b767",
-      "location": "VITÓRIA, ESPÍRITO SANTO",
       "company": "Trustly",
       "country": "SE",
       "tier": "scale"
@@ -1964,14 +1932,6 @@
       "tier": "growth"
     },
     {
-      "title": "Fleet Specialist - London",
-      "url": "https://careers.voi.com/jobs/7712704-fleet-specialist-london",
-      "location": "",
-      "company": "Voi",
-      "country": "SE",
-      "tier": "growth"
-    },
-    {
       "title": "Warehouse Operative- Aberdeen",
       "url": "https://careers.voi.com/jobs/7702047-warehouse-operative-aberdeen",
       "location": "",
@@ -1990,14 +1950,6 @@
     {
       "title": "Senior Bid Specialist",
       "url": "https://careers.voi.com/jobs/7701796-senior-bid-specialist",
-      "location": "",
-      "company": "Voi",
-      "country": "SE",
-      "tier": "growth"
-    },
-    {
-      "title": "Fleet Specialist Associate - London",
-      "url": "https://careers.voi.com/jobs/7697724-fleet-specialist-associate-london",
       "location": "",
       "company": "Voi",
       "country": "SE",
@@ -2086,14 +2038,6 @@
     {
       "title": "Fleet Specialist - Driver - m/f/d",
       "url": "https://careers.voi.com/jobs/7676240-fleet-specialist-driver-m-f-d",
-      "location": "",
-      "company": "Voi",
-      "country": "SE",
-      "tier": "growth"
-    },
-    {
-      "title": "Fleet Specialist Hybrid (AM-Shift) - London",
-      "url": "https://careers.voi.com/jobs/7673148-fleet-specialist-hybrid-am-shift-london",
       "location": "",
       "company": "Voi",
       "country": "SE",
@@ -2221,14 +2165,6 @@
     },
     {
       "title": "Plumbing and Heating Engineer",
-      "url": "https://career.airahome.com/jobs/7651988-plumbing-and-heating-engineer",
-      "location": "",
-      "company": "Aira",
-      "country": "SE",
-      "tier": "early"
-    },
-    {
-      "title": "Plumbing and Heating Engineer",
       "url": "https://career.airahome.com/jobs/7651896-plumbing-and-heating-engineer",
       "location": "",
       "company": "Aira",
@@ -2254,6 +2190,14 @@
     {
       "title": "Electrical Qualified Supervisor",
       "url": "https://career.airahome.com/jobs/7507845-electrical-qualified-supervisor",
+      "location": "",
+      "company": "Aira",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Renewable Energy Sales (self employed)",
+      "url": "https://career.airahome.com/jobs/7456328-renewable-energy-sales-self-employed",
       "location": "",
       "company": "Aira",
       "country": "SE",
@@ -3308,14 +3252,6 @@
       "tier": "early"
     },
     {
-      "title": "Marketing Manager B2C",
-      "url": "https://careers.northmill.com/jobs/7502292-marketing-manager-b2c",
-      "location": "",
-      "company": "Northmill",
-      "country": "SE",
-      "tier": "early"
-    },
-    {
       "title": "Data Engineer",
       "url": "https://careers.northmill.com/jobs/7481962-data-engineer",
       "location": "",
@@ -3406,14 +3342,6 @@
     {
       "title": "Product Marketing Manager",
       "url": "https://jobs.qred.com/jobs/7610951-product-marketing-manager",
-      "location": "",
-      "company": "Qred",
-      "country": "SE",
-      "tier": "early"
-    },
-    {
-      "title": "Collections Team Lead - Benelux",
-      "url": "https://jobs.qred.com/jobs/7592416-collections-team-lead-benelux",
       "location": "",
       "company": "Qred",
       "country": "SE",
@@ -3692,14 +3620,6 @@
       "tier": "early"
     },
     {
-      "title": "Customer Success Manager North America",
-      "url": "https://careers.stravito.com/jobs/7706508-customer-success-manager-north-america",
-      "location": "",
-      "company": "Stravito",
-      "country": "SE",
-      "tier": "early"
-    },
-    {
       "title": "Customer Delivery Manager",
       "url": "https://careers.stravito.com/jobs/7686704-customer-delivery-manager",
       "location": "",
@@ -3919,6 +3839,14 @@
       "title": " Finance Business Partner - Corporate & Operations",
       "url": "https://jobs.ashbyhq.com/iceye/f75c38ac-eaa6-4c55-a7a4-a0407d730016",
       "location": "Espoo",
+      "company": "ICEYE",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Global Mobility Specialist",
+      "url": "https://jobs.ashbyhq.com/iceye/a5791b3f-c664-41ed-a7c8-b52fccdddd3a",
+      "location": "Espoo, Athens, Warsaw, Valencia, UK",
       "company": "ICEYE",
       "country": "FI",
       "tier": "scale"
@@ -4164,14 +4092,6 @@
       "tier": "scale"
     },
     {
-      "title": "Mission Sales Director, LATAM",
-      "url": "https://jobs.ashbyhq.com/iceye/15d49cfe-6ba6-49e6-94c4-e6dc50797eb6",
-      "location": "Mexico, Colombia , Peru",
-      "company": "ICEYE",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "Software Engineer (Orbit Determination Team)",
       "url": "https://jobs.ashbyhq.com/iceye/4411cffa-570c-4adf-a0df-5296d5cab351",
       "location": "Espoo, Finland",
@@ -4268,14 +4188,6 @@
       "tier": "scale"
     },
     {
-      "title": "Control Engineer, Stratospheric Unmanned Electric Aircraft (Fixed Wing)",
-      "url": "https://jobs.ashbyhq.com/iceye/6ed91fee-b519-4b58-b11e-b96008f13133",
-      "location": "Valencia, Spain",
-      "company": "ICEYE",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "Supply Chain Specialist (Satellite Flight Control & Structures category)",
       "url": "https://jobs.ashbyhq.com/iceye/6c172267-de00-4c2c-85d1-3ca71de52227",
       "location": "Espoo, Finland",
@@ -4327,22 +4239,6 @@
       "title": "Supply Chain Specialist (Mechanics & Structures)",
       "url": "https://jobs.ashbyhq.com/iceye/8f1aaed7-9418-49f5-9dcf-c71359b0bc8e",
       "location": "Espoo, Finland",
-      "company": "ICEYE",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Cleanroom & Lab Manager - Athens",
-      "url": "https://jobs.ashbyhq.com/iceye/5d8393c0-ab67-4a3b-b39f-3a183a4665fb",
-      "location": "Greece",
-      "company": "ICEYE",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Stock Manager - Athens",
-      "url": "https://jobs.ashbyhq.com/iceye/688e6eed-057d-444e-afc2-de87f2d9ba2c",
-      "location": "Greece",
       "company": "ICEYE",
       "country": "FI",
       "tier": "scale"
@@ -4628,8 +4524,112 @@
       "tier": "scale"
     },
     {
-      "title": "Regional Content Manager",
-      "url": "https://careers.wolt.com/jobs/1/7371888",
+      "title": "Office Coordinator",
+      "url": "https://www.relexsolutions.com/careers/jobs/office-coordinator/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Forward Deployed Engineer | Pricing & Promotions",
+      "url": "https://www.relexsolutions.com/careers/jobs/forward-deployed-engineer-pricing-promotions/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Customer Success Manager – Supply Chain SaaS – Nashville, TN",
+      "url": "https://www.relexsolutions.com/careers/jobs/customer-success-manager-supply-chain-saas-nashville-tn/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Supply Chain Consultant",
+      "url": "https://www.relexsolutions.com/careers/jobs/supply-chain-consultant-2/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Business Consultant/Supply Chain Consultant(Japanese and English Speaking)",
+      "url": "https://www.relexsolutions.com/careers/jobs/business-consultant-supply-chain-consultantjapanese-and-english-speaking/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Customer Success Manager – Supply Chain SaaS",
+      "url": "https://www.relexsolutions.com/careers/jobs/customer-success-manager-supply-chain-saas/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Project Coordinator",
+      "url": "https://www.relexsolutions.com/careers/jobs/project-coordinator/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Support Analyst (24/7) – Mexico",
+      "url": "https://www.relexsolutions.com/careers/jobs/support-analyst-24-7-mexico/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Forward Deployed Engineer | Fresh",
+      "url": "https://www.relexsolutions.com/careers/jobs/forward-deployed-engineer-fresh/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Paid Media & GTM Automation Manager (Remote, Portugal, UK, Finland)",
+      "url": "https://www.relexsolutions.com/careers/jobs/paid-media-gtm-automation-manager-remote-portugal-uk-finland/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Principle Field Presales, Manufacturing (Japan)",
+      "url": "https://www.relexsolutions.com/careers/jobs/principle-field-presales-manufacturing-japan/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Account Executive, Retail (Japan)",
+      "url": "https://www.relexsolutions.com/careers/jobs/account-executive-retail-japan/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Shift Lead Grocery Associate",
+      "url": "https://careers.wolt.com/jobs/1/7837957",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Marketing Specialist, Fixed term contract",
+      "url": "https://careers.wolt.com/jobs/1/7907200",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -4654,14 +4654,6 @@
     {
       "title": "Account Manager",
       "url": "https://careers.wolt.com/jobs/1/7817625",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Marketing Specialist",
-      "url": "https://careers.wolt.com/jobs/1/7907200",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -4756,14 +4748,6 @@
       "tier": "scale"
     },
     {
-      "title": "Global S&O Manager, Growth & Marketing",
-      "url": "https://careers.wolt.com/jobs/1/7811597",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "Store Operations Associate - Patra",
       "url": "https://careers.wolt.com/jobs/1/6693963",
       "location": "",
@@ -4774,14 +4758,6 @@
     {
       "title": "Store Operations Associate - Marousi",
       "url": "https://careers.wolt.com/jobs/1/6693627",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Global Head of Marketing Innovation",
-      "url": "https://careers.wolt.com/jobs/1/7828921",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -4917,6 +4893,14 @@
     },
     {
       "title": "Account Manager m/w/d",
+      "url": "https://careers.wolt.com/jobs/1/7797899",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Account Manager m/w/d",
       "url": "https://careers.wolt.com/jobs/1/7807596",
       "location": "",
       "company": "Wolt",
@@ -4932,8 +4916,8 @@
       "tier": "scale"
     },
     {
-      "title": "Account Manager m/w/d",
-      "url": "https://careers.wolt.com/jobs/1/7797899",
+      "title": "Account Manager - Retail",
+      "url": "https://careers.wolt.com/jobs/1/7560263",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -4942,14 +4926,6 @@
     {
       "title": "Account Manager - Retail",
       "url": "https://careers.wolt.com/jobs/1/7726045",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Account Manager - Retail",
-      "url": "https://careers.wolt.com/jobs/1/7560263",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -4996,14 +4972,6 @@
       "tier": "scale"
     },
     {
-      "title": "Analyst, Global Courier Supply",
-      "url": "https://careers.wolt.com/jobs/1/7841387",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "Associate, Finance & Strategy, Marketing (Fixed-Term)",
       "url": "https://careers.wolt.com/jobs/1/7899201",
       "location": "",
@@ -5037,14 +5005,6 @@
     },
     {
       "title": "Category Manager (WM)",
-      "url": "https://careers.wolt.com/jobs/1/7830991",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Category Manager (WM)",
       "url": "https://careers.wolt.com/jobs/1/7830981",
       "location": "",
       "company": "Wolt",
@@ -5062,6 +5022,14 @@
     {
       "title": "Category Manager (WM)",
       "url": "https://careers.wolt.com/jobs/1/7792492",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Category Manager (WM)",
+      "url": "https://careers.wolt.com/jobs/1/7830991",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5102,22 +5070,6 @@
     {
       "title": "Compliance Outsourcing Manager",
       "url": "https://careers.wolt.com/jobs/1/7773385",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Country Controller",
-      "url": "https://careers.wolt.com/jobs/1/7646101",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Country Head of Merchant Operations",
-      "url": "https://careers.wolt.com/jobs/1/7858338",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5308,32 +5260,8 @@
       "tier": "scale"
     },
     {
-      "title": "Global Account Management, Strategy and Operations Manager",
-      "url": "https://careers.wolt.com/jobs/1/7262281",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Global Revenue Strategy & Operations Manager",
-      "url": "https://careers.wolt.com/jobs/1/7866839",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "Grocery Associate",
-      "url": "https://careers.wolt.com/jobs/1/6694284",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Grocery Associate",
-      "url": "https://careers.wolt.com/jobs/1/6693549",
+      "url": "https://careers.wolt.com/jobs/1/6694602",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5357,15 +5285,7 @@
     },
     {
       "title": "Grocery Associate",
-      "url": "https://careers.wolt.com/jobs/1/6694602",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Grocery Associate",
-      "url": "https://careers.wolt.com/jobs/1/6694612",
+      "url": "https://careers.wolt.com/jobs/1/7192386",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5381,7 +5301,7 @@
     },
     {
       "title": "Grocery Associate",
-      "url": "https://careers.wolt.com/jobs/1/7192386",
+      "url": "https://careers.wolt.com/jobs/1/6694612",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5390,6 +5310,22 @@
     {
       "title": "Grocery Associate",
       "url": "https://careers.wolt.com/jobs/1/7547321",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Grocery Associate",
+      "url": "https://careers.wolt.com/jobs/1/6693549",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Grocery Associate",
+      "url": "https://careers.wolt.com/jobs/1/6694284",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5413,14 +5349,6 @@
     },
     {
       "title": "Grocery Associate (part-time)",
-      "url": "https://careers.wolt.com/jobs/1/6694158",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Grocery Associate (part-time)",
       "url": "https://careers.wolt.com/jobs/1/6823669",
       "location": "",
       "company": "Wolt",
@@ -5430,6 +5358,14 @@
     {
       "title": "Grocery Associate (part-time)",
       "url": "https://careers.wolt.com/jobs/1/6695044",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Grocery Associate (part-time)",
+      "url": "https://careers.wolt.com/jobs/1/6694158",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5453,7 +5389,7 @@
     },
     {
       "title": "Grocery Associate (under 18 years old)",
-      "url": "https://careers.wolt.com/jobs/1/6873252",
+      "url": "https://careers.wolt.com/jobs/1/6803155",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5462,14 +5398,6 @@
     {
       "title": "Grocery Associate (under 18 years old)",
       "url": "https://careers.wolt.com/jobs/1/6884794",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Grocery Associate (under 18 years old)",
-      "url": "https://careers.wolt.com/jobs/1/6694695",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5493,7 +5421,15 @@
     },
     {
       "title": "Grocery Associate (under 18 years old)",
-      "url": "https://careers.wolt.com/jobs/1/6803155",
+      "url": "https://careers.wolt.com/jobs/1/6694695",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Grocery Associate (under 18 years old)",
+      "url": "https://careers.wolt.com/jobs/1/6873252",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5517,7 +5453,7 @@
     },
     {
       "title": "Grocery Associate - Youth Worker",
-      "url": "https://careers.wolt.com/jobs/1/6693439",
+      "url": "https://careers.wolt.com/jobs/1/7641140",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5525,7 +5461,7 @@
     },
     {
       "title": "Grocery Associate - Youth Worker",
-      "url": "https://careers.wolt.com/jobs/1/7641140",
+      "url": "https://careers.wolt.com/jobs/1/6693439",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5541,7 +5477,7 @@
     },
     {
       "title": "Grocery Associate - Youth Workers",
-      "url": "https://careers.wolt.com/jobs/1/6694964",
+      "url": "https://careers.wolt.com/jobs/1/6695059",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5549,7 +5485,7 @@
     },
     {
       "title": "Grocery Associate - Youth Workers",
-      "url": "https://careers.wolt.com/jobs/1/6695059",
+      "url": "https://careers.wolt.com/jobs/1/6694964",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5558,6 +5494,14 @@
     {
       "title": "Grocery Associate - Zagreb",
       "url": "https://careers.wolt.com/jobs/1/6693511",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Grocery Shift Lead",
+      "url": "https://careers.wolt.com/jobs/1/6694475",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5582,14 +5526,6 @@
     {
       "title": "Grocery Shift Lead",
       "url": "https://careers.wolt.com/jobs/1/6694973",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Grocery Shift Lead",
-      "url": "https://careers.wolt.com/jobs/1/6694475",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -5900,14 +5836,6 @@
       "tier": "scale"
     },
     {
-      "title": "People Partner, Global Support",
-      "url": "https://careers.wolt.com/jobs/1/7597862",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "People Partner (Maternity Leave Cover)",
       "url": "https://careers.wolt.com/jobs/1/7771932",
       "location": "",
@@ -5964,14 +5892,6 @@
       "tier": "scale"
     },
     {
-      "title": "Program Manager, Technology & Insights (EMEA)",
-      "url": "https://careers.wolt.com/jobs/1/7534742",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "Radnik u prodavnici - Dorćol, Voždovac, Novi Beograd, Banovo Brdo, Centar",
       "url": "https://careers.wolt.com/jobs/1/6700775",
       "location": "",
@@ -5982,62 +5902,6 @@
     {
       "title": "Real Estate Transaction Manager",
       "url": "https://careers.wolt.com/jobs/1/7711370",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Regional HR Specialist",
-      "url": "https://careers.wolt.com/jobs/1/7781884",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Regional Lead, Ads & Promotions (Retail Media) - Central Region",
-      "url": "https://careers.wolt.com/jobs/1/7893532",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Regional Lead, Ads & Promotions (Retail Media) - North Region",
-      "url": "https://careers.wolt.com/jobs/1/7871193",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Regional Lead, Ads & Promotions (Retail Media) - South Region",
-      "url": "https://careers.wolt.com/jobs/1/7870269",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Regional Manager, Strategy & Operations",
-      "url": "https://careers.wolt.com/jobs/1/7749461",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Regional Restaurant Marketing Manager (West Germany)",
-      "url": "https://careers.wolt.com/jobs/1/7749024",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Regional Workplace Manager, Region South",
-      "url": "https://careers.wolt.com/jobs/1/7818482",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -6101,14 +5965,6 @@
     },
     {
       "title": "Retail Grocery Assistant",
-      "url": "https://careers.wolt.com/jobs/1/6694523",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Retail Grocery Assistant",
       "url": "https://careers.wolt.com/jobs/1/6694528",
       "location": "",
       "company": "Wolt",
@@ -6132,6 +5988,14 @@
       "tier": "scale"
     },
     {
+      "title": "Retail Grocery Assistant",
+      "url": "https://careers.wolt.com/jobs/1/6694523",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
       "title": "Retail Onboarding Specialist - German Speaking",
       "url": "https://careers.wolt.com/jobs/1/7806247",
       "location": "",
@@ -6141,7 +6005,7 @@
     },
     {
       "title": "Retail Operations Excellence Specialist",
-      "url": "https://careers.wolt.com/jobs/1/7862135",
+      "url": "https://careers.wolt.com/jobs/1/7904047",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -6149,7 +6013,7 @@
     },
     {
       "title": "Retail Operations Excellence Specialist",
-      "url": "https://careers.wolt.com/jobs/1/7904047",
+      "url": "https://careers.wolt.com/jobs/1/7862135",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -6173,7 +6037,7 @@
     },
     {
       "title": "Sales Manager",
-      "url": "https://careers.wolt.com/jobs/1/7486647",
+      "url": "https://careers.wolt.com/jobs/1/7486630",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -6181,7 +6045,7 @@
     },
     {
       "title": "Sales Manager",
-      "url": "https://careers.wolt.com/jobs/1/7486630",
+      "url": "https://careers.wolt.com/jobs/1/7486647",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -6332,24 +6196,8 @@
       "tier": "scale"
     },
     {
-      "title": "Senior Global Integrated B2B Marketing Manager, Wolt for Work",
-      "url": "https://careers.wolt.com/jobs/1/7821195",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "Senior Go Backend Engineer - Merchant Group",
       "url": "https://careers.wolt.com/jobs/1/7749167",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Senior Manager, Global Deals (DoorDash intl.)",
-      "url": "https://careers.wolt.com/jobs/1/7856619",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -6469,7 +6317,7 @@
     },
     {
       "title": "Store Manager",
-      "url": "https://careers.wolt.com/jobs/1/7817718",
+      "url": "https://careers.wolt.com/jobs/1/7218515",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -6477,7 +6325,7 @@
     },
     {
       "title": "Store Manager",
-      "url": "https://careers.wolt.com/jobs/1/7218515",
+      "url": "https://careers.wolt.com/jobs/1/7817718",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -6540,14 +6388,6 @@
       "tier": "scale"
     },
     {
-      "title": "Strategy & Operations Manager, Global Support",
-      "url": "https://careers.wolt.com/jobs/1/7828866",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "Supply Chain Manager (WM)",
       "url": "https://careers.wolt.com/jobs/1/7870276",
       "location": "",
@@ -6565,6 +6405,14 @@
     },
     {
       "title": "Support Associate",
+      "url": "https://careers.wolt.com/jobs/1/7678955",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Support Associate",
       "url": "https://careers.wolt.com/jobs/1/6693754",
       "location": "",
       "company": "Wolt",
@@ -6573,7 +6421,7 @@
     },
     {
       "title": "Support Associate",
-      "url": "https://careers.wolt.com/jobs/1/7678955",
+      "url": "https://careers.wolt.com/jobs/1/6693410",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -6598,14 +6446,6 @@
     {
       "title": "Support Associate",
       "url": "https://careers.wolt.com/jobs/1/6693568",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Support Associate",
-      "url": "https://careers.wolt.com/jobs/1/6693410",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -6669,14 +6509,6 @@
     },
     {
       "title": "Support Team Lead",
-      "url": "https://careers.wolt.com/jobs/1/7547095",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Support Team Lead",
       "url": "https://careers.wolt.com/jobs/1/7869663",
       "location": "",
       "company": "Wolt",
@@ -6685,7 +6517,7 @@
     },
     {
       "title": "Support Team Lead",
-      "url": "https://careers.wolt.com/jobs/1/7618157",
+      "url": "https://careers.wolt.com/jobs/1/7547095",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -6694,6 +6526,14 @@
     {
       "title": "Support Team Lead",
       "url": "https://careers.wolt.com/jobs/1/7757660",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Support Team Lead",
+      "url": "https://careers.wolt.com/jobs/1/7618157",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -6726,14 +6566,6 @@
     {
       "title": "Team Coordinator, Courier Operations",
       "url": "https://careers.wolt.com/jobs/1/7856621",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Team Lead Partner Operations, Germany",
-      "url": "https://careers.wolt.com/jobs/1/7836444",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -6932,22 +6764,6 @@
       "tier": "scale"
     },
     {
-      "title": "(Inventory, Jerusalem, Cinema City) מחסנאים- ירושלים- סינמה סיטי",
-      "url": "https://careers.wolt.com/jobs/3/7072821",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "(Inventory, Jerusalem, Talpiot)) מחסנאים - ירושלים, תלפיות",
-      "url": "https://careers.wolt.com/jobs/3/7073547",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "(Inventory, Kfar Saba) מחסנאים - כפר סבא",
       "url": "https://careers.wolt.com/jobs/3/7076634",
       "location": "",
@@ -7062,30 +6878,6 @@
     {
       "title": "(Inventory, Rosh Haayin, Lev Ha'arets) מחסנאים לב הארץ, ראש העין",
       "url": "https://careers.wolt.com/jobs/3/7076640",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "(Inventory, Tel Aviv, Ben Yehuda) מחסנאים - תל אביב, בן יהודה",
-      "url": "https://careers.wolt.com/jobs/3/7073041",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "(Inventory, Tel Aviv -Yad Eliyahu) מחסנאים- תל אביב, יד אליהו",
-      "url": "https://careers.wolt.com/jobs/3/7073927",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "(Inventory, Top Dan, Tel Aviv) מחסנאים טופ דן - תל אביב",
-      "url": "https://careers.wolt.com/jobs/3/7073051",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -7412,14 +7204,6 @@
       "tier": "scale"
     },
     {
-      "title": "מנהלי משמרת טופ דן WM Shift Manager, Tel Aviv, Top Dan",
-      "url": "https://careers.wolt.com/jobs/3/7443209",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "מנהלי משמרת יד אליהו (WM Shift Manager, Yad Eliyahu)",
       "url": "https://careers.wolt.com/jobs/3/7474827",
       "location": "",
@@ -7628,14 +7412,6 @@
       "tier": "growth"
     },
     {
-      "title": "Senior Implementation Consultant EMEA",
-      "url": "https://jobs.lever.co/frontify/b8408ad0-fa1a-494e-bdde-a366ad4a0e03",
-      "location": "SANKT GALLEN METROPOLITAN AREA",
-      "company": "Frontify Finland",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
       "title": "Principal AI Architect (m/f/d)",
       "url": "https://careers.futurice.com/jobs/7699386-principal-ai-architect-m-f-d",
       "location": "",
@@ -7788,14 +7564,6 @@
       "tier": "growth"
     },
     {
-      "title": "Technical Sales Engineer / Solutions Consultant (APAC)",
-      "url": "https://iqm.teamtailor.com/jobs/7242280-technical-sales-engineer-solutions-consultant-apac",
-      "location": "",
-      "company": "IQM Quantum",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
       "title": "Quantum Integration Engineer",
       "url": "https://iqm.teamtailor.com/jobs/7119315-quantum-integration-engineer",
       "location": "",
@@ -7884,30 +7652,6 @@
       "tier": "growth"
     },
     {
-      "title": "Director, Corporate Strategy\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4156667009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Director of Program Management, EMEA & APAC\n\nHybrid - London, England",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4121174009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Director, Strategy & Operations\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4221654009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
       "title": "Director, Strategy & Operations\n\nRemote - United States",
       "url": "https://job-boards.greenhouse.io/oura/jobs/4224032009",
       "location": "",
@@ -7918,38 +7662,6 @@
     {
       "title": "Program Management Lead, Partnerships\n\nRemote - United States",
       "url": "https://job-boards.greenhouse.io/oura/jobs/4223703009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Senior Business Operations Program Manager\n\nHybrid - San Diego, California; Hybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4182550009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Technical Program Manager, Commerce\n\nRemote - New York, New York",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4222800009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Clinical Director, Metabolic HealthNew\n\nHybrid - London, England",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4242819009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Director, Business Development (Tax Advantage)\n\nRemote - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4147119009",
       "location": "",
       "company": "Oura",
       "country": "FI",
@@ -7988,72 +7700,8 @@
       "tier": "growth"
     },
     {
-      "title": "Director, Data Analytics\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4173698009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Senior Data Architect\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4208313009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Senior Data Engineer - Data & ML Platform\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4231802009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Staff AI Scientist\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4207261009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
       "title": "Digital Sculptor\n\nHybrid - Helsinki, Uusimaa",
       "url": "https://job-boards.greenhouse.io/oura/jobs/4235244009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Senior AI-Native Product Designer\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4207833009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Senior CMF Designer\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4202621009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Senior Manager, UX Design\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4230682009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Senior Product Designer - Mobile\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4227724009",
       "location": "",
       "company": "Oura",
       "country": "FI",
@@ -8068,56 +7716,8 @@
       "tier": "growth"
     },
     {
-      "title": "Staff Designer, New Sensing\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4193678009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Staff Designer, Women's Health\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4110516009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Staff Digital Sculptor\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4208422009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Staff Product Designer, Enterprise Products\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4068982009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
       "title": "Assistant Controller\n\nRemote - United States",
       "url": "https://job-boards.greenhouse.io/oura/jobs/4195129009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Finance Manager, Operations Excellence New\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4241800009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Electrical Test Engineer\n\nOn-site - San Diego, California; On-site - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4113749009",
       "location": "",
       "company": "Oura",
       "country": "FI",
@@ -8132,30 +7732,6 @@
       "tier": "growth"
     },
     {
-      "title": "Firmware Engineer\n\nHybrid - San Diego, California; Hybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4233754009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Hardware Engineer, Health Sensing\n\nHybrid - San Diego, California; Hybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4021614009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Hardware Reliability Engineer\n\nOn-site - San Diego, California; On-site - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4113965009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
       "title": "Senior Android Engineer, Connectivity\n\nRemote - United States",
       "url": "https://job-boards.greenhouse.io/oura/jobs/4210431009",
       "location": "",
@@ -8164,120 +7740,8 @@
       "tier": "growth"
     },
     {
-      "title": "Senior Electrical Engineer\n\nHybrid - San Diego, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4032144009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Senior iOS Engineer, Connectivity\n\nRemote - New York, New York",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4227038009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Senior NPI Firmware Engineer\n\nOn-site - San Diego, California; On-site - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4146721009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Senior Product Design Engineer\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4203623009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Staff Antenna Design Engineer\n\nHybrid - San Diego, California; Hybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4195308009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Staff Electrical Engineer\n\nHybrid - San Diego, California; Hybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4232698009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
       "title": "Staff Engineer, Electronics\n\nHybrid - Oulu, North Ostrobothnia; On-site - Oulu, North Ostrobothnia",
       "url": "https://job-boards.greenhouse.io/oura/jobs/4234038009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Staff FEA Engineer\n\nHybrid - San Diego, California; Hybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4079033009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Staff Firmware Engineer\n\nHybrid - San Diego, California; Hybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4139946009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Staff Materials Engineer, Metals New\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4240398009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Staff Materials Engineer, PVD\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4139939009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Staff Product Design Engineer\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4093697009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Staff Sensor Architect\n\nHybrid - San Diego, California; Hybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4095145009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Staff System Engineering Program Manager\n\nHybrid - San Diego, California; Hybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4051503009",
-      "location": "",
-      "company": "Oura",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Technical Program Manager, Hardware Sensing\n\nHybrid - San Francisco, California",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4215787009",
       "location": "",
       "company": "Oura",
       "country": "FI",
@@ -8540,6 +8004,14 @@
       "tier": "early"
     },
     {
+      "title": "Senior Talent Partner",
+      "url": "https://careers.reorbit.space/jobs/7198599-senior-talent-partner",
+      "location": "",
+      "company": "ReOrbit",
+      "country": "FI",
+      "tier": "early"
+    },
+    {
       "title": "Senior Ground Software Engineer",
       "url": "https://careers.reorbit.space/jobs/7189745-senior-ground-software-engineer",
       "location": "",
@@ -8604,15 +8076,7 @@
       "tier": "early"
     },
     {
-      "title": "Power System Engineer",
-      "url": "https://careers.reorbit.space/jobs/5685553-power-system-engineer",
-      "location": "",
-      "company": "ReOrbit",
-      "country": "FI",
-      "tier": "early"
-    },
-    {
-      "title": "Show 4 more",
+      "title": "Show 5 more",
       "url": "https://careers.reorbit.space/jobs/show_more?page=2",
       "location": "",
       "company": "ReOrbit",
@@ -8964,22 +8428,6 @@
       "tier": "scale"
     },
     {
-      "title": "New Customer Acquisition Representative II (R-18967)",
-      "url": "https://jobs.lever.co/dnb/f786b4fc-3805-4dc7-bfae-31c79c6856f9",
-      "location": "CENTER VALLEY - PENNSYLVANIA - UNITED STATES",
-      "company": "DNB",
-      "country": "NO",
-      "tier": "scale"
-    },
-    {
-      "title": "Regional Vice President, Tier 3 (R-19100)",
-      "url": "https://jobs.lever.co/dnb/c3f08998-e094-47ac-89d2-c905623e5d1f",
-      "location": "FLORHAM PARK - NEW JERSEY - UNITED STATES",
-      "company": "DNB",
-      "country": "NO",
-      "tier": "scale"
-    },
-    {
       "title": "SMB Inside Sales Development Program",
       "url": "https://jobs.lever.co/dnb/439bf50f-9924-4cd1-9d0d-5ee1e5118828",
       "location": "JACKSONVILLE - FLORIDA - UNITED STATES",
@@ -9118,14 +8566,6 @@
     {
       "title": "DEMO – Marketing Engineer",
       "url": "https://oda.teamtailor.com/jobs/4014555-demo-marketing-engineer",
-      "location": "",
-      "company": "Oda",
-      "country": "NO",
-      "tier": "scale"
-    },
-    {
-      "title": "DEMO – Global Marketing Officer",
-      "url": "https://oda.teamtailor.com/jobs/4014554-demo-global-marketing-officer",
       "location": "",
       "company": "Oda",
       "country": "NO",
@@ -10276,14 +9716,6 @@
       "tier": "growth"
     },
     {
-      "title": "DEMO – Regional Mining Developer",
-      "url": "https://famly.teamtailor.com/jobs/5685717-demo-regional-mining-developer",
-      "location": "",
-      "company": "Famly",
-      "country": "DK",
-      "tier": "growth"
-    },
-    {
       "title": "DEMO – Hospitality Manager",
       "url": "https://famly.teamtailor.com/jobs/5685716-demo-hospitality-manager",
       "location": "",
@@ -10312,14 +9744,6 @@
       "url": "https://famly.teamtailor.com/jobs/5685713-demo-senior-sales-associate",
       "location": "",
       "company": "Famly",
-      "country": "DK",
-      "tier": "growth"
-    },
-    {
-      "title": "DEMO – Regional Mining Developer",
-      "url": "https://famly.teamtailor.com/jobs/5685717-demo-regional-mining-developer",
-      "location": "",
-      "company": "Famly App",
       "country": "DK",
       "tier": "growth"
     },
@@ -10656,14 +10080,6 @@
       "url": "https://templafy.teamtailor.com/jobs/7500661-senior-sales-development-representative",
       "location": "",
       "company": "Templafy Cloud",
-      "country": "DK",
-      "tier": "growth"
-    },
-    {
-      "title": "Business Unit Director – UK/London",
-      "url": "https://trifork.teamtailor.com/jobs/7718064-business-unit-director-uk-london",
-      "location": "",
-      "company": "Trifork",
       "country": "DK",
       "tier": "growth"
     },
@@ -11632,8 +11048,26 @@
       "source": "jobtech"
     },
     {
-      "title": "Automotive Software Engineer  17568",
-      "url": "https://veritaz.se/jobs/automotive-software-engineer-17568/",
+      "title": "Systemutvecklare med AI-kompetens till Region Stockholm",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31024917",
+      "location": "Solna",
+      "company": "Armabe Consulting AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Backend Java / AWS",
+      "url": "https://career.everone.se/jobs/7718625-senior-backend-java-aws/applications/new?promotion=1993376-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Everone AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Qualcomm Embedded Engineer  17687",
+      "url": "https://veritaz.se/jobs/qualcomm-embedded-engineer-17687/",
       "location": "",
       "company": "Veritaz AB",
       "country": "SE",
@@ -12082,15 +11516,6 @@
       "source": "jobtech"
     },
     {
-      "title": "SAP BTP Developer",
-      "url": "https://openings.incluso.se/jobs/7705993-sap-btp-developer/applications/new?promotion=1989663-arbetsformedlingen",
-      "location": "Skövde",
-      "company": "Incluso AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
       "title": "Utvecklare till Barn- och utbildningsförvaltningen",
       "url": "https://hebykommun.varbi.com/se/what:job/jobID:932765/type:job/where:125/apply:1",
       "location": "Heby",
@@ -12491,24 +11916,6 @@
       "url": "https://jobs.avaron.se/jobs/7697729-developer-engineer-inom-ci-cd-och-containerplattform/applications/new?promotion=1986783-arbetsformedlingen",
       "location": "Göteborg",
       "company": "Avaron AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Full-Stack Developer with Frontend Focus",
-      "url": "https://jobs.avaron.se/jobs/7697745-full-stack-developer-with-frontend-focus/applications/new?promotion=1986769-arbetsformedlingen",
-      "location": "Göteborg",
-      "company": "Avaron AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Barnskötare till Hultsfreds kommuns förskolor ",
-      "url": "https://recruit.visma.com/spa/public/apply?guidAssignment=0d32fc65-b7e3-4bf4-a5e5-ed8a59c8f963&publishCode=PB&TK=a32f473a-0e6f-4cbe-be4b-b575f4c421fa",
-      "location": "Hultsfred",
-      "company": "Hultsfreds kommun",
       "country": "SE",
       "tier": "aggregator",
       "source": "jobtech"
@@ -13054,24 +12461,6 @@
       "source": "jobtech"
     },
     {
-      "title": "Robotiksingenjör",
-      "url": "https://arbetsformedlingen.se/platsbanken/annonser/30990178",
-      "location": "Stockholm",
-      "company": "Cota Robotics AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Vetenskaplig programmerare med IT-ansvar",
-      "url": "https://su.varbi.com/se/what:job/jobID:930301/type:job/where:125/apply:1",
-      "location": "Stockholm",
-      "company": "Stockholms Universitet",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
       "title": "Platform engineer",
       "url": "https://jobs.recommendedby.se/jobs/7708758-platform-engineer/applications/new?promotion=1992565-arbetsformedlingen",
       "location": "Stockholm",
@@ -13202,6 +12591,33 @@
       "url": "https://säkerhetspolisen.se/jobba-hos-oss/lediga-jobb/lediga-jobb/devops-tekniker.html",
       "location": "Linköping",
       "company": "Säkerhetspolisen",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Project Manager, Product Development Barriers",
+      "url": "https://storaenso.wd502.myworkdayjobs.com/sv-SE/Stora_Enso_site_opportunities/details/Project-Manager--Product-Development-Barriers_JR111891?q=Project%20manager",
+      "location": "Forshaga",
+      "company": "Stora Enso AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior OT Network & Systems Engineer - BESS",
+      "url": "https://volvo-information-technology-ab.contactrh.com/jobs/9669/44171124",
+      "location": "Göteborg",
+      "company": "Volvo Business Services AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior lecturer/lecturer in inorganic chemistry/hydrogeochemistry",
+      "url": "https://web103.reachmee.com/ext/I003/354/main?site=5&validator=43a1fbd05a0e84d542a937e3454d48f8&lang=SE&rmpage=job&rmjob=12685&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Örebro",
+      "company": "Örebro Universitet",
       "country": "SE",
       "tier": "aggregator",
       "source": "jobtech"
@@ -13747,10 +13163,10 @@
       "source": "jobtech"
     },
     {
-      "title": "Global Environmental Specialist",
-      "url": "https://sandvik.wd3.myworkdayjobs.com/sv-SE/coromant-jobs/job/Sweden-Gimo/Global-Environmental-Specialist_R0091107-1",
-      "location": "Sandviken",
-      "company": "AB SANDVIK Coromant",
+      "title": "Full-Stack Developer with Frontend Focus",
+      "url": "https://jobs.avaron.se/jobs/7697745-full-stack-developer-with-frontend-focus/applications/new?promotion=1986769-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Avaron AB",
       "country": "SE",
       "tier": "aggregator",
       "source": "jobtech"
@@ -13882,15 +13298,6 @@
       "source": "jobtech"
     },
     {
-      "title": "Plant Controller, Albany International",
-      "url": "https://weseeq.teamtailor.com/jobs/7620499-plant-controller-albany-international/applications/new?promotion=1985828-arbetsformedlingen",
-      "location": "Halmstad",
-      "company": "We SeeQ AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
       "title": "IT-support med fokus på Intune",
       "url": "https://randstad.se/job-redirect/d66519aa-4e5c-4cbb-8f7e-4ebec8cc6ad9",
       "location": "Norrköping",
@@ -13918,15 +13325,6 @@
       "source": "jobtech"
     },
     {
-      "title": "IT Service Manager",
-      "url": "https://multimind.zerolime.se/ams/?f884bfd2-6c7a-4646-a0c2-0ebca2454651",
-      "location": "Stockholm",
-      "company": "MultiMind Holding AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
       "title": "Team Manager - Lead Critical Operations in Alfa Laval's Parts Supply Chain",
       "url": "https://www.aplitrak.com/?adid=cmFxdWVsLmhlcm5kb24uMTE4MDcuMTM3NjVAYWxmYWxhdmFsLmFwbGl0cmFrLmNvbQ",
       "location": "Lund",
@@ -13949,24 +13347,6 @@
       "url": "https://arbetsformedlingen.se/platsbanken/annonser/31003933",
       "location": "Stockholm",
       "company": "Cubane Solutions AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "JavaScript/Python Fullstack Developer",
-      "url": "https://jobs.avaron.se/jobs/7692231-javascript-python-fullstack-developer/applications/new?promotion=1985181-arbetsformedlingen",
-      "location": "Göteborg",
-      "company": "Avaron AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Lead Engineer",
-      "url": "http://www.tatatechnologies.com",
-      "location": "Göteborg",
-      "company": "Tata Technologies Nordics AB",
       "country": "SE",
       "tier": "aggregator",
       "source": "jobtech"
@@ -14332,6 +13712,15 @@
       "source": "jobtech"
     },
     {
+      "title": "Lead Engineer",
+      "url": "http://www.tatatechnologies.com",
+      "location": "Göteborg",
+      "company": "Tata Technologies Nordics AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
       "title": "Fullstack-utvecklare till Ordine",
       "url": "https://ordine.careers-page.com/jobs/e5f6bbd9-948b-404b-902b-89b32ceefc8a",
       "location": "Göteborg",
@@ -14512,15 +13901,6 @@
       "source": "jobtech"
     },
     {
-      "title": "iOS Developer",
-      "url": "https://www.techrytera.se/jobs/7677558-ios-developer/applications/new?promotion=1980477-arbetsformedlingen",
-      "location": "Stockholm",
-      "company": "Techrytera AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
       "title": "Erfaren Frontendutvecklare inom React till Teknisk Bolag i Göteborg!",
       "url": "https://pnty-apply.ponty-system.se/friday?id=4636&pnty_src=platsbanken",
       "location": "Göteborg",
@@ -14638,15 +14018,6 @@
       "source": "jobtech"
     },
     {
-      "title": "Product Analytics Engineer",
-      "url": "http://app.jobvite.com/m?3aS3tnwq",
-      "location": "Stockholm",
-      "company": "Gears of Leo AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
       "title": "UX-designer, Norrköping",
       "url": "https://arbetsformedlingen.se/platsbanken/annonser/31019424",
       "location": "Stockholm",
@@ -14737,6 +14108,15 @@
       "source": "jobtech"
     },
     {
+      "title": "iOS Developer",
+      "url": "https://www.techrytera.se/jobs/7677558-ios-developer/applications/new?promotion=1980477-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Techrytera AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
       "title": "System Verification Engineer",
       "url": "https://www.agile.nu/jobb?job=12f45b67-95c7-4a52-9198-0be5510c8c42",
       "location": "Göteborg",
@@ -14764,7 +14144,7 @@
       "source": "jobtech"
     },
     {
-      "title": "Kopiera - SQL Database Engineer till ZeeU i Göteborg",
+      "title": "SQL Database Engineer till ZeeU i Göteborg",
       "url": "https://apply.recman.page/job_post.php?id=476536&sub_id=985&path=ams",
       "location": "Göteborg",
       "company": "Professionals Nord Göteborg AB",
@@ -14971,15 +14351,6 @@
       "source": "jobtech"
     },
     {
-      "title": "SAP BTP Engineer",
-      "url": "https://jobs.avaron.se/jobs/7705910-sap-btp-engineer/applications/new?promotion=1989623-arbetsformedlingen",
-      "location": "Skövde",
-      "company": "Avaron AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
       "title": "Infrastructure Manager",
       "url": "https://sandvik.wd3.myworkdayjobs.com/seco-jobs/job/Sweden-Fagersta/Infrastructure-Manager_R0091260",
       "location": "Fagersta",
@@ -15106,6 +14477,15 @@
       "source": "jobtech"
     },
     {
+      "title": "JavaScript/Python Fullstack Developer",
+      "url": "https://jobs.avaron.se/jobs/7692231-javascript-python-fullstack-developer/applications/new?promotion=1985181-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
       "title": "Azure-konsult till itm8",
       "url": "https://ledigajobb.bravura.se/jobs/7681276-azure-konsult-till-itm8/applications/new?promotion=1984222-arbetsformedlingen",
       "location": "Stockholm",
@@ -15151,6 +14531,6 @@
       "source": "jobtech"
     }
   ],
-  "aggregators_run_at": "2026-05-11T14:10:03.158814+00:00",
-  "nordic_filter_applied_at": "2026-05-11T14:10:03.237646+00:00"
+  "aggregators_run_at": "2026-05-11T15:07:44.403339+00:00",
+  "nordic_filter_applied_at": "2026-05-11T15:07:44.492046+00:00"
 }
