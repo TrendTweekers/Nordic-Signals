@@ -14,6 +14,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+import httpx
 from playwright.async_api import async_playwright, TimeoutError as PWTimeout
 
 ROOT = Path(__file__).parent
@@ -72,15 +73,28 @@ async def scrape_lever(page, url):
 
 
 async def scrape_ashby(page, url):
-    # Ashby's HTML is React-rendered; their public JSON API is much faster
-    # and complete. URL is jobs.ashbyhq.com/{slug} -> API is
-    # api.ashbyhq.com/posting-api/job-board/{slug}.
+    # Bypass Playwright entirely. Ashby's API blocks the headless-Chrome
+    # session for higher-traffic boards (Lovable, Legora, etc.). httpx with a
+    # regular UA works reliably.
     slug = url.rstrip("/").split("/")[-1]
     api_url = f"https://api.ashbyhq.com/posting-api/job-board/{slug}"
-    resp = await page.context.request.get(api_url)
-    if resp.status != 200:
+    async with httpx.AsyncClient(
+        timeout=15,
+        headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "application/json",
+        },
+    ) as client:
+        try:
+            r = await client.get(api_url)
+        except httpx.HTTPError:
+            return []
+    if r.status_code != 200:
         return []
-    data = await resp.json()
+    try:
+        data = r.json()
+    except ValueError:
+        return []
     jobs = []
     for j in data.get("jobs", []):
         if j.get("isListed") is False:
