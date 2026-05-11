@@ -95,12 +95,19 @@ async def scrape_ashby(page, url):
         data = r.json()
     except ValueError:
         return []
+    def _loc_str(x):
+        if isinstance(x, str):
+            return x
+        if isinstance(x, dict):
+            return x.get("name") or x.get("address") or ""
+        return ""
     jobs = []
     for j in data.get("jobs", []):
         if j.get("isListed") is False:
             continue
-        loc_parts = [j.get("location") or ""] + (j.get("secondaryLocations") or [])
-        location = ", ".join(p for p in loc_parts if p)
+        primary = _loc_str(j.get("location"))
+        secondaries = [_loc_str(x) for x in (j.get("secondaryLocations") or [])]
+        location = ", ".join(p for p in [primary, *secondaries] if p)
         jobs.append({
             "title": j.get("title", ""),
             "url": j.get("jobUrl") or f"https://jobs.ashbyhq.com/{slug}/{j.get('id','')}",
