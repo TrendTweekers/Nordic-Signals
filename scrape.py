@@ -1,9 +1,12 @@
 """
 Scrapes career pages and writes today's snapshot to data/snapshots/YYYY-MM-DD.json.
 
-ATS-aware: each ATS (Greenhouse, Lever, Ashby) has stable URL + DOM patterns,
-so we route by `ats` field rather than per-company selectors. When a company
-moves ATS, you update companies.json — no scraper code change.
+ATS-aware: each ATS has stable URL + DOM patterns, so we route by `ats`
+field rather than per-company selectors. When a company moves ATS, you update
+companies.json — no scraper code change.
+
+Supported ATS: Greenhouse, Lever, Ashby, Teamtailor (Swedish/Nordic favourite),
+Workable.
 """
 import asyncio
 import json
@@ -21,6 +24,9 @@ ATS_URLS = {
     "greenhouse": "https://boards.greenhouse.io/{slug}",
     "lever": "https://jobs.lever.co/{slug}",
     "ashby": "https://jobs.ashbyhq.com/{slug}",
+    "teamtailor": "https://career.{slug}.com/jobs",
+    "teamtailor_sub": "https://{slug}.teamtailor.com/jobs",
+    "workable": "https://apply.workable.com/{slug}/",
 }
 
 
@@ -68,7 +74,7 @@ async def scrape_lever(page, url):
 async def scrape_ashby(page, url):
     await page.goto(url, wait_until="networkidle", timeout=30000)
     try:
-        await page.wait_for_selector("a[href*='/lovable/'], a[href*='/jobs/']", timeout=10000)
+        await page.wait_for_selector("a[href*='/jobs/']", timeout=10000)
     except PWTimeout:
         return []
     return await page.evaluate("""() => {
@@ -81,10 +87,70 @@ async def scrape_ashby(page, url):
     }""")
 
 
+async def scrape_teamtailor(page, url):
+    await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+    try:
+        await page.wait_for_selector(
+            "a[href*='/jobs/'], .jobs-grid a, [data-cy='job']",
+            timeout=10000,
+        )
+    except PWTimeout:
+        return []
+    return await page.evaluate("""() => {
+        const links = document.querySelectorAll("a[href*='/jobs/']");
+        const seen = new Set();
+        return Array.from(links).filter(a => {
+            if (seen.has(a.href)) return false;
+            seen.add(a.href);
+            return !a.href.endsWith('/jobs') && !a.href.endsWith('/jobs/');
+        }).map(a => {
+            const title = a.querySelector('h2, h3, .job-title') || a;
+            const loc = a.querySelector('.location, [class*="location"], [class*="Location"]');
+            return {
+                title: title.innerText.trim().split('\\n')[0],
+                url: a.href,
+                location: loc ? loc.innerText.trim() : ''
+            };
+        }).filter(j => j.title && j.url);
+    }""")
+
+
+async def scrape_workable(page, url):
+    await page.goto(url, wait_until="networkidle", timeout=30000)
+    try:
+        await page.wait_for_selector("[data-ui='job'], a[href*='/j/']", timeout=10000)
+    except PWTimeout:
+        return []
+    return await page.evaluate("""() => {
+        const rows = document.querySelectorAll("[data-ui='job'], li[data-id]");
+        if (rows.length === 0) {
+            const links = document.querySelectorAll("a[href*='/j/']");
+            return Array.from(links).map(a => ({
+                title: a.innerText.trim().split('\\n')[0],
+                url: a.href,
+                location: ''
+            })).filter(j => j.title);
+        }
+        return Array.from(rows).map(r => {
+            const a = r.querySelector('a');
+            const title = r.querySelector("[data-ui='job-title'], h3, .job-title");
+            const loc = r.querySelector("[data-ui='job-location'], .location");
+            return {
+                title: title ? title.innerText.trim() : (a ? a.innerText.trim() : ''),
+                url: a ? a.href : '',
+                location: loc ? loc.innerText.trim() : ''
+            };
+        }).filter(j => j.title && j.url);
+    }""")
+
+
 SCRAPERS = {
     "greenhouse": scrape_greenhouse,
     "lever": scrape_lever,
     "ashby": scrape_ashby,
+    "teamtailor": scrape_teamtailor,
+    "teamtailor_sub": scrape_teamtailor,
+    "workable": scrape_workable,
 }
 
 
