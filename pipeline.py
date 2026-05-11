@@ -19,6 +19,7 @@ def run(cmd):
 
 def main():
     run([sys.executable, "scrape.py"])
+    run([sys.executable, "aggregators.py"])
     run([sys.executable, "diff.py"])
     run([sys.executable, "classify.py"])
 
