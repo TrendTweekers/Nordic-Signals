@@ -5,6 +5,11 @@ on:
     # 06:00 UTC = 07:00 CET / 08:00 CEST
     - cron: "0 6 * * *"
   workflow_dispatch:
+    inputs:
+      send_digest:
+        description: "Send the weekly digest email (default off for manual runs)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -34,7 +39,7 @@ jobs:
         run: python pipeline.py
 
       - name: Send Monday digest
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 6 * * 1'
+        if: (github.event_name == 'workflow_dispatch' && inputs.send_digest) || github.event.schedule == '0 6 * * 1'
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           DIGEST_FROM: ${{ secrets.DIGEST_FROM }}
