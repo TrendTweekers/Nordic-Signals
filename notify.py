@@ -37,6 +37,8 @@ def build_html(week):
     removed = [j for day in week for j in day.get("removed", [])]
     ai_roles = [j for j in added if j.get("ai_signal")]
     infra_roles = [j for j in added if j.get("infra_signal")]
+    leadership_roles = [j for j in added if j.get("leadership_hire")]
+    strategic_roles = [j for j in added if j.get("strategic_signal")]
 
     by_company = defaultdict(list)
     for j in added:
@@ -49,18 +51,45 @@ def build_html(week):
         return f'<li><a href="{j["url"]}" style="color:#22d3ee;text-decoration:none">{j["title"]}</a> <span style="color:#94a3b8">— {tag}</span></li>'
 
     headline_blocks = []
+
+    # Strategic signals — highest impact, surfaced first
+    if strategic_roles:
+        # group by strategic_signal type
+        from collections import defaultdict as _dd
+        by_signal = _dd(list)
+        for j in strategic_roles:
+            by_signal[j["strategic_signal"]].append(j)
+        rows = []
+        for sig, jobs in sorted(by_signal.items(), key=lambda kv: -len(kv[1])):
+            rows.append(f"<li><b style='color:#fbbf24'>{sig}</b> · " +
+                        ", ".join(f"{j['company']} ({j['title']})" for j in jobs[:5]) + "</li>")
+        headline_blocks.append(
+            "<h2 style='color:#fff;font-size:18px;margin-top:32px'>⭐ Strategic moves</h2>"
+            "<ul style='padding-left:20px;line-height:1.7'>" + "".join(rows) + "</ul>"
+        )
+
+    # Leadership hires — second-highest VC value
+    if leadership_roles:
+        headline_blocks.append(
+            "<h2 style='color:#fff;font-size:18px;margin-top:32px'>👔 Leadership hires</h2>"
+            "<ul style='padding-left:20px;line-height:1.7'>"
+            + "".join(f"<li><b>{j['company']}</b> — {j['title']} <span style='color:#94a3b8'>({j.get('seniority','')})</span></li>"
+                      for j in leadership_roles[:12])
+            + "</ul>"
+        )
+
     if ai_roles:
         headline_blocks.append(
             "<h2 style='color:#fff;font-size:18px;margin-top:32px'>🔥 AI capability signals</h2>"
             "<ul style='padding-left:20px;line-height:1.7'>"
-            + "".join(f"<li><b>{j['company']}</b> — {j['title']}</li>" for j in ai_roles[:10])
+            + "".join(f"<li><b>{j['company']}</b> — {j['title']}</li>" for j in ai_roles[:12])
             + "</ul>"
         )
     if infra_roles:
         headline_blocks.append(
             "<h2 style='color:#fff;font-size:18px;margin-top:32px'>⚙️ Infra / platform signals</h2>"
             "<ul style='padding-left:20px;line-height:1.7'>"
-            + "".join(f"<li><b>{j['company']}</b> — {j['title']}</li>" for j in infra_roles[:10])
+            + "".join(f"<li><b>{j['company']}</b> — {j['title']}</li>" for j in infra_roles[:12])
             + "</ul>"
         )
 
@@ -88,7 +117,7 @@ def build_html(week):
     <div style="border-bottom:1px solid #1e293b;padding-bottom:16px">
       <div style="color:#22d3ee;font-size:13px;letter-spacing:2px;text-transform:uppercase">Nordic Signals</div>
       <h1 style="color:#fff;font-size:26px;margin:8px 0 0">Weekly hiring signals — {today_str}</h1>
-      <div style="color:#64748b;font-size:14px;margin-top:6px">{len(added)} new roles · {len(removed)} closed · {len(by_company)} companies active</div>
+      <div style="color:#64748b;font-size:14px;margin-top:6px">{len(added)} new roles · {len(removed)} closed · {len(by_company)} companies active · {len(leadership_roles)} leadership · {len(strategic_roles)} strategic</div>
     </div>
     {''.join(headline_blocks)}
     <h2 style='color:#fff;font-size:18px;margin-top:32px'>By company</h2>
