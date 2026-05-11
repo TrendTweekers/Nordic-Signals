@@ -1,16 +1,16 @@
 {
   "_comment": "Audited list — every entry has a verified-live career page (probed 2026-05-11). Scraper uses url field directly. Add via scripts/find_ats.js.",
-  "_stats": "156 companies. SE=64 FI=26 NO=21 DK=30 EE=15",
+  "_stats": "151 companies. SE=59 FI=26 NO=21 DK=30 EE=15",
   "_by_tier": {
-    "scale": 61,
-    "growth": 45,
-    "early": 50
+    "scale": 59,
+    "growth": 44,
+    "early": 48
   },
   "_by_ats": {
     "teamtailor_sub": 99,
-    "greenhouse": 25,
     "ashby": 18,
     "lever": 9,
+    "greenhouse": 20,
     "smartrecruiters": 4,
     "workable": 1
   },
@@ -20,14 +20,6 @@
       "ats": "teamtailor_sub",
       "slug": "avanza",
       "url": "https://avanza.teamtailor.com/jobs",
-      "country": "SE",
-      "tier": "scale"
-    },
-    {
-      "name": "Bonnier News",
-      "ats": "greenhouse",
-      "slug": "bonniernews",
-      "url": "https://www.bonniernews.se/",
       "country": "SE",
       "tier": "scale"
     },
@@ -68,14 +60,6 @@
       "ats": "teamtailor_sub",
       "slug": "instabox",
       "url": "https://career.instabee.com/jobs",
-      "country": "SE",
-      "tier": "scale"
-    },
-    {
-      "name": "King",
-      "ats": "greenhouse",
-      "slug": "king",
-      "url": "https://careers.king.com/us/en",
       "country": "SE",
       "tier": "scale"
     },
@@ -204,14 +188,6 @@
       "ats": "ashby",
       "slug": "epidemicsound",
       "url": "https://www.epidemicsound.com/careers/",
-      "country": "SE",
-      "tier": "growth"
-    },
-    {
-      "name": "iZettle",
-      "ats": "greenhouse",
-      "slug": "izettle",
-      "url": "https://paypal.eightfold.ai/careers?Brand=zettle",
       "country": "SE",
       "tier": "growth"
     },
@@ -400,14 +376,6 @@
       "tier": "early"
     },
     {
-      "name": "Lendo",
-      "ats": "greenhouse",
-      "slug": "lendo",
-      "url": "https://brandportal.godaddysites.com/",
-      "country": "SE",
-      "tier": "early"
-    },
-    {
       "name": "Normative",
       "ats": "teamtailor_sub",
       "slug": "normative",
@@ -460,14 +428,6 @@
       "ats": "teamtailor_sub",
       "slug": "sellpy",
       "url": "https://career.sellpy.se/jobs",
-      "country": "SE",
-      "tier": "early"
-    },
-    {
-      "name": "Skyscanner",
-      "ats": "greenhouse",
-      "slug": "skyscanner",
-      "url": "https://jobs.ashbyhq.com/skyscanner",
       "country": "SE",
       "tier": "early"
     },

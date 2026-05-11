@@ -72,19 +72,27 @@ async def scrape_lever(page, url):
 
 
 async def scrape_ashby(page, url):
-    await page.goto(url, wait_until="networkidle", timeout=30000)
-    try:
-        await page.wait_for_selector("a[href*='/jobs/']", timeout=10000)
-    except PWTimeout:
+    # Ashby's HTML is React-rendered; their public JSON API is much faster
+    # and complete. URL is jobs.ashbyhq.com/{slug} -> API is
+    # api.ashbyhq.com/posting-api/job-board/{slug}.
+    slug = url.rstrip("/").split("/")[-1]
+    api_url = f"https://api.ashbyhq.com/posting-api/job-board/{slug}"
+    resp = await page.context.request.get(api_url)
+    if resp.status != 200:
         return []
-    return await page.evaluate("""() => {
-        const links = document.querySelectorAll("a[href*='/jobs/'], div[class*='JobPosting'] a");
-        return Array.from(links).map(a => ({
-            title: a.innerText.trim().split('\\n')[0],
-            url: a.href,
-            location: ''
-        })).filter(j => j.title && j.url);
-    }""")
+    data = await resp.json()
+    jobs = []
+    for j in data.get("jobs", []):
+        if j.get("isListed") is False:
+            continue
+        loc_parts = [j.get("location") or ""] + (j.get("secondaryLocations") or [])
+        location = ", ".join(p for p in loc_parts if p)
+        jobs.append({
+            "title": j.get("title", ""),
+            "url": j.get("jobUrl") or f"https://jobs.ashbyhq.com/{slug}/{j.get('id','')}",
+            "location": location,
+        })
+    return [j for j in jobs if j["title"] and j["url"]]
 
 
 async def scrape_teamtailor(page, url):
