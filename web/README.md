@@ -18,9 +18,11 @@ Open http://localhost:3000.
 
 1. Sign up at [resend.com](https://resend.com).
 2. Add and verify a sending domain (e.g. `nordicsignals.com`). For testing you can use `onboarding@resend.dev` as the sender.
-3. Audiences → Create audience → "Nordic Signals subscribers". Copy its ID.
-4. API Keys → create one with **Sending access**.
-5. Set `RESEND_API_KEY` and `RESEND_AUDIENCE_ID` as env vars locally and on Railway.
+3. Audiences → create **two**:
+   - "Nordic Signals — general" → `RESEND_AUDIENCE_ID`
+   - "Nordic Signals — portfolio beta" → `RESEND_PORTFOLIO_AUDIENCE_ID`
+4. API Keys → create one with **Sending access** → `RESEND_API_KEY`.
+5. (Optional, recommended) set `DIGEST_FROM` (verified sender) + `PORTFOLIO_NOTIFY_TO` (your inbox) so portfolio waitlist signups also notify you with the company list.
 
 ## Deploy on Railway
 

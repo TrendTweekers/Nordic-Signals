@@ -4,22 +4,22 @@ const tiers = [
   {
     name: "Free",
     price: "€0",
-    cadence: "Forever",
+    cadence: "forever",
     blurb: "The Monday digest, in your inbox.",
     features: [
-      "Weekly Monday email digest",
+      "Weekly Monday email",
       "All Nordic AI / infra signals",
       "Closed-roles section",
       "Unsubscribe any time",
     ],
-    cta: "Start free",
+    cta: "free",
     highlight: false,
   },
   {
     name: "Pro",
     price: "€299",
     cadence: "/ month",
-    blurb: "For recruiters &amp; sales teams who act on the data.",
+    blurb: "For recruiters & sales teams who act on the data.",
     features: [
       "Everything in Free",
       "Daily alerts (not just Monday)",
@@ -28,23 +28,39 @@ const tiers = [
       "Slack delivery",
       "Company hiring-velocity charts",
     ],
-    cta: "Coming soon",
-    highlight: true,
+    cta: "soon",
+    highlight: false,
   },
   {
-    name: "Team / API",
-    price: "€999+",
+    name: "Portfolio",
+    price: "€799",
     cadence: "/ month",
-    blurb: "For dev tool sales teams & VCs.",
+    blurb: "For VCs and angel syndicates tracking their own companies.",
     features: [
       "Everything in Pro",
-      "Up to 10 seats",
-      "API access",
-      "Custom company watchlists",
-      "Quarterly market report",
-      "Dedicated Slack support",
+      "Unlimited Portfolio Monitor",
+      "Private portfolio dashboard",
+      "Portfolio-wide insights & scoring",
+      "Competitor tracking",
+      "Priority support + custom signals",
     ],
-    cta: "Talk to me",
+    cta: "beta",
+    highlight: true,
+    badge: "Private Beta",
+  },
+  {
+    name: "Team / Enterprise",
+    price: "€1,499+",
+    cadence: "/ month",
+    blurb: "Larger funds, agencies, and dev tool sales orgs.",
+    features: [
+      "Everything in Portfolio",
+      "Multiple seats",
+      "API access",
+      "White-label reports",
+      "Dedicated account manager",
+    ],
+    cta: "talk",
     highlight: false,
   },
 ];
@@ -59,45 +75,63 @@ export function Pricing() {
         <h2 className="text-3xl md:text-4xl font-semibold text-white tracking-tight max-w-2xl">
           Start free. Upgrade when the signals make you money.
         </h2>
-        <div className="mt-14 grid md:grid-cols-3 gap-5">
+        <p className="mt-4 text-[var(--color-text-muted)] max-w-xl">
+          First 20 Portfolio customers lock €599/mo for 6 months. Founding-customer pricing held for life.
+        </p>
+        <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {tiers.map((t) => (
             <div
               key={t.name}
-              className={`rounded-xl border p-7 flex flex-col ${
+              className={`relative rounded-xl border p-6 flex flex-col ${
                 t.highlight
                   ? "border-[var(--color-accent)]/60 bg-[var(--color-accent)]/[0.04]"
                   : "border-[var(--color-border)] bg-[var(--color-bg-elevated)]/40"
               }`}
             >
+              {t.badge && (
+                <div className="absolute -top-3 left-6 px-2 py-0.5 rounded-full bg-[var(--color-accent)] text-[10px] uppercase tracking-wider font-medium text-[#0b1220]">
+                  {t.badge}
+                </div>
+              )}
               <div className="text-sm text-[var(--color-text-muted)]">{t.name}</div>
-              <div className="mt-4 flex items-baseline gap-2">
-                <div className="text-4xl font-semibold text-white">{t.price}</div>
-                <div className="text-sm text-[var(--color-text-dim)]">{t.cadence}</div>
+              <div className="mt-3 flex items-baseline gap-1.5">
+                <div className="text-3xl font-semibold text-white">{t.price}</div>
+                <div className="text-xs text-[var(--color-text-dim)]">{t.cadence}</div>
               </div>
-              <p
-                className="mt-3 text-sm text-[var(--color-text-muted)]"
-                dangerouslySetInnerHTML={{ __html: t.blurb }}
-              />
-              <ul className="mt-6 space-y-2.5 flex-1">
+              <p className="mt-3 text-sm text-[var(--color-text-muted)] leading-relaxed">
+                {t.blurb}
+              </p>
+              <ul className="mt-5 space-y-2 flex-1">
                 {t.features.map((f) => (
-                  <li key={f} className="flex gap-2.5 text-sm text-[var(--color-text)]">
+                  <li key={f} className="flex gap-2 text-sm text-[var(--color-text)]">
                     <span className="text-[var(--color-accent)] mt-0.5">✓</span>
                     <span>{f}</span>
                   </li>
                 ))}
               </ul>
-              <div className="mt-7">
-                {t.name === "Free" ? (
+              <div className="mt-6">
+                {t.cta === "free" ? (
                   <SubscribeForm />
+                ) : t.cta === "beta" ? (
+                  <a
+                    href="#portfolio"
+                    className="block text-center h-11 leading-[44px] rounded-md bg-[var(--color-accent)] text-[#0b1220] font-medium hover:bg-[var(--color-accent-glow)] transition-colors text-sm"
+                  >
+                    Join beta
+                  </a>
+                ) : t.cta === "talk" ? (
+                  <a
+                    href="mailto:hello@nordicsignals.com?subject=Team%20%2F%20Enterprise%20enquiry"
+                    className="block text-center h-11 leading-[44px] rounded-md bg-[var(--color-bg-elevated)] border border-[var(--color-border)] text-[var(--color-text)] hover:border-[var(--color-accent)] transition-colors text-sm"
+                  >
+                    Talk to me
+                  </a>
                 ) : (
                   <button
-                    className={`w-full h-11 rounded-md text-sm font-medium ${
-                      t.highlight
-                        ? "bg-[var(--color-accent)] text-[#0b1220] hover:bg-[var(--color-accent-glow)]"
-                        : "bg-[var(--color-bg-elevated)] border border-[var(--color-border)] text-[var(--color-text)] hover:border-[var(--color-accent)]"
-                    } transition-colors`}
+                    disabled
+                    className="w-full h-11 rounded-md bg-[var(--color-bg-elevated)] border border-[var(--color-border)] text-[var(--color-text-dim)] text-sm cursor-not-allowed"
                   >
-                    {t.cta}
+                    Coming soon
                   </button>
                 )}
               </div>

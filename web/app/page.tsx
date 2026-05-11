@@ -2,6 +2,7 @@ import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
 import { HowItWorks } from "@/components/HowItWorks";
 import { SampleSignals } from "@/components/SampleSignals";
+import { PortfolioMonitor } from "@/components/PortfolioMonitor";
 import { Pricing } from "@/components/Pricing";
 import { Footer } from "@/components/Footer";
 
@@ -17,6 +18,9 @@ export default function Page() {
         </section>
         <section id="signals">
           <SampleSignals />
+        </section>
+        <section id="portfolio">
+          <PortfolioMonitor />
         </section>
         <section id="pricing">
           <Pricing />

@@ -9,6 +9,12 @@ export function Nav() {
         <div className="hidden md:flex items-center gap-7 text-sm text-[var(--color-text-muted)]">
           <a href="#how" className="hover:text-white">How it works</a>
           <a href="#signals" className="hover:text-white">Sample digest</a>
+          <a href="#portfolio" className="hover:text-white">
+            Portfolio Monitor
+            <span className="ml-1.5 px-1.5 py-0.5 rounded-full bg-[var(--color-accent)]/10 border border-[var(--color-accent)]/40 text-[10px] tracking-wider text-[var(--color-accent)]">
+              Beta
+            </span>
+          </a>
           <a href="#pricing" className="hover:text-white">Pricing</a>
         </div>
         <a
