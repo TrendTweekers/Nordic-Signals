@@ -1,5 +1,3 @@
-import { SubscribeForm } from "./SubscribeForm";
-
 const tiers = [
   {
     name: "Free",
@@ -12,7 +10,7 @@ const tiers = [
       "Closed-roles section",
       "Unsubscribe any time",
     ],
-    cta: "free",
+    cta: { label: "Get the digest", href: "#top", variant: "outline" as const },
     highlight: false,
   },
   {
@@ -22,13 +20,13 @@ const tiers = [
     blurb: "For recruiters & sales teams who act on the data.",
     features: [
       "Everything in Free",
-      "Daily alerts (not just Monday)",
+      "Daily alerts",
       "Filter by country, seniority, tech",
       "CSV / Notion exports",
       "Slack delivery",
       "Company hiring-velocity charts",
     ],
-    cta: "soon",
+    cta: { label: "Coming soon", href: null, variant: "disabled" as const },
     highlight: false,
   },
   {
@@ -42,14 +40,14 @@ const tiers = [
       "Private portfolio dashboard",
       "Portfolio-wide insights & scoring",
       "Competitor tracking",
-      "Priority support + custom signals",
+      "Priority support",
     ],
-    cta: "beta",
+    cta: { label: "Join beta", href: "#portfolio", variant: "primary" as const },
     highlight: true,
     badge: "Private Beta",
   },
   {
-    name: "Team / Enterprise",
+    name: "Team",
     price: "€1,499+",
     cadence: "/ month",
     blurb: "Larger funds, agencies, and dev tool sales orgs.",
@@ -60,7 +58,11 @@ const tiers = [
       "White-label reports",
       "Dedicated account manager",
     ],
-    cta: "talk",
+    cta: {
+      label: "Talk to me",
+      href: "mailto:hello@nordicsignals.com?subject=Team%20enquiry",
+      variant: "outline" as const,
+    },
     highlight: false,
   },
 ];
@@ -72,12 +74,14 @@ export function Pricing() {
         <div className="text-xs uppercase tracking-[0.2em] text-[var(--color-accent)] mb-3">
           Pricing
         </div>
-        <h2 className="text-3xl md:text-4xl font-semibold text-white tracking-tight max-w-2xl">
-          Start free. Upgrade when the signals make you money.
-        </h2>
-        <p className="mt-4 text-[var(--color-text-muted)] max-w-xl">
-          First 20 Portfolio customers lock €599/mo for 6 months. Founding-customer pricing held for life.
-        </p>
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+          <h2 className="text-3xl md:text-4xl font-semibold text-white tracking-tight max-w-2xl">
+            Start free. Upgrade when the signals make you money.
+          </h2>
+          <p className="text-sm text-[var(--color-text-muted)] max-w-xs md:text-right">
+            First 20 Portfolio customers lock <span className="text-white">€599/mo</span> for 6 months.
+          </p>
+        </div>
         <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {tiers.map((t) => (
             <div
@@ -93,52 +97,56 @@ export function Pricing() {
                   {t.badge}
                 </div>
               )}
-              <div className="text-sm text-[var(--color-text-muted)]">{t.name}</div>
-              <div className="mt-3 flex items-baseline gap-1.5">
+              <div className="text-sm font-medium text-white">{t.name}</div>
+              <div className="mt-3 flex items-baseline gap-1.5 whitespace-nowrap">
                 <div className="text-3xl font-semibold text-white">{t.price}</div>
                 <div className="text-xs text-[var(--color-text-dim)]">{t.cadence}</div>
               </div>
-              <p className="mt-3 text-sm text-[var(--color-text-muted)] leading-relaxed">
+              <p className="mt-3 text-sm text-[var(--color-text-muted)] leading-relaxed min-h-[3.5rem]">
                 {t.blurb}
               </p>
               <ul className="mt-5 space-y-2 flex-1">
                 {t.features.map((f) => (
                   <li key={f} className="flex gap-2 text-sm text-[var(--color-text)]">
-                    <span className="text-[var(--color-accent)] mt-0.5">✓</span>
+                    <span className="text-[var(--color-accent)] mt-0.5 shrink-0">✓</span>
                     <span>{f}</span>
                   </li>
                 ))}
               </ul>
               <div className="mt-6">
-                {t.cta === "free" ? (
-                  <SubscribeForm />
-                ) : t.cta === "beta" ? (
-                  <a
-                    href="#portfolio"
-                    className="block text-center h-11 leading-[44px] rounded-md bg-[var(--color-accent)] text-[#0b1220] font-medium hover:bg-[var(--color-accent-glow)] transition-colors text-sm"
-                  >
-                    Join beta
-                  </a>
-                ) : t.cta === "talk" ? (
-                  <a
-                    href="mailto:hello@nordicsignals.com?subject=Team%20%2F%20Enterprise%20enquiry"
-                    className="block text-center h-11 leading-[44px] rounded-md bg-[var(--color-bg-elevated)] border border-[var(--color-border)] text-[var(--color-text)] hover:border-[var(--color-accent)] transition-colors text-sm"
-                  >
-                    Talk to me
-                  </a>
-                ) : (
-                  <button
-                    disabled
-                    className="w-full h-11 rounded-md bg-[var(--color-bg-elevated)] border border-[var(--color-border)] text-[var(--color-text-dim)] text-sm cursor-not-allowed"
-                  >
-                    Coming soon
-                  </button>
-                )}
+                <PricingCta cta={t.cta} />
               </div>
             </div>
           ))}
         </div>
       </div>
     </section>
+  );
+}
+
+function PricingCta({
+  cta,
+}: {
+  cta: { label: string; href: string | null; variant: "primary" | "outline" | "disabled" };
+}) {
+  const base = "block w-full text-center h-11 leading-[44px] rounded-md text-sm font-medium transition-colors";
+  if (cta.variant === "disabled") {
+    return (
+      <button
+        disabled
+        className={`${base} bg-[var(--color-bg-elevated)] border border-[var(--color-border)] text-[var(--color-text-dim)] cursor-not-allowed`}
+      >
+        {cta.label}
+      </button>
+    );
+  }
+  const cls =
+    cta.variant === "primary"
+      ? "bg-[var(--color-accent)] text-[#0b1220] hover:bg-[var(--color-accent-glow)]"
+      : "bg-[var(--color-bg-elevated)] border border-[var(--color-border)] text-[var(--color-text)] hover:border-[var(--color-accent)]";
+  return (
+    <a href={cta.href!} className={`${base} ${cls}`}>
+      {cta.label}
+    </a>
   );
 }
