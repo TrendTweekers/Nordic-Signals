@@ -232,12 +232,17 @@ async def main():
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     print(f"Scraping {len(companies)} companies for {today}...", flush=True)
 
+    sem = asyncio.Semaphore(8)
+
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        results = []
-        for c in companies:
-            jobs = await scrape_company(browser, c)
-            results.extend(jobs)
+
+        async def bound(c):
+            async with sem:
+                return await scrape_company(browser, c)
+
+        results_nested = await asyncio.gather(*[bound(c) for c in companies])
+        results = [j for r in results_nested for j in r]
         await browser.close()
 
     out = SNAPSHOT_DIR / f"{today}.json"
