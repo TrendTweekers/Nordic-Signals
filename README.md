@@ -32,9 +32,9 @@ GitHub Actions runs `pipeline.py` every day at 06:00 UTC and `notify.py` only on
    Edit `companies.json` and update / remove any 404s.
 
 3. **GitHub repo secrets** (Settings → Secrets and variables → Actions)
-   - `OPENAI_API_KEY` — for the classifier
+   - `ANTHROPIC_API_KEY` — for the Claude Haiku classifier
    - `RESEND_API_KEY` — from resend.com (free tier covers this easily)
-   - `DIGEST_FROM` — e.g. `signals@yourdomain.com` (must be a verified Resend sender)
+   - `DIGEST_FROM` — `onboarding@resend.dev` (or your verified Resend sender)
    - `DIGEST_TO` — your inbox
 
 4. **First run**: trigger the workflow manually from the Actions tab. The first run produces a snapshot but nothing to diff against; from day 2 onward you'll get real signal data.
@@ -62,7 +62,7 @@ Append to `companies.json`:
 
 - GitHub Actions: free (under 2000 min/month even running daily)
 - Resend: free tier (3k emails/month — way more than needed)
-- OpenAI gpt-4o-mini: ~$0.001 per job classified, so <$0.50/month at this scale
+- Anthropic Claude Haiku 4.5: ~$0.001 per job classified with prompt caching, so <€0.20/month at this scale
 - Total: effectively free
 
 ## Validation phase (weeks 1–4)
