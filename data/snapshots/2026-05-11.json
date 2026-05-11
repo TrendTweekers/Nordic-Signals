@@ -1,7 +1,7 @@
 {
   "date": "2026-05-11",
-  "scraped_at": "2026-05-11T07:28:20.090357+00:00",
-  "total_jobs": 1449,
+  "scraped_at": "2026-05-11T07:39:00.668107+00:00",
+  "total_jobs": 1489,
   "jobs": [
     {
       "title": "Budbilschaufför - sommarjobb",
@@ -3012,6 +3012,46 @@
       "tier": "growth"
     },
     {
+      "title": "Controller",
+      "url": "https://jobs.ashbyhq.com/kindred/047c0811-9b14-4644-9f18-8aaa8aee7589",
+      "location": "San Francisco, CA",
+      "company": "Kindred",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "title": "GTM Lead",
+      "url": "https://jobs.ashbyhq.com/kindred/72656491-1ede-4814-bf3a-a21f18569fce",
+      "location": "Remote - US",
+      "company": "Kindred",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "title": "Staff Product Manager",
+      "url": "https://jobs.ashbyhq.com/kindred/8868c144-1909-47f2-9c1c-e59a9e4ddce0",
+      "location": "Remote - US",
+      "company": "Kindred",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "title": "Staff Data Scientist, Product & Pricing",
+      "url": "https://jobs.ashbyhq.com/kindred/ecbed50a-956c-4057-928f-bd181ebe2634",
+      "location": "Remote - US",
+      "company": "Kindred",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "title": "Head of Growth",
+      "url": "https://jobs.ashbyhq.com/kindred/567c2ba3-d964-44f7-88b5-dfe4259f1226",
+      "location": "San Francisco, CA",
+      "company": "Kindred",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
       "title": "Senior Frontend Engineer (Product Experience)",
       "url": "https://careers.soundtrack.io/jobs/6027518-senior-frontend-engineer-product-experience",
       "location": "",
@@ -3492,6 +3532,102 @@
       "tier": "early"
     },
     {
+      "title": "Software Engineer - Product",
+      "url": "https://jobs.ashbyhq.com/endra/96b8c861-e4bb-43f8-95c2-c199de66e308",
+      "location": "San Francisco Bay Area",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Software Engineer - Product",
+      "url": "https://jobs.ashbyhq.com/endra/24c1b80b-e954-4c52-854e-386fd44bf068",
+      "location": "New York City",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Marketing Lead",
+      "url": "https://jobs.ashbyhq.com/endra/73f2d694-4fe1-49a9-87b0-729907283a35",
+      "location": "Stockholm",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Software Engineer - Core",
+      "url": "https://jobs.ashbyhq.com/endra/d99a57ad-0ee1-4132-9c46-db68b1235aee",
+      "location": "Stockholm",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Software Engineer - Optimization",
+      "url": "https://jobs.ashbyhq.com/endra/0fe1d703-cc6a-4d98-9096-8ef073a9448c",
+      "location": "Malmö",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Software Engineer - Optimization",
+      "url": "https://jobs.ashbyhq.com/endra/1dba8ee7-dd77-4665-9434-11fa4d5fdb2c",
+      "location": "Stockholm",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Software Engineer - Product",
+      "url": "https://jobs.ashbyhq.com/endra/a30c8ebb-9f80-44a4-9299-628b135de89c",
+      "location": "London",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Software Engineer - Product",
+      "url": "https://jobs.ashbyhq.com/endra/56715954-6ad7-4f9e-98d9-39397f1e8eca",
+      "location": "Stockholm",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Marketing Lead",
+      "url": "https://jobs.ashbyhq.com/endra/97c6af87-0ea1-4e5c-bed5-40c2b5dffbf6",
+      "location": "New York City",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Product Specialist - Electrical",
+      "url": "https://jobs.ashbyhq.com/endra/c71b6071-de83-4e7f-83b6-8b44782b946d",
+      "location": "New York City",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Operations Specialist",
+      "url": "https://jobs.ashbyhq.com/endra/328a0d4f-89fa-40df-8ccd-09352f5a45bf",
+      "location": "Stockholm",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Finance Lead",
+      "url": "https://jobs.ashbyhq.com/endra/f3b2a18f-cc63-4fe0-972f-445be976fdaa",
+      "location": "Stockholm",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
       "title": "Junior Project Developer - French speaking (Part-time)",
       "url": "https://flower.teamtailor.com/jobs/7576128-junior-project-developer-french-speaking-part-time",
       "location": "",
@@ -3620,6 +3756,46 @@
       "tier": "early"
     },
     {
+      "title": "Controller",
+      "url": "https://jobs.ashbyhq.com/kindred/047c0811-9b14-4644-9f18-8aaa8aee7589",
+      "location": "San Francisco, CA",
+      "company": "Kindred Group",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "GTM Lead",
+      "url": "https://jobs.ashbyhq.com/kindred/72656491-1ede-4814-bf3a-a21f18569fce",
+      "location": "Remote - US",
+      "company": "Kindred Group",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Staff Product Manager",
+      "url": "https://jobs.ashbyhq.com/kindred/8868c144-1909-47f2-9c1c-e59a9e4ddce0",
+      "location": "Remote - US",
+      "company": "Kindred Group",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Staff Data Scientist, Product & Pricing",
+      "url": "https://jobs.ashbyhq.com/kindred/ecbed50a-956c-4057-928f-bd181ebe2634",
+      "location": "Remote - US",
+      "company": "Kindred Group",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Head of Growth",
+      "url": "https://jobs.ashbyhq.com/kindred/567c2ba3-d964-44f7-88b5-dfe4259f1226",
+      "location": "San Francisco, CA",
+      "company": "Kindred Group",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
       "title": "Kommersiell fastighetsförvaltare till Corem Sto...",
       "url": "https://karriar.corem.se/jobs/7615516-kommersiell-fastighetsforvaltare-till-corem-stockholm-globen",
       "location": "",
@@ -3632,6 +3808,38 @@
       "url": "https://karriar.corem.se/jobs/129907-spontanansokan",
       "location": "",
       "company": "Klövern",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Senior Software Engineer",
+      "url": "https://jobs.ashbyhq.com/kognity/41ab694a-a225-461c-8507-d346a05201ff",
+      "location": "Sweden",
+      "company": "Kognity",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Analytics Engineer",
+      "url": "https://jobs.ashbyhq.com/kognity/83ffd54a-fc2b-46a3-a93d-1303c24c404c",
+      "location": "Sweden",
+      "company": "Kognity",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "MYP Specialist - contract role",
+      "url": "https://jobs.ashbyhq.com/kognity/d4240a38-7978-4a98-beb0-25c85f6ff3c9",
+      "location": "United Kingdom",
+      "company": "Kognity",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "AI Media Workflow Designer",
+      "url": "https://jobs.ashbyhq.com/kognity/80ccac32-ef63-48d0-bba6-4a3559d97ee8",
+      "location": "Sweden",
+      "company": "Kognity",
       "country": "SE",
       "tier": "early"
     },
@@ -3736,6 +3944,22 @@
       "url": "https://careers.northmill.com/jobs/2530726-senior-backend-engineer-c-aws",
       "location": "",
       "company": "Northmill",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Senior Product Engineer",
+      "url": "https://jobs.ashbyhq.com/polar/955c6935-6d03-46e5-b649-a8b958a52962",
+      "location": "Europe (Remote)",
+      "company": "Polar",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Senior Platform Engineer",
+      "url": "https://jobs.ashbyhq.com/polar/8a82633e-e7b9-42f4-92e1-33032a56097a",
+      "location": "Europe (Remote)",
+      "company": "Polar",
       "country": "SE",
       "tier": "early"
     },
@@ -9652,14 +9876,6 @@
       "tier": "growth"
     },
     {
-      "title": "Werkstudent:in - FINN Station Köln (m/w/x)",
-      "url": "https://jobs.lever.co/finn/dd1c9546-ebe5-41e4-98d0-a097be1e550d",
-      "location": "COLOGNE",
-      "company": "Finn.no",
-      "country": "NO",
-      "tier": "growth"
-    },
-    {
       "title": "Werkstudent:in - FINN Station München (m/w/x)",
       "url": "https://jobs.lever.co/finn/25888e95-e4f9-4d08-aa0c-5b33565c1343",
       "location": "MUNICH",
@@ -10018,6 +10234,110 @@
       "company": "Unloc",
       "country": "NO",
       "tier": "early"
+    },
+    {
+      "title": "Clinical Workflow Informaticist ",
+      "url": "https://jobs.ashbyhq.com/lunar/caa7adea-06ae-474c-9016-dbb596dcb7eb",
+      "location": "San Francisco",
+      "company": "Lunar",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "title": "Business Operations Analyst",
+      "url": "https://jobs.ashbyhq.com/lunar/555f94af-7816-4757-ae28-ea19562c269d",
+      "location": "San Francisco",
+      "company": "Lunar",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "title": "Hospital Operations Analyst",
+      "url": "https://jobs.ashbyhq.com/lunar/869a48f3-613c-4ebc-93c3-1c00b5ea8f12",
+      "location": "San Francisco",
+      "company": "Lunar",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "title": "Fractional Revenue Cycle Specialist",
+      "url": "https://jobs.ashbyhq.com/lunar/400897e8-85d3-4c39-bb8f-891bf05fffd7",
+      "location": "Remote",
+      "company": "Lunar",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "title": "Business Operations Manager",
+      "url": "https://jobs.ashbyhq.com/lunar/f09bcdb0-824d-40dc-8ad8-9d0828bab606",
+      "location": "San Francisco",
+      "company": "Lunar",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "title": "Hospital Operations Engagement Manager",
+      "url": "https://jobs.ashbyhq.com/lunar/a649c609-2982-4af8-a65f-a57d17772232",
+      "location": "San Francisco",
+      "company": "Lunar",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "title": "Fractional Clinical Nursing Informaticist",
+      "url": "https://jobs.ashbyhq.com/lunar/3bc93f8a-22a0-479d-9ef4-43af3278cff0",
+      "location": "Remote",
+      "company": "Lunar",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "title": "Staff Software Engineer",
+      "url": "https://jobs.ashbyhq.com/lunar/8fc4a7af-5bb5-4018-b2dc-b1b0628a7570",
+      "location": "Newcastle",
+      "company": "Lunar",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "title": "Staff Software Engineer",
+      "url": "https://jobs.ashbyhq.com/lunar/fdd74ea1-6511-42b8-a654-13c7e26d05cd",
+      "location": "London",
+      "company": "Lunar",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "title": "Staff Software Engineer, Product",
+      "url": "https://jobs.ashbyhq.com/lunar/c0091410-36a3-4469-bd05-ac0698ce81e9",
+      "location": "San Francisco",
+      "company": "Lunar",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "title": "Senior Software Engineer, Platform",
+      "url": "https://jobs.ashbyhq.com/lunar/4bbcdfad-393e-4756-9008-ed80ce860cea",
+      "location": "San Francisco",
+      "company": "Lunar",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "title": "Staff Software Engineer, Platform",
+      "url": "https://jobs.ashbyhq.com/lunar/4f5286b8-538e-48af-9a6e-4795e44cb45a",
+      "location": "San Francisco",
+      "company": "Lunar",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "title": "Senior Software Engineer, Product",
+      "url": "https://jobs.ashbyhq.com/lunar/0803f419-fb67-4d46-9b64-60d48488b2ee",
+      "location": "San Francisco",
+      "company": "Lunar",
+      "country": "DK",
+      "tier": "scale"
     },
     {
       "title": "Copy of iOS developer",
