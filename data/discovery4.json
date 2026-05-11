@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Min Doktor",
+    "country": "SE",
+    "ats": "teamtailor_sub",
+    "url": "https://app.teamtailor.com/jobs",
+    "fromPage": "https://mindoktor.se/jobs"
+  },
+  {
+    "name": "Voi",
+    "country": "SE",
+    "ats": "teamtailor_sub",
+    "url": "https://app.teamtailor.com/jobs",
+    "fromPage": "https://careers.voi.com"
+  },
+  {
+    "name": "Sana Labs",
+    "country": "SE",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/sana-roles",
+    "fromPage": "https://sanalabs.com/careers"
+  },
+  {
+    "name": "Heart Aerospace",
+    "country": "SE",
+    "ats": "greenhouse",
+    "url": "https://job-boards.greenhouse.io/heartaerospace",
+    "fromPage": "https://heartaerospace.com/career"
+  },
+  {
+    "name": "Lovable",
+    "country": "SE",
+    "ats": "ashby",
+    "url": "https://jobs.ashbyhq.com/lovable",
+    "fromPage": "https://lovable.dev/careers"
+  },
+  {
+    "name": "Budbee",
+    "country": "SE",
+    "ats": "teamtailor_sub",
+    "url": "https://www.teamtailor.com/jobs",
+    "fromPage": "https://budbee.com/career"
+  },
+  {
+    "name": "Tibber",
+    "country": "NO",
+    "ats": "teamtailor_sub",
+    "url": "https://www.teamtailor.com/jobs",
+    "fromPage": "https://jobs.tibber.com"
+  },
+  {
+    "name": "reMarkable",
+    "country": "NO",
+    "ats": "teamtailor_sub",
+    "url": "https://www.teamtailor.com/jobs",
+    "fromPage": "https://jobs.remarkable.com"
+  },
+  {
+    "name": "Ardoq",
+    "country": "NO",
+    "ats": "teamtailor_sub",
+    "url": "https://www.teamtailor.com/jobs",
+    "fromPage": "https://ardoq.com/careers"
+  },
+  {
+    "name": "Templafy",
+    "country": "DK",
+    "ats": "teamtailor_sub",
+    "url": "https://templafy.teamtailor.com/jobs",
+    "fromPage": "https://templafy.com/careers"
+  },
+  {
+    "name": "Veo",
+    "country": "DK",
+    "ats": "lever",
+    "url": "https://jobs.lever.co/veo",
+    "fromPage": "https://veo.co/careers"
+  },
+  {
+    "name": "Oura",
+    "country": "FI",
+    "ats": "greenhouse",
+    "url": "https://job-boards.greenhouse.io/oura",
+    "fromPage": "https://ouraring.com/careers"
+  },
+  {
+    "name": "Smartly.io",
+    "country": "FI",
+    "ats": "greenhouse",
+    "url": "https://job-boards.greenhouse.io/smartlyio",
+    "fromPage": "https://smartly.io/careers"
+  },
+  {
+    "name": "Skeleton Technologies",
+    "country": "EE",
+    "ats": "workable",
+    "url": "https://apply.workable.com/skeletontech/",
+    "fromPage": "https://skeletontech.com/jobs"
+  },
+  {
+    "name": "Pactum AI",
+    "country": "EE",
+    "ats": "teamtailor_sub",
+    "url": "https://www.teamtailor.com/jobs",
+    "fromPage": "https://careers.pactum.com"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Spotify",
+    "ats": "smartrecruiters",
+    "slug": "spotify",
+    "url": "https://careers.smartrecruiters.com/spotify",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "iZettle",
+    "ats": "smartrecruiters",
+    "slug": "izettle",
+    "url": "https://careers.smartrecruiters.com/izettle",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Volvo Group",
+    "ats": "smartrecruiters",
+    "slug": "volvogroup",
+    "url": "https://careers.smartrecruiters.com/volvogroup",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Reaktor",
+    "ats": "smartrecruiters",
+    "slug": "reaktor",
+    "url": "https://careers.smartrecruiters.com/reaktor",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Nordcloud",
+    "ats": "smartrecruiters",
+    "slug": "nordcloud",
+    "url": "https://careers.smartrecruiters.com/nordcloud",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Tietoevry",
+    "ats": "smartrecruiters",
+    "slug": "tietoevry",
+    "url": "https://careers.smartrecruiters.com/tietoevry",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Konecranes",
+    "ats": "smartrecruiters",
+    "slug": "konecranes",
+    "url": "https://konecranes.careers/",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Nokia",
+    "ats": "smartrecruiters",
+    "slug": "nokia",
+    "url": "https://careers.smartrecruiters.com/nokia",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Norsk Hydro",
+    "ats": "smartrecruiters",
+    "slug": "norskhydro",
+    "url": "https://careers.smartrecruiters.com/norskhydro",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Novo Nordisk",
+    "ats": "smartrecruiters",
+    "slug": "novonordisk",
+    "url": "https://careers.smartrecruiters.com/novonordisk",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Nortal",
+    "ats": "smartrecruiters",
+    "slug": "nortal",
+    "url": "https://careers.smartrecruiters.com/nortal",
+    "country": "EE",
+    "tier": "growth"
+  }
+]

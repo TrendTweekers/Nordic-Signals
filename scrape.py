@@ -115,6 +115,57 @@ async def scrape_teamtailor(page, url):
     }""")
 
 
+async def scrape_smartrecruiters(page, url):
+    await page.goto(url, wait_until="networkidle", timeout=30000)
+    try:
+        await page.wait_for_selector("a[href*='/jobs/']", timeout=10000)
+    except PWTimeout:
+        return []
+    return await page.evaluate("""() => {
+        const links = document.querySelectorAll("a[href*='/jobs/']");
+        const seen = new Set();
+        return Array.from(links).filter(a => {
+            if (seen.has(a.href)) return false;
+            seen.add(a.href);
+            // exclude category/filter links
+            return /\\/jobs\\/(details|listing|view|[0-9a-f]{6,})/i.test(a.href) ||
+                   /\\/[a-z0-9-]+-[0-9]+$/.test(new URL(a.href).pathname);
+        }).map(a => {
+            const title = a.querySelector('h3, h4, .job-title') || a;
+            const loc = a.querySelector('.location, [class*="location"]');
+            return {
+                title: title.innerText.trim().split('\\n')[0],
+                url: a.href,
+                location: loc ? loc.innerText.trim() : ''
+            };
+        }).filter(j => j.title && j.url);
+    }""")
+
+
+async def scrape_recruitee(page, url):
+    await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+    try:
+        await page.wait_for_selector("a[href*='/o/'], .cb-job, .career__list-item", timeout=10000)
+    except PWTimeout:
+        return []
+    return await page.evaluate("""() => {
+        const links = document.querySelectorAll("a[href*='/o/']");
+        const seen = new Set();
+        return Array.from(links).filter(a => {
+            if (seen.has(a.href)) return false;
+            seen.add(a.href);
+            return true;
+        }).map(a => {
+            const title = a.querySelector('h3, h4') || a;
+            return {
+                title: title.innerText.trim().split('\\n')[0],
+                url: a.href,
+                location: ''
+            };
+        }).filter(j => j.title && j.url);
+    }""")
+
+
 async def scrape_workable(page, url):
     await page.goto(url, wait_until="networkidle", timeout=30000)
     try:
@@ -153,6 +204,8 @@ SCRAPERS = {
     "teamtailor_career": scrape_teamtailor,
     "teamtailor_careers": scrape_teamtailor,
     "workable": scrape_workable,
+    "smartrecruiters": scrape_smartrecruiters,
+    "recruitee": scrape_recruitee,
     "custom_jobs": scrape_greenhouse,
 }
 

@@ -1,16 +1,18 @@
 {
-  "_comment": "Audited list — every entry has a verified-live career page (probed 2026-05-11). Scraper uses the `url` field directly. Add new companies via scripts/find_ats.js.",
-  "_stats": "149 companies. SE=62 FI=23 NO=21 DK=30 EE=13",
+  "_comment": "Audited list — every entry has a verified-live career page (probed 2026-05-11). Scraper uses url field directly. Add via scripts/find_ats.js.",
+  "_stats": "156 companies. SE=64 FI=26 NO=21 DK=30 EE=15",
   "_by_tier": {
-    "scale": 57,
-    "growth": 42,
+    "scale": 61,
+    "growth": 45,
     "early": 50
   },
   "_by_ats": {
     "teamtailor_sub": 99,
-    "greenhouse": 24,
-    "ashby": 17,
-    "lever": 9
+    "greenhouse": 25,
+    "ashby": 18,
+    "lever": 9,
+    "smartrecruiters": 4,
+    "workable": 1
   },
   "companies": [
     {
@@ -182,6 +184,14 @@
       "tier": "scale"
     },
     {
+      "name": "Volvo Group",
+      "ats": "smartrecruiters",
+      "slug": "volvogroup",
+      "url": "https://careers.smartrecruiters.com/volvogroup",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
       "name": "Acast",
       "ats": "teamtailor_sub",
       "slug": "acast",
@@ -235,6 +245,14 @@
       "slug": "resolutiongames",
       "url": "https://jobs.resolutiongames.com/",
       "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Sana Labs",
+      "country": "SE",
+      "ats": "ashby",
+      "url": "https://jobs.ashbyhq.com/sana-roles",
+      "fromPage": "https://sanalabs.com/careers",
       "tier": "growth"
     },
     {
@@ -518,6 +536,14 @@
       "tier": "scale"
     },
     {
+      "name": "Konecranes",
+      "ats": "smartrecruiters",
+      "slug": "konecranes",
+      "url": "https://konecranes.careers/",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
       "name": "Neste",
       "ats": "greenhouse",
       "slug": "neste",
@@ -530,6 +556,14 @@
       "ats": "greenhouse",
       "slug": "nokia",
       "url": "https://jobs.nokia.com/en/sites/CX_1",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "name": "Nordcloud",
+      "ats": "smartrecruiters",
+      "slug": "nordcloud",
+      "url": "https://careers.smartrecruiters.com/nordcloud",
       "country": "FI",
       "tier": "scale"
     },
@@ -635,6 +669,14 @@
       "slug": "kemppi",
       "url": "https://careers.kemppi.com/jobs",
       "country": "FI",
+      "tier": "growth"
+    },
+    {
+      "name": "Oura",
+      "country": "FI",
+      "ats": "greenhouse",
+      "url": "https://job-boards.greenhouse.io/oura",
+      "fromPage": "https://ouraring.com/careers",
       "tier": "growth"
     },
     {
@@ -1110,6 +1152,14 @@
       "tier": "scale"
     },
     {
+      "name": "Nortal",
+      "ats": "smartrecruiters",
+      "slug": "nortal",
+      "url": "https://careers.smartrecruiters.com/nortal",
+      "country": "EE",
+      "tier": "scale"
+    },
+    {
       "name": "Pipedrive",
       "ats": "lever",
       "slug": "pipedrive",
@@ -1124,6 +1174,14 @@
       "url": "https://starship.teamtailor.com/jobs",
       "country": "EE",
       "tier": "scale"
+    },
+    {
+      "name": "Skeleton Technologies",
+      "country": "EE",
+      "ats": "workable",
+      "url": "https://apply.workable.com/skeletontech/",
+      "fromPage": "https://skeletontech.com/jobs",
+      "tier": "growth"
     },
     {
       "name": "Stardust",
