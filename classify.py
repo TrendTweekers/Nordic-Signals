@@ -25,8 +25,9 @@ OUT_DIR = ROOT / "data" / "classified"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 MODEL = "claude-haiku-4-5"
-CONCURRENCY = 12
+CONCURRENCY = 5   # Stay well under Anthropic tier-1 50 RPM. 5 concurrent ~ peak 40-45 RPM.
 CLASSIFY_LIMIT = int(os.environ.get("CLASSIFY_LIMIT", "1500"))
+MAX_RETRIES = 3
 
 client = AsyncAnthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
@@ -77,7 +78,7 @@ def _extract_json(text: str) -> dict:
         return {
             "department": "Other", "specialty": "", "seniority": "Other",
             "ai_signal": False, "infra_signal": False,
-            "is_relevant": True, "leadership_hire": False, "strategic_signal": "",
+            "is_relevant": False, "leadership_hire": False, "strategic_signal": "",
             "summary": "",
         }
 
@@ -85,28 +86,39 @@ def _extract_json(text: str) -> dict:
 async def classify_one(sem, job):
     async with sem:
         prompt = f"Title: {job['title']}\nCompany: {job['company']}\nLocation: {job.get('location','')}"
-        try:
-            resp = await client.messages.create(
-                model=MODEL,
-                max_tokens=400,
-                temperature=0.1,
-                system=[{
-                    "type": "text",
-                    "text": SYSTEM,
-                    "cache_control": {"type": "ephemeral"},
-                }],
-                messages=[{"role": "user", "content": prompt}],
-            )
-            text = "".join(b.text for b in resp.content if hasattr(b, "text"))
-            return _extract_json(text)
-        except Exception as e:
-            print(f"  classify error for {job.get('company','?')}::{job.get('title','?')}: {e}", flush=True)
-            return {
-                "department": "Other", "specialty": "", "seniority": "Other",
-                "ai_signal": False, "infra_signal": False,
-                "leadership_hire": False, "strategic_signal": "",
-                "summary": "",
-            }
+        last_err = None
+        for attempt in range(MAX_RETRIES):
+            try:
+                resp = await client.messages.create(
+                    model=MODEL,
+                    max_tokens=400,
+                    temperature=0.1,
+                    system=[{
+                        "type": "text",
+                        "text": SYSTEM,
+                        "cache_control": {"type": "ephemeral"},
+                    }],
+                    messages=[{"role": "user", "content": prompt}],
+                )
+                text = "".join(b.text for b in resp.content if hasattr(b, "text"))
+                return _extract_json(text)
+            except Exception as e:
+                last_err = e
+                msg = str(e)
+                # Exponential backoff on rate-limit / overload: 2s, 4s, 8s.
+                if "429" in msg or "rate_limit" in msg.lower() or "overloaded" in msg.lower():
+                    await asyncio.sleep(2 ** (attempt + 1))
+                    continue
+                break  # non-retryable
+        print(f"  classify error for {job.get('company','?')}::{job.get('title','?')}: {last_err}", flush=True)
+        # Fallback marks as NOT relevant — a failed classification shouldn't
+        # leak noise into the curated digest. The job remains in the snapshot.
+        return {
+            "department": "Other", "specialty": "", "seniority": "Other",
+            "ai_signal": False, "infra_signal": False,
+            "is_relevant": False, "leadership_hire": False, "strategic_signal": "",
+            "summary": "",
+        }
 
 
 async def main():
