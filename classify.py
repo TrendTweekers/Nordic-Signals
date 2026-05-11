@@ -1,15 +1,20 @@
 """
 Classifies new job postings via Anthropic Claude Haiku 4.5.
 
-Cost: ~$0.001 per job at haiku-4-5 pricing with system-prompt caching.
-The system prompt is cached (5-min TTL) so repeated runs within the same
-batch get a 90% discount on those input tokens.
+Parallel by default: AsyncAnthropic with a Semaphore(12). System prompt
+is prompt-cached (5-min TTL) so repeat input tokens within the run get
+a 90% discount.
+
+A first run after expanding the company list can produce thousands of
+"added" rows; CLASSIFY_LIMIT caps the per-run workload to keep latency
+sane. The cap only trims the digest, not the snapshot.
 """
+import asyncio
 import json
 import os
 from pathlib import Path
 
-from anthropic import Anthropic
+from anthropic import AsyncAnthropic
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -19,9 +24,11 @@ DIFF_DIR = ROOT / "data" / "diffs"
 OUT_DIR = ROOT / "data" / "classified"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-
 MODEL = "claude-haiku-4-5"
+CONCURRENCY = 12
+CLASSIFY_LIMIT = int(os.environ.get("CLASSIFY_LIMIT", "1500"))
+
+client = AsyncAnthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
 SYSTEM = """You classify tech job postings into structured signals for a Nordic AI/infra hiring tracker.
 
@@ -33,13 +40,12 @@ Return strict JSON with these fields:
 - infra_signal: boolean — true if it indicates platform/infra/scaling investment
 - summary: one sentence on what this role implies about the company's direction
 
-Output ONLY the JSON object. No markdown fences, no prose, no preamble."""
+Output ONLY the JSON object. No markdown fences, no prose."""
 
 
 def _extract_json(text: str) -> dict:
     text = text.strip()
     if text.startswith("```"):
-        # Strip ```json ... ``` fences if the model adds them
         text = text.strip("`")
         if text.lower().startswith("json"):
             text = text[4:].strip()
@@ -52,34 +58,48 @@ def _extract_json(text: str) -> dict:
         }
 
 
-def classify_one(job):
-    prompt = f"Title: {job['title']}\nCompany: {job['company']}\nLocation: {job.get('location','')}"
-    resp = client.messages.create(
-        model=MODEL,
-        max_tokens=400,
-        temperature=0.1,
-        system=[{
-            "type": "text",
-            "text": SYSTEM,
-            "cache_control": {"type": "ephemeral"},
-        }],
-        messages=[{"role": "user", "content": prompt}],
-    )
-    text = "".join(b.text for b in resp.content if hasattr(b, "text"))
-    return _extract_json(text)
+async def classify_one(sem, job):
+    async with sem:
+        prompt = f"Title: {job['title']}\nCompany: {job['company']}\nLocation: {job.get('location','')}"
+        try:
+            resp = await client.messages.create(
+                model=MODEL,
+                max_tokens=400,
+                temperature=0.1,
+                system=[{
+                    "type": "text",
+                    "text": SYSTEM,
+                    "cache_control": {"type": "ephemeral"},
+                }],
+                messages=[{"role": "user", "content": prompt}],
+            )
+            text = "".join(b.text for b in resp.content if hasattr(b, "text"))
+            return _extract_json(text)
+        except Exception as e:
+            print(f"  classify error for {job.get('company','?')}::{job.get('title','?')}: {e}", flush=True)
+            return {
+                "department": "Other", "specialty": "", "seniority": "Other",
+                "ai_signal": False, "infra_signal": False, "summary": "",
+            }
 
 
-def main():
+async def main():
     files = sorted(DIFF_DIR.glob("*.json"))
     if not files:
         raise SystemExit("No diffs found. Run diff.py first.")
     diff = json.loads(files[-1].read_text(encoding="utf-8"))
 
-    enriched = []
-    for j in diff["added"]:
-        tags = classify_one(j)
-        enriched.append({**j, **tags})
-        print(f"  {j['company']} :: {j['title']} -> {tags.get('specialty','')} ({tags.get('seniority','')})", flush=True)
+    added = diff["added"]
+    if len(added) > CLASSIFY_LIMIT:
+        print(f"Diff has {len(added)} added roles; capping classify to first {CLASSIFY_LIMIT}", flush=True)
+        added = added[:CLASSIFY_LIMIT]
+
+    sem = asyncio.Semaphore(CONCURRENCY)
+    print(f"Classifying {len(added)} roles with {CONCURRENCY} concurrent...", flush=True)
+
+    tasks = [classify_one(sem, j) for j in added]
+    tags_list = await asyncio.gather(*tasks)
+    enriched = [{**j, **t} for j, t in zip(added, tags_list)]
 
     out = OUT_DIR / f"{diff['date']}.json"
     out.write_text(json.dumps({
@@ -91,4 +111,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
