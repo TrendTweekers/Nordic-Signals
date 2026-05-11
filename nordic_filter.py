@@ -31,6 +31,7 @@ NON_NORDIC = re.compile(
     r"\b(baku|berlin|m[üu]nchen|munich|paris|madrid|barcelona|amsterdam|rotterdam|"
     r"dublin|london|manchester|edinburgh|glasgow|leeds|bristol|"
     r"new york|nyc|san francisco|sf bay|seattle|austin|boston|los angeles|chicago|"
+    r"san diego|"
     r"tokyo|osaka|seoul|singapore|hong kong|shanghai|beijing|shenzhen|taipei|"
     r"sydney|melbourne|toronto|vancouver|"
     r"dubai|abu dhabi|riyadh|tel aviv|jerusalem|istanbul|"
@@ -42,20 +43,44 @@ NON_NORDIC = re.compile(
     re.IGNORECASE,
 )
 
+# Title-level signal that the role is global ops, not Nordic-specific.
+# These keywords mean "country-X manager / regional-X / EMEA-wide" — almost
+# never the kind of Nordic-only signal a VC/recruiter wants.
+GLOBAL_OPS_TITLE = re.compile(
+    r"\b(country|regional|emea|apac|nam|latam|"
+    r"global|international|worldwide|"
+    r"asia[- ]pacific|north america|south america|"
+    r"middle east|africa|"
+    r"benelux|dach|iberia)\b",
+    re.IGNORECASE,
+)
+
 
 def is_nordic(job: dict) -> bool:
     loc = (job.get("location") or "").strip()
+    title = (job.get("title") or "").strip()
     country = (job.get("country") or "").strip().upper()
     nordic_country = country in {"SE", "NO", "DK", "FI", "EE"}
 
-    if not loc:
-        return nordic_country
+    # 1. Non-Nordic city baked into title (e.g. "Director, EMEA — Hybrid London")
+    if NON_NORDIC.search(title):
+        return False
 
+    # 2. Title is a clear global-ops role. These are pollutants even from
+    # Nordic-HQ companies (Wolt, Spotify, Pipedrive operate in 30+ countries).
+    # Allow only if the location field is an explicit Nordic city.
+    if GLOBAL_OPS_TITLE.search(title):
+        return bool(loc) and bool(NORDIC.search(loc))
+
+    # 3. Now apply the location rules
+    if not loc:
+        # No location — trust company-country tag
+        return nordic_country
     if NON_NORDIC.search(loc):
         return False
     if NORDIC.search(loc):
         return True
-    # ambiguous location with no exclusion match -> trust the company tag
+    # Ambiguous location with no exclusion match -> trust company-country tag
     return nordic_country
 
 
