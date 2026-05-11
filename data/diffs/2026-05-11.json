@@ -1,7 +1,7 @@
 {
   "date": "2026-05-11",
   "compared_to": null,
-  "added_count": 2381,
+  "added_count": 2382,
   "removed_count": 0,
   "added": [
     {
@@ -1957,6 +1957,14 @@
       "tier": "scale"
     },
     {
+      "title": "Senior Engineering Manager - Core Experience",
+      "url": "https://jobs.lever.co/spotify/a1983900-6166-433e-88e6-fd6f1eff6b01",
+      "location": "LONDON / STOCKHOLM",
+      "company": "Spotify",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
       "title": "Senior Machine Learning Engineer - Policy & Safety",
       "url": "https://jobs.lever.co/spotify/d83cbddf-871a-4f9a-9b29-52cd676e2b3c",
       "location": "LONDON / STOCKHOLM",
@@ -2487,6 +2495,22 @@
     {
       "title": "Senior Sales Engineer - Backstage",
       "url": "https://jobs.lever.co/spotify/345c2c98-5635-4575-9213-1ebbba0f9396",
+      "location": "NEW YORK, NY",
+      "company": "Spotify",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "title": "Senior Software Engineer - Platform Infrastructure",
+      "url": "https://jobs.lever.co/spotify/8b10d06e-0102-4306-831e-4949cb1cc753",
+      "location": "NEW YORK, NY",
+      "company": "Spotify",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "title": "Software Engineer - Platform Infrastructure",
+      "url": "https://jobs.lever.co/spotify/3707cd2f-202a-4aec-9de8-bf73a5a6e922",
       "location": "NEW YORK, NY",
       "company": "Spotify",
       "country": "SE",
@@ -4365,6 +4389,14 @@
       "tier": "growth"
     },
     {
+      "title": "Fleet Specialist - London",
+      "url": "https://careers.voi.com/jobs/7712704-fleet-specialist-london",
+      "location": "",
+      "company": "Voi",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
       "title": "Warehouse Operative- Aberdeen",
       "url": "https://careers.voi.com/jobs/7702047-warehouse-operative-aberdeen",
       "location": "",
@@ -4511,14 +4543,6 @@
     {
       "title": "Senior Fleet Specialist Team Lead - Aberdeen",
       "url": "https://careers.voi.com/jobs/7664955-senior-fleet-specialist-team-lead-aberdeen",
-      "location": "",
-      "company": "Voi",
-      "country": "SE",
-      "tier": "growth"
-    },
-    {
-      "title": "Engineering Manager – Monetisation",
-      "url": "https://careers.voi.com/jobs/7646190-engineering-manager-monetisation",
       "location": "",
       "company": "Voi",
       "country": "SE",
@@ -6013,14 +6037,6 @@
       "tier": "early"
     },
     {
-      "title": "Workplace Lead - Stockholm",
-      "url": "https://jobs.ashbyhq.com/legora/276ad82d-4f44-406e-9644-3f9080d1bf2d",
-      "location": "Stockholm HQ",
-      "company": "Legora",
-      "country": "SE",
-      "tier": "early"
-    },
-    {
       "title": "Workplace Lead - Sydney",
       "url": "https://jobs.ashbyhq.com/legora/bc0d8a15-18ab-46f0-ae2d-e9736f5128c6",
       "location": "Sydney",
@@ -6345,14 +6361,6 @@
       "url": "https://jobs.ashbyhq.com/legora/95d0e631-1b4c-4dce-9650-6225d285d04c",
       "location": "London",
       "company": "Legora",
-      "country": "SE",
-      "tier": "early"
-    },
-    {
-      "title": "DevOps Engineer - Stockholm",
-      "url": "https://careers.normative.io/jobs/5713897-devops-engineer-stockholm",
-      "location": "",
-      "company": "Normative",
       "country": "SE",
       "tier": "early"
     },
@@ -7031,7 +7039,7 @@
     {
       "title": "Global Mobility Specialist",
       "url": "https://jobs.ashbyhq.com/iceye/a5791b3f-c664-41ed-a7c8-b52fccdddd3a",
-      "location": "ICEYE HQ - Espoo, Athens Office, Valencia Office, UK, Warsaw Office",
+      "location": "Espoo, Athens Office, Valencia Office, UK, Warsaw Office",
       "company": "ICEYE",
       "country": "FI",
       "tier": "scale"
@@ -7224,6 +7232,14 @@
       "title": "Strategic Account Manager – Insurance and Banking",
       "url": "https://jobs.ashbyhq.com/iceye/edf13659-c648-4ca9-9676-cbf002b6aaef",
       "location": "Tokyo",
+      "company": "ICEYE",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Head of Marketing & Communications, Spain",
+      "url": "https://jobs.ashbyhq.com/iceye/66f14030-c56e-462b-a10a-e230ab9f76fa",
+      "location": "Valencia",
       "company": "ICEYE",
       "country": "FI",
       "tier": "scale"
@@ -7448,6 +7464,14 @@
       "title": "Senior Optical Systems Engineer",
       "url": "https://jobs.ashbyhq.com/iceye/3045d42d-9ffe-4e74-8a20-5df649ac0f9c",
       "location": "Warsaw Office",
+      "company": "ICEYE",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Head of Marketing & Communications, Greece",
+      "url": "https://jobs.ashbyhq.com/iceye/2cbbd1ca-91a4-4db9-a84a-b337af4306db",
+      "location": "Athens",
       "company": "ICEYE",
       "country": "FI",
       "tier": "scale"
@@ -7749,6 +7773,14 @@
       "tier": "scale"
     },
     {
+      "title": "Head of Marketing & Communications, Germany",
+      "url": "https://jobs.ashbyhq.com/iceye/8c7f1418-b15a-446d-b590-ce24ed00adcf",
+      "location": "Berlin",
+      "company": "ICEYE",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
       "title": "Subsystem Assembly Technician",
       "url": "https://jobs.ashbyhq.com/iceye/e276cf77-21f8-4509-b926-d9d24fda8d48",
       "location": "Greece",
@@ -7861,8 +7893,48 @@
       "tier": "scale"
     },
     {
+      "title": "Marketing Specialist",
+      "url": "https://careers.wolt.com/jobs/1/7904934",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Marketing Specialist",
+      "url": "https://careers.wolt.com/jobs/1/7907200",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
       "title": "Regional Content Manager",
       "url": "https://careers.wolt.com/jobs/1/7371888",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Retail Development Specialist",
+      "url": "https://careers.wolt.com/jobs/1/7893926",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Account Manager- Enterprise Supermarket",
+      "url": "https://careers.wolt.com/jobs/1/7904724",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "AI Transformation Lead",
+      "url": "https://careers.wolt.com/jobs/1/7907194",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8021,22 +8093,6 @@
       "tier": "scale"
     },
     {
-      "title": "Account Manager- Enterprise Supermarket",
-      "url": "https://careers.wolt.com/jobs/1/7904724",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Retail Development Specialist",
-      "url": "https://careers.wolt.com/jobs/1/7893926",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "Account Development Manager, Ads & Promotions",
       "url": "https://careers.wolt.com/jobs/1/7646231",
       "location": "",
@@ -8071,14 +8127,6 @@
     {
       "title": "Account Management Lead",
       "url": "https://careers.wolt.com/jobs/1/7824060",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Account Manager",
-      "url": "https://careers.wolt.com/jobs/1/7541437",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8230,7 +8278,7 @@
     },
     {
       "title": "Category Manager (WM)",
-      "url": "https://careers.wolt.com/jobs/1/7792492",
+      "url": "https://careers.wolt.com/jobs/1/7757547",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8238,7 +8286,7 @@
     },
     {
       "title": "Category Manager (WM)",
-      "url": "https://careers.wolt.com/jobs/1/7757547",
+      "url": "https://careers.wolt.com/jobs/1/7792492",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8414,7 +8462,7 @@
     },
     {
       "title": "Enterprise Ads Sales Manager",
-      "url": "https://careers.wolt.com/jobs/1/7559967",
+      "url": "https://careers.wolt.com/jobs/1/7346873",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8422,7 +8470,7 @@
     },
     {
       "title": "Enterprise Ads Sales Manager",
-      "url": "https://careers.wolt.com/jobs/1/7346873",
+      "url": "https://careers.wolt.com/jobs/1/7559967",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8510,55 +8558,7 @@
     },
     {
       "title": "Grocery Associate",
-      "url": "https://careers.wolt.com/jobs/1/6694612",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Grocery Associate",
-      "url": "https://careers.wolt.com/jobs/1/6822282",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Grocery Associate",
-      "url": "https://careers.wolt.com/jobs/1/7192386",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Grocery Associate",
-      "url": "https://careers.wolt.com/jobs/1/6694602",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Grocery Associate",
       "url": "https://careers.wolt.com/jobs/1/6694284",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Grocery Associate",
-      "url": "https://careers.wolt.com/jobs/1/6694232",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Grocery Associate",
-      "url": "https://careers.wolt.com/jobs/1/6693805",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8574,7 +8574,55 @@
     },
     {
       "title": "Grocery Associate",
+      "url": "https://careers.wolt.com/jobs/1/6822282",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Grocery Associate",
       "url": "https://careers.wolt.com/jobs/1/6693549",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Grocery Associate",
+      "url": "https://careers.wolt.com/jobs/1/7192386",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Grocery Associate",
+      "url": "https://careers.wolt.com/jobs/1/6693805",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Grocery Associate",
+      "url": "https://careers.wolt.com/jobs/1/6694232",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Grocery Associate",
+      "url": "https://careers.wolt.com/jobs/1/6694612",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Grocery Associate",
+      "url": "https://careers.wolt.com/jobs/1/6694602",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8598,7 +8646,7 @@
     },
     {
       "title": "Grocery Associate (part-time)",
-      "url": "https://careers.wolt.com/jobs/1/6695044",
+      "url": "https://careers.wolt.com/jobs/1/6823669",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8606,7 +8654,7 @@
     },
     {
       "title": "Grocery Associate (part-time)",
-      "url": "https://careers.wolt.com/jobs/1/6694940",
+      "url": "https://careers.wolt.com/jobs/1/6695044",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8622,7 +8670,7 @@
     },
     {
       "title": "Grocery Associate (part-time)",
-      "url": "https://careers.wolt.com/jobs/1/6823669",
+      "url": "https://careers.wolt.com/jobs/1/6694940",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8638,7 +8686,7 @@
     },
     {
       "title": "Grocery Associate (under 18 years old)",
-      "url": "https://careers.wolt.com/jobs/1/6873252",
+      "url": "https://careers.wolt.com/jobs/1/6694695",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8654,7 +8702,7 @@
     },
     {
       "title": "Grocery Associate (under 18 years old)",
-      "url": "https://careers.wolt.com/jobs/1/6694695",
+      "url": "https://careers.wolt.com/jobs/1/6884794",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8662,7 +8710,7 @@
     },
     {
       "title": "Grocery Associate (under 18 years old)",
-      "url": "https://careers.wolt.com/jobs/1/6884794",
+      "url": "https://careers.wolt.com/jobs/1/6873252",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8702,7 +8750,7 @@
     },
     {
       "title": "Grocery Associate - Youth Worker",
-      "url": "https://careers.wolt.com/jobs/1/6693439",
+      "url": "https://careers.wolt.com/jobs/1/7641140",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8710,7 +8758,7 @@
     },
     {
       "title": "Grocery Associate - Youth Worker",
-      "url": "https://careers.wolt.com/jobs/1/7641140",
+      "url": "https://careers.wolt.com/jobs/1/6693439",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8750,7 +8798,7 @@
     },
     {
       "title": "Grocery Shift Lead",
-      "url": "https://careers.wolt.com/jobs/1/6694954",
+      "url": "https://careers.wolt.com/jobs/1/6694791",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8766,7 +8814,7 @@
     },
     {
       "title": "Grocery Shift Lead",
-      "url": "https://careers.wolt.com/jobs/1/7532984",
+      "url": "https://careers.wolt.com/jobs/1/6694954",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8782,14 +8830,6 @@
     },
     {
       "title": "Grocery Shift Lead",
-      "url": "https://careers.wolt.com/jobs/1/6694791",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Grocery Shift Lead",
       "url": "https://careers.wolt.com/jobs/1/7169613",
       "location": "",
       "company": "Wolt",
@@ -8797,8 +8837,8 @@
       "tier": "scale"
     },
     {
-      "title": "Grocery Store Assistant",
-      "url": "https://careers.wolt.com/jobs/1/6693501",
+      "title": "Grocery Shift Lead",
+      "url": "https://careers.wolt.com/jobs/1/7532984",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -8807,6 +8847,14 @@
     {
       "title": "Grocery Store Assistant",
       "url": "https://careers.wolt.com/jobs/1/6693771",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Grocery Store Assistant",
+      "url": "https://careers.wolt.com/jobs/1/6693501",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -9302,6 +9350,14 @@
     },
     {
       "title": "Retail Grocery Assistant",
+      "url": "https://careers.wolt.com/jobs/1/6694528",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Retail Grocery Assistant",
       "url": "https://careers.wolt.com/jobs/1/6693444",
       "location": "",
       "company": "Wolt",
@@ -9310,15 +9366,7 @@
     },
     {
       "title": "Retail Grocery Assistant",
-      "url": "https://careers.wolt.com/jobs/1/6694523",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Retail Grocery Assistant",
-      "url": "https://careers.wolt.com/jobs/1/6694528",
+      "url": "https://careers.wolt.com/jobs/1/6797490",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -9334,7 +9382,7 @@
     },
     {
       "title": "Retail Grocery Assistant",
-      "url": "https://careers.wolt.com/jobs/1/6797490",
+      "url": "https://careers.wolt.com/jobs/1/6694523",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -9382,7 +9430,7 @@
     },
     {
       "title": "Sales Manager",
-      "url": "https://careers.wolt.com/jobs/1/7486630",
+      "url": "https://careers.wolt.com/jobs/1/7486647",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -9390,7 +9438,7 @@
     },
     {
       "title": "Sales Manager",
-      "url": "https://careers.wolt.com/jobs/1/7486647",
+      "url": "https://careers.wolt.com/jobs/1/7486630",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -9686,7 +9734,7 @@
     },
     {
       "title": "Store Manager",
-      "url": "https://careers.wolt.com/jobs/1/7817718",
+      "url": "https://careers.wolt.com/jobs/1/7218515",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -9694,7 +9742,7 @@
     },
     {
       "title": "Store Manager",
-      "url": "https://careers.wolt.com/jobs/1/7218515",
+      "url": "https://careers.wolt.com/jobs/1/7817718",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -9782,31 +9830,7 @@
     },
     {
       "title": "Support Associate",
-      "url": "https://careers.wolt.com/jobs/1/6693410",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Support Associate",
       "url": "https://careers.wolt.com/jobs/1/7538295",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Support Associate",
-      "url": "https://careers.wolt.com/jobs/1/6693754",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Support Associate",
-      "url": "https://careers.wolt.com/jobs/1/7678955",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -9822,6 +9846,14 @@
     },
     {
       "title": "Support Associate",
+      "url": "https://careers.wolt.com/jobs/1/6693754",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Support Associate",
       "url": "https://careers.wolt.com/jobs/1/6693568",
       "location": "",
       "company": "Wolt",
@@ -9829,8 +9861,16 @@
       "tier": "scale"
     },
     {
-      "title": "Support Associate - Full time",
-      "url": "https://careers.wolt.com/jobs/1/6694275",
+      "title": "Support Associate",
+      "url": "https://careers.wolt.com/jobs/1/7678955",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Support Associate",
+      "url": "https://careers.wolt.com/jobs/1/6693410",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -9894,15 +9934,7 @@
     },
     {
       "title": "Support Team Lead",
-      "url": "https://careers.wolt.com/jobs/1/7757660",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
-      "title": "Support Team Lead",
-      "url": "https://careers.wolt.com/jobs/1/7547095",
+      "url": "https://careers.wolt.com/jobs/1/7618157",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -9918,7 +9950,15 @@
     },
     {
       "title": "Support Team Lead",
-      "url": "https://careers.wolt.com/jobs/1/7618157",
+      "url": "https://careers.wolt.com/jobs/1/7547095",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Support Team Lead",
+      "url": "https://careers.wolt.com/jobs/1/7757660",
       "location": "",
       "company": "Wolt",
       "country": "FI",
@@ -10565,14 +10605,6 @@
       "tier": "scale"
     },
     {
-      "title": "מלקטים- וולט מרקט- רמת השרון",
-      "url": "https://careers.wolt.com/jobs/3/6693384",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "מלקטים - וולט מרקט - רעננה",
       "url": "https://careers.wolt.com/jobs/3/6694134",
       "location": "",
@@ -10741,14 +10773,6 @@
       "tier": "scale"
     },
     {
-      "title": "נציגי שירות בצ׳אט - תל אביב",
-      "url": "https://careers.wolt.com/jobs/3/6693375",
-      "location": "",
-      "company": "Wolt",
-      "country": "FI",
-      "tier": "scale"
-    },
-    {
       "title": "Lead AI Consultant",
       "url": "https://career.eficode.com/jobs/7597127-lead-ai-consultant",
       "location": "",
@@ -10879,6 +10903,14 @@
     {
       "title": "Senior Product Engineer - Integrations",
       "url": "https://jobs.lever.co/frontify/9b006c21-0ef2-43fd-94df-6cdb1abeae53",
+      "location": "SANKT GALLEN METROPOLITAN AREA",
+      "company": "Frontify Finland",
+      "country": "FI",
+      "tier": "growth"
+    },
+    {
+      "title": "Principal Product Designer - Design Systems",
+      "url": "https://jobs.lever.co/frontify/8198cb35-3012-4663-92d2-bddda9d2d357",
       "location": "SANKT GALLEN METROPOLITAN AREA",
       "company": "Frontify Finland",
       "country": "FI",
@@ -11325,7 +11357,7 @@
       "tier": "growth"
     },
     {
-      "title": "Senior Product Designer, MobileNew\n\nHybrid - Helsinki, Uusimaa",
+      "title": "Senior Product Designer, Mobiletags.new\n\nHybrid - Helsinki, Uusimaa",
       "url": "https://job-boards.greenhouse.io/oura/jobs/4242570009",
       "location": "",
       "company": "Oura",
@@ -11373,7 +11405,7 @@
       "tier": "growth"
     },
     {
-      "title": "Finance Manager, Operations Excellence New\n\nHybrid - San Francisco, California",
+      "title": "Finance Manager, Operations Excellence tags.new\n\nHybrid - San Francisco, California",
       "url": "https://job-boards.greenhouse.io/oura/jobs/4241800009",
       "location": "",
       "company": "Oura",
@@ -11501,7 +11533,7 @@
       "tier": "growth"
     },
     {
-      "title": "Staff Materials Engineer, Metals New\n\nHybrid - San Francisco, California",
+      "title": "Staff Materials Engineer, Metals tags.new\n\nHybrid - San Francisco, California",
       "url": "https://job-boards.greenhouse.io/oura/jobs/4240398009",
       "location": "",
       "company": "Oura",
@@ -11837,6 +11869,14 @@
       "tier": "early"
     },
     {
+      "title": "Head of Payload Architecture",
+      "url": "https://careers.reorbit.space/jobs/7577806-head-of-payload-architecture",
+      "location": "",
+      "company": "ReOrbit",
+      "country": "FI",
+      "tier": "early"
+    },
+    {
       "title": "Head of Propulsion",
       "url": "https://careers.reorbit.space/jobs/7571128-head-of-propulsion",
       "location": "",
@@ -11949,15 +11989,7 @@
       "tier": "early"
     },
     {
-      "title": "Avionics System Engineer",
-      "url": "https://careers.reorbit.space/jobs/5685519-avionics-system-engineer",
-      "location": "",
-      "company": "ReOrbit",
-      "country": "FI",
-      "tier": "early"
-    },
-    {
-      "title": "Show 3 more",
+      "title": "Show 4 more",
       "url": "https://careers.reorbit.space/jobs/show_more?page=2",
       "location": "",
       "company": "ReOrbit",
@@ -12237,6 +12269,14 @@
       "tier": "scale"
     },
     {
+      "title": "Analyst - Operations (R-18931)",
+      "url": "https://jobs.lever.co/dnb/731c2d08-7e1f-4c7f-8b1e-9e0b23a354e4",
+      "location": "MUMBAI - INDIA",
+      "company": "DNB",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
       "title": "Analyst II - Operations (R-18893)",
       "url": "https://jobs.lever.co/dnb/b77fb86b-25c2-485f-999f-a51ec7f62e2a",
       "location": "MUMBAI - INDIA",
@@ -12287,6 +12327,14 @@
     {
       "title": "Technical Customer Implementation Specialist (R-19026)",
       "url": "https://jobs.lever.co/dnb/41f8cbd7-30da-4fb2-bc1b-e1e177b5790b",
+      "location": "WARSAW - POLAND",
+      "company": "DNB",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "title": "Talent Acquisition Associate, 12 month fixed term contract (R-19193)",
+      "url": "https://jobs.lever.co/dnb/6801865b-2be8-4ae7-9f16-5cfdc2965c25",
       "location": "WARSAW - POLAND",
       "company": "DNB",
       "country": "NO",
@@ -12784,6 +12832,14 @@
       "title": "Senior Software Engineer",
       "url": "https://jobs.lever.co/dnb/fcb14739-c01c-41d9-a170-dec5f77d1465",
       "location": "JACKSONVILLE - FLORIDA - UNITED STATES",
+      "company": "DNB",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "title": "Workplace Support Engineer - m/f/d (R-19101)",
+      "url": "https://jobs.lever.co/dnb/d48cfbe7-4786-40eb-93de-79b4967a29df",
+      "location": "WARSAW - POLAND",
       "company": "DNB",
       "country": "NO",
       "tier": "scale"
@@ -15229,30 +15285,6 @@
       "tier": "scale"
     },
     {
-      "title": "Associate Affiliate Marketing Manager",
-      "url": "https://jobs.lever.co/pipedrive/4e23e635-8ee3-4c6b-a414-f23477036795",
-      "location": "USA, FLORIDA",
-      "company": "Pipedrive",
-      "country": "EE",
-      "tier": "scale"
-    },
-    {
-      "title": "Paid Social Lead",
-      "url": "https://jobs.lever.co/pipedrive/89c2cb41-457c-4174-a7d8-7f5d44ff7327",
-      "location": "GERMANY, BERLIN",
-      "company": "Pipedrive",
-      "country": "EE",
-      "tier": "scale"
-    },
-    {
-      "title": "Paid Social Lead",
-      "url": "https://jobs.lever.co/pipedrive/b5b1b2b2-c551-43db-84a3-16355fa09d21",
-      "location": "UK, LONDON",
-      "company": "Pipedrive",
-      "country": "EE",
-      "tier": "scale"
-    },
-    {
       "title": "SEM Analyst",
       "url": "https://jobs.lever.co/pipedrive/a7ff04e3-c824-4348-9d33-b9636fce97c7",
       "location": "GERMANY, BERLIN",
@@ -15413,14 +15445,6 @@
       "tier": "scale"
     },
     {
-      "title": "Customer Success Manager - French Speaker",
-      "url": "https://jobs.lever.co/pipedrive/070e4b83-3640-42ad-aebb-33d3974b33ca",
-      "location": "PORTUGAL, LISBON",
-      "company": "Pipedrive",
-      "country": "EE",
-      "tier": "scale"
-    },
-    {
       "title": "Sales Development Representative",
       "url": "https://jobs.lever.co/pipedrive/9a89b9b5-9e60-477b-a3a8-289d3dbb9a70",
       "location": "PORTUGAL, LISBON",
@@ -15443,38 +15467,6 @@
       "company": "Starship Technologies",
       "country": "EE",
       "tier": "scale"
-    },
-    {
-      "title": "SVP of Sales & Marketing (m/f/x)",
-      "url": "https://apply.workable.com/skeletontech/j/D2B7397241/",
-      "location": "Houston, Texas, United States",
-      "company": "Skeleton Technologies",
-      "country": "EE",
-      "tier": "growth"
-    },
-    {
-      "title": "Application Engineer- Data Centers (m/f/x)",
-      "url": "https://apply.workable.com/skeletontech/j/9E9972DDCE/",
-      "location": "Houston, Texas, United States",
-      "company": "Skeleton Technologies",
-      "country": "EE",
-      "tier": "growth"
-    },
-    {
-      "title": "Senior Sales Manager - Grid (m/f/x)",
-      "url": "https://apply.workable.com/skeletontech/j/B95C98A4AA/",
-      "location": "United States",
-      "company": "Skeleton Technologies",
-      "country": "EE",
-      "tier": "growth"
-    },
-    {
-      "title": "Senior Sales Manager - Data Centers (m/f/x)",
-      "url": "https://apply.workable.com/skeletontech/j/465C3C4549/",
-      "location": "United States",
-      "company": "Skeleton Technologies",
-      "country": "EE",
-      "tier": "growth"
     },
     {
       "title": "Nordic Sales Manager",
@@ -15667,6 +15659,15 @@
       "company": "Pactum AI",
       "country": "EE",
       "tier": "early"
+    },
+    {
+      "title": "Software Engineer Associate",
+      "url": "https://www.techrytera.se/jobs/7711924-software-engineer-associate/applications/new?promotion=1991696-arbetsformedlingen",
+      "location": "Eskilstuna",
+      "company": "Techrytera AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
     },
     {
       "title": "Junior Software Engineer",
@@ -16029,10 +16030,37 @@
       "source": "jobtech"
     },
     {
-      "title": "Senior Software Engineer (Go) - Product Teams",
-      "url": "https://karriar.apotea.se/jobs/7274230-senior-software-engineer-go-product-teams/applications/new?promotion=1861985-arbetsformedlingen",
+      "title": "Senior Data Engineer",
+      "url": "https://2mnordic.com/career",
+      "location": "Malmö",
+      "company": "2Mnordic IT Consulting AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Systemutvecklare inom PL SQL till Karlstad",
+      "url": "https://www.academicwork.se/lediga-jobb/p/platsbanken/Z00LUF",
+      "location": "Karlstad",
+      "company": "Academic Work Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior systemutvecklare .NET och Webb",
+      "url": "https://jobb.eidasystems.com/jobs/7702491-senior-systemutvecklare-net-och-webb/applications/new?promotion=1991689-arbetsformedlingen",
       "location": "Stockholm",
-      "company": "Apotea Sverige AB",
+      "company": "Eida Systems AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Junior systemutvecklare .NET och Webb",
+      "url": "https://jobb.eidasystems.com/jobs/7703496-junior-systemutvecklare-net-och-webb/applications/new?promotion=1991675-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Eida Systems AB",
       "country": "SE",
       "tier": "aggregator",
       "source": "jobtech"
@@ -16560,15 +16588,6 @@
       "source": "jobtech"
     },
     {
-      "title": "Senior Integration Architect & Developer",
-      "url": "https://jobs.avaron.se/jobs/7700874-senior-integration-architect-developer/applications/new?promotion=1988041-arbetsformedlingen",
-      "location": "Göteborg",
-      "company": "Avaron AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
       "title": "Junior front-end developer",
       "url": "https://arbetsformedlingen.se/platsbanken/annonser/31009720",
       "location": "Göteborg",
@@ -16866,33 +16885,6 @@
       "source": "jobtech"
     },
     {
-      "title": "System Technician  Datacenter Operations & Infrastructure  17604",
-      "url": "https://veritaz.se/jobs/system-technician-datacenter-operations-infrastructure-17604/",
-      "location": "",
-      "company": "Veritaz AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Electrical Engineer / Battery Specialist  17594",
-      "url": "https://veritaz.se/jobs/electrical-engineer-battery-specialist-17594/",
-      "location": "",
-      "company": "Veritaz AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Qlik Sense Developer  17573",
-      "url": "https://veritaz.se/jobs/qlik-sense-developer-17573/",
-      "location": "",
-      "company": "Veritaz AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
       "title": "Azure Data Engineer  17668",
       "url": "https://veritaz.se/jobs/azure-data-engineer-17668/",
       "location": "",
@@ -17041,24 +17033,6 @@
       "url": "https://veritaz.se/jobs/senior-data-engineer-databricks-bi-platform-17578/",
       "location": "",
       "company": "Veritaz AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Senior Data Engineer",
-      "url": "https://jobs.smartrecruiters.com/Vattenfall/744000123922609-senior-data-engineer",
-      "location": "Solna",
-      "company": "Vattenfall AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Senior Data Engineer - Data & AI",
-      "url": "https://karriar.apotea.se/jobs/7274208-senior-data-engineer-data-ai/applications/new?promotion=1978112-arbetsformedlingen",
-      "location": "Stockholm",
-      "company": "Apotea Sverige AB",
       "country": "SE",
       "tier": "aggregator",
       "source": "jobtech"
@@ -17442,6 +17416,15 @@
       "source": "jobtech"
     },
     {
+      "title": "Platform Engineer",
+      "url": "https://web103.reachmee.com/ext/I022/1971/main?site=7&validator=6a1d9db4a8aa82e7ae245334b45bee12&lang=SE&rmpage=job&rmjob=846&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Karlstad",
+      "company": "Ellevio Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
       "title": "Cloud & DevOps Engineer – Platform & Operations, till Pågen",
       "url": "https://career.cabeza.se/jobs/7704388-cloud-devops-engineer-platform-operations-till-pagen/applications/new?promotion=1991316-arbetsformedlingen",
       "location": "Malmö",
@@ -17545,6 +17528,78 @@
       "url": "https://careers.lendo.se/jobs/7647582-devops-lead/applications/new?promotion=1978541-arbetsformedlingen",
       "location": "Stockholm",
       "company": "Lendo AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Fullstackutvecklare inom .NET & Angular",
+      "url": "https://www.unikresurs.se/lediga-tjanster/?mtrpage=assignment&mtrt=ams&mtrid=9651",
+      "location": "Finspång",
+      "company": "Unik Resurs i Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Field service specialist till Metso i Smedjebacken!",
+      "url": "https://clockworkpeople.se/annons/18146/",
+      "location": "Smedjebacken",
+      "company": "Clockwork Bemanning & Rekrytering AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Field service specialist till Metso i Smedjebacken!",
+      "url": "https://clockworkpeople.se/annons/18122/",
+      "location": "Ludvika",
+      "company": "Clockwork Bemanning & Rekrytering AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Kvalitetsansvarig QA/QC",
+      "url": "https://web103.reachmee.com/ext/I003/475/main?site=2&validator=be182e4eb75429bedb0ddaafd3755823&lang=SE&rmpage=job&rmjob=11231&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Borlänge",
+      "company": "Bravida Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Design Engineer",
+      "url": "https://poolia.se/jobb/6769",
+      "location": "Helsingborg",
+      "company": "Poolia AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "RAMS/LCC Engineer",
+      "url": "https://web103.reachmee.com/ext/I005/1037/main?site=6&validator=a76688abe1093eba103351d35324a049&lang=UK&rmpage=job&rmjob=513&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Falun",
+      "company": "Dellner Couplers AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Tech Area QA Owner",
+      "url": "https://jobs.arrowheadgamestudios.com/jobs/7711548-tech-area-qa-owner/applications/new?promotion=1991802-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Arrowhead Game Studios AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Customer Support Agent to TaxiCaller",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31020659",
+      "location": "Linköping",
+      "company": "Taxicaller Nordic AB",
       "country": "SE",
       "tier": "aggregator",
       "source": "jobtech"
@@ -18234,64 +18289,19 @@
       "source": "jobtech"
     },
     {
-      "title": "Test & Verification Engineer",
-      "url": "https://assaabloy.jobs2web.com/job/Stockholm-Test-&-Verification-Engineer-SE-117-59/1365741733/",
-      "location": "Stockholm",
-      "company": "ASSA ABLOY AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Backend Engineer  – Cloud and Mobile Wallet",
-      "url": "https://assaabloy.jobs2web.com/job/Stockholm-Backend-Engineer-SE-117-59/1142335101/",
-      "location": "Stockholm",
-      "company": "ASSA ABLOY AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Vi söker en engagerad Lagerchef till Jula Logistics",
-      "url": "https://candidate.hr-manager.net/ApplicationInit.aspx?cid=1173&ProjectId=148240&DepartmentId=19147&MediaId=4672&utm_medium=talentech_publishing&utm_source=jobtip",
-      "location": "Falköping",
-      "company": "Jula Logistics AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Senior Backend Engineer",
-      "url": "https://assaabloy.jobs2web.com/job/Stockholm-Senior-Backend-Engineer-SE-117-59/1291860301/",
-      "location": "Stockholm",
-      "company": "ASSA ABLOY AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Gruppchef",
-      "url": "https://www.adecco.com/sv-se/ansok?zlid=b176f7f8-020d-421a-b014-3c05e30a4984&src=ams_direct",
-      "location": "Kiruna",
-      "company": "Adecco Sweden AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Sales Representative  Technical B2B",
-      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31001276",
-      "location": "Kiruna",
-      "company": "TEED Maintenance & Tires AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
       "title": "INFORMATION SECURITY ENGINEER",
       "url": "https://pnty-apply.ponty-system.se/friday?id=4638&pnty_src=platsbanken",
       "location": "Linköping",
       "company": "Friday Väst AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "BI-utvecklare",
+      "url": "https://jobb.rasulson.com/jobs/7712469-bi-utvecklare",
+      "location": "Stockholm",
+      "company": "Rasulson Consulting AB",
       "country": "SE",
       "tier": "aggregator",
       "source": "jobtech"
@@ -18612,6 +18622,24 @@
       "source": "jobtech"
     },
     {
+      "title": "Backend Engineer  – Cloud and Mobile Wallet",
+      "url": "https://assaabloy.jobs2web.com/job/Stockholm-Backend-Engineer-SE-117-59/1142335101/",
+      "location": "Stockholm",
+      "company": "ASSA ABLOY AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Backend Engineer",
+      "url": "https://assaabloy.jobs2web.com/job/Stockholm-Senior-Backend-Engineer-SE-117-59/1291860301/",
+      "location": "Stockholm",
+      "company": "ASSA ABLOY AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
       "title": "Fullstackutvecklare med 5 års erfarenhet",
       "url": "https://arbetsformedlingen.se/platsbanken/annonser/31001867",
       "location": "Stockholm",
@@ -18801,24 +18829,6 @@
       "source": "jobtech"
     },
     {
-      "title": "Senior Backend Engineer",
-      "url": "https://careers.umain.com/jobs/7639560-senior-backend-engineer/applications/new?promotion=1979915-arbetsformedlingen",
-      "location": "Stockholm",
-      "company": "Umain AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Senior Web Developer",
-      "url": "https://careers.umain.com/jobs/7639931-senior-web-developer/applications/new?promotion=1979758-arbetsformedlingen",
-      "location": "Stockholm",
-      "company": "Umain AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
       "title": "Erfaren Frontendutvecklare inom React till Teknisk Bolag i Göteborg!",
       "url": "https://pnty-apply.ponty-system.se/friday?id=4636&pnty_src=platsbanken",
       "location": "Göteborg",
@@ -18900,6 +18910,24 @@
       "source": "jobtech"
     },
     {
+      "title": "Senior Backend Engineer",
+      "url": "https://careers.umain.com/jobs/7639560-senior-backend-engineer/applications/new?promotion=1979915-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Umain AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Web Developer",
+      "url": "https://careers.umain.com/jobs/7639931-senior-web-developer/applications/new?promotion=1979758-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Umain AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
       "title": "Product Analytics Engineer",
       "url": "http://app.jobvite.com/m?3aS3tnwq",
       "location": "Stockholm",
@@ -18940,15 +18968,6 @@
       "url": "https://careers.lendo.se/jobs/7646896-senior-frontend-developer/applications/new?promotion=1978545-arbetsformedlingen",
       "location": "Stockholm",
       "company": "Lendo AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Fullstackutvecklare | Contact Center Tools",
-      "url": "https://easyapply.jobs/r/uH0WJ9u26oJ0iukhRRV",
-      "location": "Stockholm",
-      "company": "Hi3G Access AB",
       "country": "SE",
       "tier": "aggregator",
       "source": "jobtech"
@@ -19084,6 +19103,24 @@
       "url": "https://poolia.se/jobb/6693",
       "location": "Östersund",
       "company": "Poolia AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Application Security Architect",
+      "url": "https://jobs.avaron.se/jobs/7712225-senior-application-security-architect/applications/new?promotion=1991870-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Junior inköpare till Boden!",
+      "url": "https://apply.recman.page/job_post.php?id=475252&sub_id=985&path=ams",
+      "location": "Boden",
+      "company": "Professionals Nord Norra Norrland AB",
       "country": "SE",
       "tier": "aggregator",
       "source": "jobtech"
@@ -19444,33 +19481,6 @@
       "url": "https://openings.incluso.se/jobs/7683791-plm-test-lead-smart-product-platform/applications/new?promotion=1982585-arbetsformedlingen",
       "location": "Lund",
       "company": "Incluso AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Shift Leader Front Office Scandic Infra City, heltid",
-      "url": "https://arbetsformedlingen.se/platsbanken/annonser/30997734",
-      "location": "Stockholm",
-      "company": "Scandic Hotels AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Principal Consultant/ Industry Principal",
-      "url": "https://arbetsformedlingen.se/platsbanken/annonser/30997730",
-      "location": "Stockholm",
-      "company": "Infosys Technologies (Sweden) AB",
-      "country": "SE",
-      "tier": "aggregator",
-      "source": "jobtech"
-    },
-    {
-      "title": "Nattreceptionister med erfarenhet från Opera, MEWS & HMS",
-      "url": "https://jobb.rahospitality.se/jobs/3053745-nattreceptionister-med-erfarenhet-fran-opera-mews-hms/applications/new?promotion=1982529-arbetsformedlingen",
-      "location": "Stockholm",
-      "company": "RA Hospitality i Göteborg AB",
       "country": "SE",
       "tier": "aggregator",
       "source": "jobtech"
