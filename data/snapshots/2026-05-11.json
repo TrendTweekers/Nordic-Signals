@@ -1,7 +1,7 @@
 {
   "date": "2026-05-11",
-  "scraped_at": "2026-05-11T07:39:00.668107+00:00",
-  "total_jobs": 1489,
+  "scraped_at": "2026-05-11T07:48:36.779845+00:00",
+  "total_jobs": 1488,
   "jobs": [
     {
       "title": "Budbilschaufför - sommarjobb",
@@ -572,8 +572,8 @@
       "tier": "scale"
     },
     {
-      "title": "Corporate Sales Manager",
-      "url": "https://polestar.teamtailor.com/jobs/7708312-corporate-sales-manager",
+      "title": "Corporate Sales Manager (Oeiras)",
+      "url": "https://polestar.teamtailor.com/jobs/7708312-corporate-sales-manager-oeiras",
       "location": "",
       "company": "Polestar",
       "country": "SE",
@@ -7636,6 +7636,14 @@
       "tier": "growth"
     },
     {
+      "title": "Customer Solutions Manager/Technical Sales Engineer",
+      "url": "https://iqm.teamtailor.com/jobs/7547514-customer-solutions-manager-technical-sales-engineer",
+      "location": "",
+      "company": "IQM Quantum",
+      "country": "FI",
+      "tier": "growth"
+    },
+    {
       "title": "Senior Communications Manager",
       "url": "https://iqm.teamtailor.com/jobs/7501397-senior-communications-manager",
       "location": "",
@@ -7766,14 +7774,6 @@
     {
       "title": "Quantum Engineer, Calibration & Benchmarking",
       "url": "https://iqm.teamtailor.com/jobs/7549223-quantum-engineer-calibration-benchmarking",
-      "location": "",
-      "company": "IQM Quantum",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Customer Solutions Manager/Technical Sales Engineer",
-      "url": "https://iqm.teamtailor.com/jobs/7547514-customer-solutions-manager-technical-sales-engineer",
       "location": "",
       "company": "IQM Quantum",
       "country": "FI",
@@ -11357,14 +11357,6 @@
     },
     {
       "title": "Junior Data Engineer",
-      "url": "https://jobs.lever.co/pipedrive/5a2b7d62-0461-44e5-b849-54c7837f9700",
-      "location": "ESTONIA, TALLINN",
-      "company": "Pipedrive",
-      "country": "EE",
-      "tier": "scale"
-    },
-    {
-      "title": "Junior Data Engineer",
       "url": "https://jobs.lever.co/pipedrive/f91e53d2-47d0-4f79-bc0a-2514b765e97b",
       "location": "ESTONIA, TARTU",
       "company": "Pipedrive",
@@ -11788,8 +11780,8 @@
       "tier": "early"
     },
     {
-      "title": "Full-Stack JavaScript Developer",
-      "url": "https://careers.adcash.com/jobs/6560767-full-stack-javascript-developer",
+      "title": "Social Media Specialist",
+      "url": "https://careers.adcash.com/jobs/7401106-social-media-specialist",
       "location": "",
       "company": "Adcash",
       "country": "EE",
