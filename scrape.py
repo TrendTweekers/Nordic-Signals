@@ -99,7 +99,12 @@ async def scrape_ashby(page, url):
         if isinstance(x, str):
             return x
         if isinstance(x, dict):
-            return x.get("name") or x.get("address") or ""
+            # Ashby secondary shape: {"location": "Boston", "address": {postalAddress: {...}}}
+            # Other shapes use "name" or "city". Never return a nested dict.
+            for k in ("location", "name", "city"):
+                v = x.get(k)
+                if isinstance(v, str) and v:
+                    return v
         return ""
     jobs = []
     for j in data.get("jobs", []):
