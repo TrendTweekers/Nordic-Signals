@@ -1,6 +1,6 @@
 {
   "date": "2026-05-11",
-  "scraped_at": "2026-05-11T07:48:36.779845+00:00",
+  "scraped_at": "2026-05-11T07:59:10.668663+00:00",
   "total_jobs": 1488,
   "jobs": [
     {
@@ -7620,6 +7620,14 @@
       "tier": "growth"
     },
     {
+      "title": "Purchasing Specialist",
+      "url": "https://iqm.teamtailor.com/jobs/7705723-purchasing-specialist",
+      "location": "",
+      "company": "IQM Quantum",
+      "country": "FI",
+      "tier": "growth"
+    },
+    {
       "title": "Senior/Staff Quantum Error Correction Engineer",
       "url": "https://iqm.teamtailor.com/jobs/7634424-senior-staff-quantum-error-correction-engineer",
       "location": "",
@@ -7710,14 +7718,6 @@
     {
       "title": "Quantum Error Correction Software Engineer",
       "url": "https://iqm.teamtailor.com/jobs/7711097-quantum-error-correction-software-engineer",
-      "location": "",
-      "company": "IQM Quantum",
-      "country": "FI",
-      "tier": "growth"
-    },
-    {
-      "title": "Purchasing Specialist",
-      "url": "https://iqm.teamtailor.com/jobs/7705723-purchasing-specialist",
       "location": "",
       "company": "IQM Quantum",
       "country": "FI",
