@@ -1,26 +1,650 @@
 {
-  "_comment": "Audited list — every entry was verified to return a live career page on 2026-05-11. To add a new company: find the real career URL, identify the ATS (Greenhouse / Lever / Ashby / Teamtailor / Workable), confirm the slug, then add a row. Speculative slugs waste scrape time and pollute the digest with errors.",
-  "_country_breakdown": "SE 11 / NO 2 / FI 1 / DK 2 = 16",
-  "_next_step": "Use scripts/find_ats.js (or just paste a company name to Claude) to discover the right ATS for any other company you want to track. Add ~5-10 at a time as you verify each.",
+  "_comment": "Audited list — every entry has a verified-alive career page (probed 2026-05-11). Run scripts/find_ats.js for any new addition; speculation pollutes the digest.",
+  "_stats": "92 companies. SE=46 FI=9 NO=16 DK=20 EE=1",
   "companies": [
-    { "name": "Yubico", "ats": "greenhouse", "slug": "yubico", "country": "SE", "tier": "scale" },
-    { "name": "Hemnet", "ats": "teamtailor_sub", "slug": "hemnet", "country": "SE", "tier": "scale" },
-    { "name": "Avanza", "ats": "teamtailor_sub", "slug": "avanza", "country": "SE", "tier": "scale" },
-    { "name": "Lovable", "ats": "ashby", "slug": "lovable", "country": "SE", "tier": "growth" },
-    { "name": "Recorded Future", "ats": "greenhouse", "slug": "recordedfuture", "country": "SE", "tier": "scale" },
-    { "name": "Detectify", "ats": "teamtailor_sub", "slug": "detectify", "country": "SE", "tier": "growth" },
-    { "name": "Mentimeter", "ats": "greenhouse", "slug": "mentimeter", "country": "SE", "tier": "growth" },
-    { "name": "Aira", "ats": "teamtailor_sub", "slug": "airahome", "country": "SE", "tier": "growth" },
-    { "name": "Star Stable", "ats": "teamtailor_sub", "slug": "starstable", "country": "SE", "tier": "growth" },
-    { "name": "Roxen", "ats": "teamtailor_sub", "slug": "roxen", "country": "SE", "tier": "growth" },
-    { "name": "Klövern", "ats": "teamtailor_sub", "slug": "klovern", "country": "SE", "tier": "scale" },
-
-    { "name": "Wolt", "ats": "greenhouse", "slug": "wolt", "country": "FI", "tier": "scale" },
-
-    { "name": "Visma", "ats": "teamtailor_sub", "slug": "visma", "country": "NO", "tier": "scale" },
-    { "name": "Vipps MobilePay", "ats": "teamtailor_sub", "slug": "vipps", "country": "NO", "tier": "scale" },
-
-    { "name": "Trustpilot", "ats": "greenhouse", "slug": "trustpilot", "country": "DK", "tier": "scale" },
-    { "name": "Too Good To Go", "ats": "greenhouse", "slug": "toogoodtogo", "country": "DK", "tier": "scale" }
+    {
+      "name": "Avanza",
+      "ats": "teamtailor_sub",
+      "slug": "avanza",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Budbee",
+      "ats": "teamtailor_sub",
+      "slug": "budbee",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Embark Studios",
+      "ats": "teamtailor_sub",
+      "slug": "embarkstudios",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Heart Aerospace",
+      "ats": "greenhouse",
+      "slug": "heartaerospace",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Hemnet",
+      "ats": "teamtailor_sub",
+      "slug": "hemnet",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Instabox",
+      "ats": "teamtailor_sub",
+      "slug": "instabox",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Klarna",
+      "ats": "teamtailor_sub",
+      "slug": "klarna",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Lovable",
+      "ats": "greenhouse",
+      "slug": "lovable",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Mathem",
+      "ats": "teamtailor_sub",
+      "slug": "mathem",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Polestar",
+      "ats": "teamtailor_sub",
+      "slug": "polestar",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Recorded Future",
+      "ats": "greenhouse",
+      "slug": "recordedfuture",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Schibsted",
+      "ats": "teamtailor_sub",
+      "slug": "schibsted",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Spotify",
+      "ats": "lever",
+      "slug": "spotify",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Star Stable",
+      "ats": "teamtailor_sub",
+      "slug": "starstable",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Storytel",
+      "ats": "teamtailor_sub",
+      "slug": "storytel",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Tibber",
+      "ats": "teamtailor_sub",
+      "slug": "tibber",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Tobii",
+      "ats": "teamtailor_sub",
+      "slug": "tobii",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Trustly",
+      "ats": "lever",
+      "slug": "trustly",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Yubico",
+      "ats": "greenhouse",
+      "slug": "yubico",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "name": "Anyfin",
+      "ats": "teamtailor_sub",
+      "slug": "anyfin",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Detectify",
+      "ats": "teamtailor_sub",
+      "slug": "detectify",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Doconomy",
+      "ats": "teamtailor_sub",
+      "slug": "doconomy",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Goava",
+      "ats": "teamtailor_sub",
+      "slug": "goava",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Greenely",
+      "ats": "teamtailor_sub",
+      "slug": "greenely",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Kindred Group",
+      "ats": "ashby",
+      "slug": "kindred",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Klövern",
+      "ats": "teamtailor_sub",
+      "slug": "klovern",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Legora",
+      "ats": "ashby",
+      "slug": "legora",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Lendo",
+      "ats": "teamtailor_sub",
+      "slug": "lendo",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Mentimeter",
+      "ats": "greenhouse",
+      "slug": "mentimeter",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Normative",
+      "ats": "teamtailor_sub",
+      "slug": "normative",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Northmill",
+      "ats": "teamtailor_sub",
+      "slug": "northmill",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Qred",
+      "ats": "teamtailor_sub",
+      "slug": "qred",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Quinyx",
+      "ats": "teamtailor_sub",
+      "slug": "quinyx",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Sellpy",
+      "ats": "teamtailor_sub",
+      "slug": "sellpy",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Skyscanner",
+      "ats": "ashby",
+      "slug": "skyscanner",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Tise",
+      "ats": "teamtailor_sub",
+      "slug": "tise",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Tradera",
+      "ats": "teamtailor_sub",
+      "slug": "tradera",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "name": "Aira",
+      "ats": "teamtailor_sub",
+      "slug": "airahome",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "name": "Flower",
+      "ats": "teamtailor_sub",
+      "slug": "flower",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "name": "Funnel",
+      "ats": "teamtailor_sub",
+      "slug": "funnel",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "name": "Kognity",
+      "ats": "ashby",
+      "slug": "kognity",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "name": "Rerun",
+      "ats": "ashby",
+      "slug": "rerun",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "name": "Stravito",
+      "ats": "teamtailor_sub",
+      "slug": "stravito",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "name": "Studi",
+      "ats": "teamtailor_sub",
+      "slug": "studi",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "name": "Volumental",
+      "ats": "teamtailor_sub",
+      "slug": "volumental",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "name": "Werlabs",
+      "ats": "teamtailor_sub",
+      "slug": "werlabs",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "name": "ICEYE",
+      "ats": "ashby",
+      "slug": "iceye",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "name": "Wolt",
+      "ats": "greenhouse",
+      "slug": "wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "name": "IQM Quantum",
+      "ats": "teamtailor_sub",
+      "slug": "iqm",
+      "country": "FI",
+      "tier": "growth"
+    },
+    {
+      "name": "Reaktor",
+      "ats": "ashby",
+      "slug": "reaktor",
+      "country": "FI",
+      "tier": "growth"
+    },
+    {
+      "name": "Unity Technologies",
+      "ats": "teamtailor_sub",
+      "slug": "unity",
+      "country": "FI",
+      "tier": "growth"
+    },
+    {
+      "name": "Visma Finland",
+      "ats": "teamtailor_sub",
+      "slug": "vismafinland",
+      "country": "FI",
+      "tier": "growth"
+    },
+    {
+      "name": "Capalo AI",
+      "ats": "teamtailor_sub",
+      "slug": "capaloai",
+      "country": "FI",
+      "tier": "early"
+    },
+    {
+      "name": "ReOrbit",
+      "ats": "teamtailor_sub",
+      "slug": "reorbit",
+      "country": "FI",
+      "tier": "early"
+    },
+    {
+      "name": "Yousician",
+      "ats": "greenhouse",
+      "slug": "yousician",
+      "country": "FI",
+      "tier": "early"
+    },
+    {
+      "name": "Adevinta",
+      "ats": "teamtailor_sub",
+      "slug": "adevinta",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "name": "Cognite",
+      "ats": "greenhouse",
+      "slug": "cognite",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "name": "DNB",
+      "ats": "lever",
+      "slug": "dnb",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "name": "Oda",
+      "ats": "teamtailor_sub",
+      "slug": "oda",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "name": "reMarkable",
+      "ats": "teamtailor_sub",
+      "slug": "remarkable",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "name": "Vipps",
+      "ats": "teamtailor_sub",
+      "slug": "vipps",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "name": "Visma",
+      "ats": "teamtailor_sub",
+      "slug": "visma",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "name": "Aker BP",
+      "ats": "teamtailor_sub",
+      "slug": "akerbp",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "name": "Ardoq",
+      "ats": "teamtailor_sub",
+      "slug": "ardoq",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "name": "Finn.no",
+      "ats": "lever",
+      "slug": "finn",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "name": "Itera",
+      "ats": "teamtailor_sub",
+      "slug": "itera",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "name": "Polestar Norge",
+      "ats": "teamtailor_sub",
+      "slug": "polestar",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "name": "Schibsted Media",
+      "ats": "teamtailor_sub",
+      "slug": "schibsted",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "name": "Spond",
+      "ats": "teamtailor_sub",
+      "slug": "spond",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "name": "Tibber Norge",
+      "ats": "teamtailor_sub",
+      "slug": "tibber",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "name": "Unloc",
+      "ats": "teamtailor_sub",
+      "slug": "unloc",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "name": "Lunar",
+      "ats": "ashby",
+      "slug": "lunar",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "name": "Maersk",
+      "ats": "teamtailor_sub",
+      "slug": "maersk",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "name": "Nordea",
+      "ats": "teamtailor_sub",
+      "slug": "nordea",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "name": "Pleo",
+      "ats": "greenhouse",
+      "slug": "pleo",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "name": "Too Good To Go",
+      "ats": "greenhouse",
+      "slug": "toogoodtogo",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "name": "Trustpilot",
+      "ats": "greenhouse",
+      "slug": "trustpilot",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "name": "Vivino",
+      "ats": "teamtailor_sub",
+      "slug": "vivino",
+      "country": "DK",
+      "tier": "scale"
+    },
+    {
+      "name": "Cego",
+      "ats": "teamtailor_sub",
+      "slug": "cego",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "name": "Cobalt",
+      "ats": "teamtailor_sub",
+      "slug": "cobalt",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "name": "Corti",
+      "ats": "ashby",
+      "slug": "corti",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "name": "Famly",
+      "ats": "teamtailor_sub",
+      "slug": "famly",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "name": "Issuu",
+      "ats": "lever",
+      "slug": "issuu",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "name": "Monta",
+      "ats": "teamtailor_sub",
+      "slug": "monta",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "name": "Podimo",
+      "ats": "teamtailor_sub",
+      "slug": "podimo",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "name": "Templafy",
+      "ats": "teamtailor_sub",
+      "slug": "templafy",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "name": "Templafy Cloud",
+      "ats": "teamtailor_sub",
+      "slug": "templafy",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "name": "Tonsser",
+      "ats": "lever",
+      "slug": "tonsser",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "name": "Trustpilot Inc",
+      "ats": "greenhouse",
+      "slug": "trustpilot",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "name": "Unity Denmark",
+      "ats": "teamtailor_sub",
+      "slug": "unity",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "name": "Veo",
+      "ats": "lever",
+      "slug": "veo",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "name": "Pipedrive",
+      "ats": "lever",
+      "slug": "pipedrive",
+      "country": "EE",
+      "tier": "scale"
+    }
   ]
 }
