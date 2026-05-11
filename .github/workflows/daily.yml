@@ -2,8 +2,10 @@ name: Daily scrape + Monday digest
 
 on:
   schedule:
-    # 06:00 UTC = 07:00 CET / 08:00 CEST
-    - cron: "0 6 * * *"
+    # Daily scrape (Tue-Sun) — no digest
+    - cron: "0 6 * * 2,3,4,5,6,0"
+    # Monday scrape + digest. 06:00 UTC = 07:00 CET / 08:00 CEST
+    - cron: "0 6 * * 1"
   workflow_dispatch:
     inputs:
       send_digest:
