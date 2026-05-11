@@ -14,15 +14,23 @@ npm run dev
 
 Open http://localhost:3000.
 
-## Resend setup (one-time)
+## Resend setup (one-time, 3 minutes)
+
+The signup forms work with **just 3 env vars** — no audiences needed for the validation phase. Audience IDs are entirely optional and can be wired later.
 
 1. Sign up at [resend.com](https://resend.com).
-2. Add and verify a sending domain (e.g. `nordicsignals.com`). For testing you can use `onboarding@resend.dev` as the sender.
-3. Audiences → create **two**:
-   - "Nordic Signals — general" → `RESEND_AUDIENCE_ID`
-   - "Nordic Signals — portfolio beta" → `RESEND_PORTFOLIO_AUDIENCE_ID`
-4. API Keys → create one with **Sending access** → `RESEND_API_KEY`.
-5. (Optional, recommended) set `DIGEST_FROM` (verified sender) + `PORTFOLIO_NOTIFY_TO` (your inbox) so portfolio waitlist signups also notify you with the company list.
+2. **API Keys → + Create API key** → name `Nordic Signals`, permission `Sending access`. Copy the `re_...` → `RESEND_API_KEY`.
+3. That's it. For sender, use `onboarding@resend.dev` until you verify a real domain.
+
+Set in Railway → Variables:
+- `RESEND_API_KEY` — required
+- `DIGEST_FROM` — `onboarding@resend.dev`
+- `NOTIFY_TO` — your personal email (you get an email for every signup)
+
+**Optional later** (when you want to send broadcasts from Resend itself):
+- `RESEND_AUDIENCE_ID` — push general subscribers into a Resend audience
+- `RESEND_PORTFOLIO_AUDIENCE_ID` — push portfolio waitlist into a separate audience
+- `PORTFOLIO_NOTIFY_TO` — separate inbox for VC waitlist signups
 
 ## Deploy on Railway
 
