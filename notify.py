@@ -105,12 +105,19 @@ def build_html(week):
         rows = []
         for j in high_impact:
             ctx = signal_oneliner(j)
+            sig = j.get("strategic_signal") or ""
+            sig_html = (
+                f' <span style="color:#fbbf24;font-size:12px">· {sig}</span>' if sig else ""
+            )
+            ctx_html = (
+                f'<br><span style="color:#94a3b8;font-size:13px">↳ {ctx}</span>' if ctx else ""
+            )
             rows.append(
                 f"<li style='margin-bottom:10px'>"
                 f"<b style='color:#fff'>{j['company']}</b> — "
                 f"<a href='{j['url']}' style='color:#22d3ee;text-decoration:none'>{j['title']}</a>"
-                f"{f' <span style=\"color:#fbbf24;font-size:12px\">· {j[\"strategic_signal\"]}</span>' if j.get('strategic_signal') else ''}"
-                f"{f'<br><span style=\"color:#94a3b8;font-size:13px\">↳ {ctx}</span>' if ctx else ''}"
+                f"{sig_html}"
+                f"{ctx_html}"
                 f"</li>"
             )
         headline_blocks.append(
