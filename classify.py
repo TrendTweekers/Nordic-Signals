@@ -43,6 +43,11 @@ Return strict JSON with these fields:
 
 - infra_signal: true if the role indicates platform / infra / scaling investment (Platform Eng, SRE, DevOps, Cloud Architect, Data Platform, Internal Tooling). NOT true for generic backend roles.
 
+- is_relevant: true if this role belongs in a Nordic tech-hiring signal digest.
+  INCLUDE: Engineering, Data, ML/AI, Product (technical PM), Design (UX/Product), Security, DevOps, Hardware, Robotics. INCLUDE ALL leadership_hire roles regardless of function — those are always strategic. INCLUDE Head/VP/Director/C-Level roles even in non-tech functions (CFO, Chief of Staff, VP People, Head of Legal — these are strategic signals).
+  EXCLUDE: rank-and-file Sales/Account Manager/SDR/BDR/Marketing/Brand/PR/Customer Success/Customer Service/Retail/Grocery/Category/Compliance Outsourcing/Logistics Associate/Driver/Courier/Recruiter/Talent Sourcer/Office Manager/Receptionist/Administrative Assistant.
+  When in doubt, set true.
+
 - leadership_hire: true ONLY for roles at Director / VP / C-Level / Chief / Head-of seniority that are STRATEGIC signals: "Head of AI", "VP Engineering", "CFO", "Chief of Staff", "Head of Platform", "GM <Region>". This is the high-value VC signal — a first CFO usually precedes a fundraise or IPO prep; a first Head of AI usually precedes a product capability launch.
 
 - strategic_signal: short tag if the role implies a directional bet, otherwise empty string. Use values like:
@@ -72,7 +77,7 @@ def _extract_json(text: str) -> dict:
         return {
             "department": "Other", "specialty": "", "seniority": "Other",
             "ai_signal": False, "infra_signal": False,
-            "leadership_hire": False, "strategic_signal": "",
+            "is_relevant": True, "leadership_hire": False, "strategic_signal": "",
             "summary": "",
         }
 

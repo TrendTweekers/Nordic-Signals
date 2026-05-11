@@ -35,13 +35,17 @@ def load_week():
 def build_html(week):
     added = [j for day in week for j in day.get("added", [])]
     removed = [j for day in week for j in day.get("removed", [])]
-    ai_roles = [j for j in added if j.get("ai_signal")]
-    infra_roles = [j for j in added if j.get("infra_signal")]
-    leadership_roles = [j for j in added if j.get("leadership_hire")]
-    strategic_roles = [j for j in added if j.get("strategic_signal")]
+    # Only consider relevant roles for the curated sections. Non-relevant
+    # roles (Sales/Marketing/etc.) stay in the snapshot for analytics but
+    # don't pollute the digest.
+    relevant = [j for j in added if j.get("is_relevant", True)]
+    ai_roles = [j for j in relevant if j.get("ai_signal")]
+    infra_roles = [j for j in relevant if j.get("infra_signal")]
+    leadership_roles = [j for j in relevant if j.get("leadership_hire")]
+    strategic_roles = [j for j in relevant if j.get("strategic_signal")]
 
     by_company = defaultdict(list)
-    for j in added:
+    for j in relevant:
         by_company[j["company"]].append(j)
 
     today_str = datetime.now(timezone.utc).strftime("%b %d, %Y")
@@ -93,12 +97,38 @@ def build_html(week):
             + "</ul>"
         )
 
+    # By-company section: only relevant roles, capped at 5/company, sorted by
+    # signal strength. Keeps the digest scannable.
+    SENIOR = {"Staff","Principal","Lead","Manager","Director","VP","C-Level"}
+    def role_score(j):
+        s = 0
+        if j.get("strategic_signal"): s += 100
+        if j.get("leadership_hire"): s += 50
+        if j.get("ai_signal"): s += 20
+        if j.get("infra_signal"): s += 15
+        if (j.get("seniority") or "") in SENIOR: s += 5
+        return s
+
+    relevant_by_company = {}
+    for company, jobs in by_company.items():
+        rel = [j for j in jobs if j.get("is_relevant", True)]
+        if rel:
+            relevant_by_company[company] = sorted(rel, key=role_score, reverse=True)
+
     by_company_html = ""
-    for company, jobs in sorted(by_company.items(), key=lambda kv: -len(kv[1])):
+    # Rank companies by best-role-score, not raw volume
+    ranked = sorted(relevant_by_company.items(),
+                    key=lambda kv: (-max((role_score(j) for j in kv[1]), default=0), -len(kv[1])))
+    for company, jobs in ranked[:30]:
+        head = jobs[:5]
+        more = len(jobs) - len(head)
+        more_html = f' <span style="color:#64748b;font-weight:400">+{more} more</span>' if more > 0 else ''
         by_company_html += (
-            f"<h3 style='color:#fff;font-size:15px;margin-top:24px;margin-bottom:8px'>{company} <span style='color:#64748b;font-weight:400'>+{len(jobs)}</span></h3>"
+            f"<h3 style='color:#fff;font-size:15px;margin-top:24px;margin-bottom:8px'>{company} "
+            f"<span style='color:#64748b;font-weight:400'>{len(jobs)} relevant</span></h3>"
             "<ul style='padding-left:20px;line-height:1.7;margin:0'>"
-            + "".join(role_li(j) for j in jobs)
+            + "".join(role_li(j) for j in head)
+            + (f"<li style='color:#64748b'>{more_html}</li>" if more else "")
             + "</ul>"
         )
 
@@ -117,7 +147,7 @@ def build_html(week):
     <div style="border-bottom:1px solid #1e293b;padding-bottom:16px">
       <div style="color:#22d3ee;font-size:13px;letter-spacing:2px;text-transform:uppercase">Nordic Signals</div>
       <h1 style="color:#fff;font-size:26px;margin:8px 0 0">Weekly hiring signals — {today_str}</h1>
-      <div style="color:#64748b;font-size:14px;margin-top:6px">{len(added)} new roles · {len(removed)} closed · {len(by_company)} companies active · {len(leadership_roles)} leadership · {len(strategic_roles)} strategic</div>
+      <div style="color:#64748b;font-size:14px;margin-top:6px">{len(relevant)} relevant new roles · {len(removed)} closed · {len(by_company)} companies · {len(leadership_roles)} leadership · {len(strategic_roles)} strategic</div>
     </div>
     {''.join(headline_blocks)}
     <h2 style='color:#fff;font-size:18px;margin-top:32px'>By company</h2>
