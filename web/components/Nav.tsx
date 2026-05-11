@@ -1,9 +1,10 @@
 export function Nav() {
   const links = [
-    { href: "#how", label: "How it works" },
-    { href: "#signals", label: "Sample digest" },
-    { href: "#portfolio", label: "Portfolio", badge: "Beta" },
-    { href: "#pricing", label: "Pricing" },
+    { href: "/#how", label: "How it works" },
+    { href: "/#signals", label: "Sample digest" },
+    { href: "/#portfolio", label: "Portfolio", badge: "Beta" },
+    { href: "/#pricing", label: "Pricing" },
+    { href: "/blog", label: "Blog" },
   ];
 
   return (

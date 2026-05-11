@@ -1,0 +1,111 @@
+# article-autopilot config for Nordic Signals
+# Usage:
+#   1. Clone article-autopilot in a sibling directory: ../article-autopilot
+#   2. In a fresh Claude Code session at the Nordic Signals repo root, ask:
+#      "Run article-autopilot for keyword: <your keyword>"
+#   3. It writes a markdown file to web/content/posts/ and the next Next.js
+#      build picks it up automatically.
+
+brand:
+  name: Nordic Signals
+  url: https://nordic-signals-production.up.railway.app
+  one_liner: Weekly intelligence on Nordic AI and engineering hiring, drawn from 150+ scraped career pages plus the JobTech open-data API.
+  founded: 2026
+
+audience:
+  primary:
+    - role: Recruiting agency founders and tech recruiters
+      location: Stockholm, Helsinki, Oslo, Copenhagen
+      pains:
+        - Generic job aggregators dilute signal with sales/marketing/grocery roles
+        - Hard to spot first-time AI/ML hires that precede capability launches
+        - Manually skimming 150 career pages is unmaintainable
+    - role: Nordic VC associates and angel syndicate operators
+      pains:
+        - Portfolio companies don't proactively report hiring shifts
+        - Contraction signals (closed-role clusters) usually surface late
+        - Hard to benchmark portfolio hiring velocity against market
+    - role: Dev tool sales reps covering Nordic accounts
+      examples: [Vercel, Supabase, Datadog, Sentry, Stripe]
+      pains:
+        - Hard to spot when a target is scaling infra (buying window)
+        - First Head of AI / VP Engineering hires often precede tooling decisions
+
+voice:
+  tone: direct, data-grounded, slightly dry. We write like a quant researcher who skipped the marketing degree.
+  reading_level: senior IC / founder / partner. Not undergraduate.
+  must:
+    - "Lead every claim with concrete data — companies named, role titles, dates"
+    - "Use the strategic_signal taxonomy when classifying patterns (first-ai-capability, fundraise-prep, hardware-bet, etc.)"
+    - "Reference specific Nordic companies by name when illustrating"
+    - "Show the work — explain why a signal matters, not just what it is"
+  avoid:
+    - "Generic SaaS-blog throat-clearing ('In today's fast-paced...')"
+    - "Marketing voice ('Empower your team...')"
+    - "Vague AI hype ('Leverage cutting-edge AI to...')"
+    - "Em-dash flood — one or two per piece, no more"
+    - "Lists where prose would do — only list when the items are genuinely parallel"
+
+terminology:
+  prefer:
+    - "Nordic tech": tech companies in SE / NO / DK / FI / EE
+    - "strategic signal": the classifier's named tag (first-ai-capability, etc.)
+    - "Monday digest": the weekly free email
+    - "Portfolio Monitor": the paid VC-tier product (Private Beta)
+  avoid:
+    - "Nordics" used as a country (it's a region)
+    - "tracker" as a noun for the product (we're a signal newsletter, not a tracker)
+    - "AI-powered" / "AI-driven" (every product is)
+
+pricing_source_of_truth: |
+  Free — weekly Monday digest, full Nordic coverage.
+  Pro — €299/mo (Coming soon).
+  Portfolio — €799/mo, Private Beta. First 20 customers lock €599/mo for 6 months.
+  Team / Enterprise — €1,499+/mo.
+
+  These are the only prices that should appear in any article. Do not invent additional tiers.
+
+regulatory_topic: false
+# Set to true when writing about hiring law, employee data, GDPR, etc. so the
+# E-E-A-T audit gates it harder.
+
+content:
+  word_range: [1200, 2200]
+  default_section_count: 5
+  hero_quote_data_first: true
+  internal_link_targets:
+    - { url: "/", anchor: "Nordic Signals" }
+    - { url: "/blog", anchor: "blog" }
+    - { url: "/#portfolio", anchor: "Portfolio Monitor private beta" }
+    - { url: "/#pricing", anchor: "pricing" }
+
+  data_sources_available:
+    - description: Daily snapshot of all scraped jobs
+      path: data/snapshots/{YYYY-MM-DD}.json
+    - description: Yesterday-vs-today diff with added/removed
+      path: data/diffs/{YYYY-MM-DD}.json
+    - description: Classifier output (department, seniority, ai_signal, infra_signal, leadership_hire, strategic_signal)
+      path: data/classified/{YYYY-MM-DD}.json
+    - description: The audited master list of 150+ companies
+      path: companies.json
+
+output:
+  directory: web/content/posts
+  filename_pattern: "{date}-{slug}.md"
+  frontmatter_keys: [title, date, description, tags]
+
+publishing:
+  auto_publish: false
+  # Always human-review the markdown before merging. Article-autopilot drafts,
+  # we approve.
+
+high_priority_keywords:
+  # These are the ones with the most unique-data leverage. Start here.
+  - "nordic ai hiring 2026"
+  - "nordic startup fundraise signals"
+  - "first head of ai nordic startup"
+  - "sweden ml engineer hiring velocity"
+  - "nordic vc portfolio hiring intelligence"
+  - "klarna engineering hiring 2026"
+  - "spotify ml engineer hiring"
+  - "nordic tech contraction signals"

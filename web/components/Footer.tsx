@@ -10,6 +10,7 @@ export function Footer() {
           </span>
         </div>
         <div className="flex gap-6 text-sm text-[var(--color-text-muted)]">
+          <a href="/blog" className="hover:text-white">Blog</a>
           <a href="mailto:hello@nordicsignals.com" className="hover:text-white">
             Contact
           </a>
