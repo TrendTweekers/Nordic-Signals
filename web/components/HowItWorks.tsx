@@ -2,7 +2,7 @@ const steps = [
   {
     n: "01",
     title: "Scan",
-    body: "We crawl 40+ Nordic startup career pages every morning at 06:00 UTC — Greenhouse, Lever, Ashby. Public data only.",
+    body: "We crawl 150+ Nordic tech career pages plus Sweden's JobTech open-data API every morning at 06:00 UTC. Greenhouse, Lever, Ashby, Teamtailor, SmartRecruiters, Workable. Public data only.",
   },
   {
     n: "02",
