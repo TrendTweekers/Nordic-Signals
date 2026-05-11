@@ -1,0 +1,1194 @@
+[
+  {
+    "name": "Klarna",
+    "ats": "teamtailor_sub",
+    "slug": "klarna",
+    "url": "https://klarna.teamtailor.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Spotify",
+    "ats": "lever",
+    "slug": "spotify",
+    "url": "https://jobs.lever.co/spotify",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "iZettle",
+    "ats": "greenhouse",
+    "slug": "izettle",
+    "url": "https://paypal.eightfold.ai/careers?Brand=zettle",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Truecaller",
+    "ats": "teamtailor_sub",
+    "slug": "truecaller",
+    "url": "https://www.truecaller.com/careers/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Polestar",
+    "ats": "teamtailor_sub",
+    "slug": "polestar",
+    "url": "https://polestar.teamtailor.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Volvo Cars",
+    "ats": "greenhouse",
+    "slug": "volvocars",
+    "url": "https://jobs.volvocars.com/",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Voi",
+    "ats": "teamtailor_sub",
+    "slug": "voitechnology",
+    "url": "https://careers.voi.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Heart Aerospace",
+    "ats": "teamtailor_sub",
+    "slug": "heartaerospace",
+    "url": "https://heartaerospace.teamtailor.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Lovable",
+    "ats": "ashby",
+    "slug": "lovable",
+    "url": "https://jobs.ashbyhq.com/lovable",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Detectify",
+    "ats": "teamtailor_sub",
+    "slug": "detectify",
+    "url": "https://careers.detectify.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Tobii",
+    "ats": "teamtailor_sub",
+    "slug": "tobii",
+    "url": "https://careers.tobii.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Neko Health",
+    "ats": "ashby",
+    "slug": "nekohealth",
+    "url": "https://jobs.ashbyhq.com/neko-health",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Anyfin",
+    "ats": "teamtailor_sub",
+    "slug": "anyfin",
+    "url": "https://career.anyfin.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Trustly",
+    "ats": "lever",
+    "slug": "trustly",
+    "url": "https://jobs.lever.co/trustly",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Lendo",
+    "ats": "greenhouse",
+    "slug": "lendo",
+    "url": "https://brandportal.godaddysites.com/",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Qred",
+    "ats": "teamtailor_sub",
+    "slug": "qred",
+    "url": "https://jobs.qred.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Avanza",
+    "ats": "teamtailor_sub",
+    "slug": "avanza",
+    "url": "https://avanza.teamtailor.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Hemnet",
+    "ats": "teamtailor_sub",
+    "slug": "hemnet",
+    "url": "https://career.hemnet.se/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Schibsted",
+    "ats": "teamtailor_sub",
+    "slug": "schibsted",
+    "url": "https://schibsted.teamtailor.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Storytel",
+    "ats": "teamtailor_sub",
+    "slug": "storytel",
+    "url": "https://jobs.storytel.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Epidemic Sound",
+    "ats": "ashby",
+    "slug": "epidemicsound",
+    "url": "https://www.epidemicsound.com/careers/",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "King",
+    "ats": "greenhouse",
+    "slug": "king",
+    "url": "https://careers.king.com/us/en",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Embark Studios",
+    "ats": "teamtailor_sub",
+    "slug": "embarkstudios",
+    "url": "https://careers.embark-studios.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Star Stable",
+    "ats": "teamtailor_sub",
+    "slug": "starstable",
+    "url": "https://jobs.starstableentertainment.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Resolution Games",
+    "ats": "teamtailor_sub",
+    "slug": "resolutiongames",
+    "url": "https://jobs.resolutiongames.com/",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Mathem",
+    "ats": "teamtailor_sub",
+    "slug": "mathem",
+    "url": "https://karriar.mathem.se/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Budbee",
+    "ats": "teamtailor_sub",
+    "slug": "budbee",
+    "url": "https://career.instabee.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Instabox",
+    "ats": "teamtailor_sub",
+    "slug": "instabox",
+    "url": "https://career.instabee.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Sellpy",
+    "ats": "teamtailor_sub",
+    "slug": "sellpy",
+    "url": "https://career.sellpy.se/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Tradera",
+    "ats": "teamtailor_sub",
+    "slug": "tradera",
+    "url": "https://careers.tradera.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Tise",
+    "ats": "teamtailor_sub",
+    "slug": "tise",
+    "url": "https://tise.teamtailor.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Kognity",
+    "ats": "ashby",
+    "slug": "kognity",
+    "url": "https://jobs.ashbyhq.com/kognity",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Studi",
+    "ats": "teamtailor_sub",
+    "slug": "studi",
+    "url": "https://jobs.binogi.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Greenely",
+    "ats": "teamtailor_sub",
+    "slug": "greenely",
+    "url": "https://careers.greenely.se/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Kognic",
+    "ats": "teamtailor_sub",
+    "slug": "kognic",
+    "url": "https://careers.kognic.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Younium",
+    "ats": "teamtailor_sub",
+    "slug": "younium",
+    "url": "https://careers.younium.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Funnel",
+    "ats": "teamtailor_sub",
+    "slug": "funnel",
+    "url": "https://jobs.funnel.io/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Stravito",
+    "ats": "teamtailor_sub",
+    "slug": "stravito",
+    "url": "https://careers.stravito.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Quinyx",
+    "ats": "teamtailor_sub",
+    "slug": "quinyx",
+    "url": "https://careers.quinyx.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Doconomy",
+    "ats": "teamtailor_sub",
+    "slug": "doconomy",
+    "url": "https://doconomy.teamtailor.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Normative",
+    "ats": "teamtailor_sub",
+    "slug": "normative",
+    "url": "https://careers.normative.io/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Werlabs",
+    "ats": "teamtailor_sub",
+    "slug": "werlabs",
+    "url": "https://werlabs.teamtailor.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Flower",
+    "ats": "teamtailor_sub",
+    "slug": "flower",
+    "url": "https://flower.teamtailor.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Aira",
+    "ats": "teamtailor_sub",
+    "slug": "airahome",
+    "url": "https://career.airahome.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Volumental",
+    "ats": "teamtailor_sub",
+    "slug": "volumental",
+    "url": "https://jobs.volumental.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Univrses",
+    "ats": "teamtailor_sub",
+    "slug": "univrses",
+    "url": "https://career.univrses.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Klövern",
+    "ats": "teamtailor_sub",
+    "slug": "klovern",
+    "url": "https://karriar.corem.se/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Northmill",
+    "ats": "teamtailor_sub",
+    "slug": "northmill",
+    "url": "https://careers.northmill.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Rerun",
+    "ats": "ashby",
+    "slug": "rerun",
+    "url": "https://jobs.ashbyhq.com/rerun",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Acast",
+    "ats": "teamtailor_sub",
+    "slug": "acast",
+    "url": "https://careers.acast.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Legora",
+    "ats": "ashby",
+    "slug": "legora",
+    "url": "https://jobs.ashbyhq.com/legora",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Skyscanner",
+    "ats": "greenhouse",
+    "slug": "skyscanner",
+    "url": "https://jobs.ashbyhq.com/skyscanner",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Bonnier News",
+    "ats": "greenhouse",
+    "slug": "bonniernews",
+    "url": "https://www.bonniernews.se/",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Pricerunner",
+    "ats": "teamtailor_sub",
+    "slug": "pricerunner",
+    "url": "https://jobs.pricerunner.com/",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Soundtrack Your Brand",
+    "ats": "teamtailor_sub",
+    "slug": "soundtrackyourbrand",
+    "url": "https://careers.soundtrack.io/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Kindred Group",
+    "ats": "ashby",
+    "slug": "kindred",
+    "url": "https://jobs.ashbyhq.com/kindred",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Goava",
+    "ats": "teamtailor_sub",
+    "slug": "goava",
+    "url": "https://careers.goava.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Endra",
+    "ats": "ashby",
+    "slug": "endra",
+    "url": "https://jobs.ashbyhq.com/endra",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Flox",
+    "ats": "ashby",
+    "slug": "flox",
+    "url": "https://jobs.ashbyhq.com/flox",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Polar",
+    "ats": "ashby",
+    "slug": "polar",
+    "url": "https://jobs.ashbyhq.com/polar",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Stim",
+    "ats": "teamtailor_sub",
+    "slug": "stim",
+    "url": "https://stim.teamtailor.com/jobs",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Kindred",
+    "ats": "ashby",
+    "slug": "kindred",
+    "url": "https://jobs.ashbyhq.com/kindred",
+    "country": "SE",
+    "tier": "growth"
+  },
+  {
+    "name": "Wolt",
+    "ats": "teamtailor_sub",
+    "slug": "wolt",
+    "url": "https://careers.wolt.com/en/jobs",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "ICEYE",
+    "ats": "ashby",
+    "slug": "iceye",
+    "url": "https://jobs.ashbyhq.com/iceye",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "IQM Quantum",
+    "ats": "teamtailor_sub",
+    "slug": "iqm",
+    "url": "https://iqm.teamtailor.com/jobs",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "RELEX Solutions",
+    "ats": "teamtailor_sub",
+    "slug": "relexsolutions",
+    "url": "https://www.relexsolutions.com/careers/",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Aiforia",
+    "ats": "teamtailor_sub",
+    "slug": "aiforia",
+    "url": "https://careers.aiforia.com/jobs",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Smartly.io",
+    "ats": "greenhouse",
+    "slug": "smartly",
+    "url": "https://www.smartly.io/careers",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Reaktor",
+    "ats": "ashby",
+    "slug": "reaktor",
+    "url": "https://jobs.ashbyhq.com/reaktor",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Futurice",
+    "ats": "teamtailor_sub",
+    "slug": "futurice",
+    "url": "https://careers.futurice.com/jobs",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Swappie",
+    "ats": "teamtailor_sub",
+    "slug": "swappie",
+    "url": "https://careers.swappie.com/jobs",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Tietoevry",
+    "ats": "teamtailor_sub",
+    "slug": "tietoevry",
+    "url": "https://careers.tieto.com/jobs",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Vaisala",
+    "ats": "teamtailor_sub",
+    "slug": "vaisala",
+    "url": "https://careers.vaisala.com/jobs",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Nightingale Health",
+    "ats": "teamtailor_sub",
+    "slug": "nightingalehealth",
+    "url": "https://careers.nightingalehealth.com/jobs",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Capalo AI",
+    "ats": "teamtailor_sub",
+    "slug": "capaloai",
+    "url": "https://capaloai.teamtailor.com/jobs",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "ReOrbit",
+    "ats": "teamtailor_sub",
+    "slug": "reorbit",
+    "url": "https://careers.reorbit.space/jobs",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Supermetrics",
+    "ats": "teamtailor_sub",
+    "slug": "supermetrics",
+    "url": "https://supermetrics.com/careers",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Bittium",
+    "ats": "greenhouse",
+    "slug": "bittium",
+    "url": "https://www.bittium.com/jobs/",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Kemppi",
+    "ats": "teamtailor_sub",
+    "slug": "kemppi",
+    "url": "https://careers.kemppi.com/jobs",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Eficode",
+    "ats": "teamtailor_sub",
+    "slug": "eficode",
+    "url": "https://career.eficode.com/jobs",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Visma Finland",
+    "ats": "greenhouse",
+    "slug": "vismafinland",
+    "url": "https://www.visma.com/careers",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Frontify Finland",
+    "ats": "lever",
+    "slug": "frontify",
+    "url": "https://jobs.lever.co/frontify",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Neste",
+    "ats": "greenhouse",
+    "slug": "neste",
+    "url": "https://jobs.neste.com/",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Wärtsilä",
+    "ats": "teamtailor_sub",
+    "slug": "wartsila",
+    "url": "https://careers.wartsila.com/jobs",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Nokia",
+    "ats": "greenhouse",
+    "slug": "nokia",
+    "url": "https://jobs.nokia.com/en/sites/CX_1",
+    "country": "FI",
+    "tier": "growth"
+  },
+  {
+    "name": "Oda",
+    "ats": "teamtailor_sub",
+    "slug": "oda",
+    "url": "https://oda.teamtailor.com/jobs",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "reMarkable",
+    "ats": "teamtailor_sub",
+    "slug": "remarkable",
+    "url": "https://jobb.remarkable.se/jobs",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Visma",
+    "ats": "greenhouse",
+    "slug": "visma",
+    "url": "https://www.visma.com/careers",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Vipps",
+    "ats": "teamtailor_sub",
+    "slug": "vipps",
+    "url": "https://vipps.teamtailor.com/jobs",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "DNB",
+    "ats": "lever",
+    "slug": "dnb",
+    "url": "https://jobs.lever.co/dnb",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Aker BP",
+    "ats": "teamtailor_sub",
+    "slug": "akerbp",
+    "url": "https://akerbp.teamtailor.com/jobs",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Yara",
+    "ats": "greenhouse",
+    "slug": "yara",
+    "url": "https://jobs.yara.com/",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Orkla",
+    "ats": "teamtailor_sub",
+    "slug": "orkla",
+    "url": "https://careers.orkla.com/jobs",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Adevinta",
+    "ats": "teamtailor_sub",
+    "slug": "adevinta",
+    "url": "https://adevinta.teamtailor.com/jobs",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Finn.no",
+    "ats": "lever",
+    "slug": "finn",
+    "url": "https://jobs.lever.co/finn",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Gjensidige",
+    "ats": "greenhouse",
+    "slug": "gjensidige",
+    "url": "https://jobs.gjensidige.com/",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Norsk Hydro",
+    "ats": "greenhouse",
+    "slug": "norskhydro",
+    "url": "https://jobs.hydro.com/",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Tibber",
+    "ats": "teamtailor_sub",
+    "slug": "tibber",
+    "url": "https://jobs.tibber.com/jobs",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Spond",
+    "ats": "teamtailor_sub",
+    "slug": "spond",
+    "url": "https://careers.spond.com/jobs",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Unloc",
+    "ats": "teamtailor_sub",
+    "slug": "unloc",
+    "url": "https://unloc.teamtailor.com/jobs",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Ardoq",
+    "ats": "greenhouse",
+    "slug": "ardoq",
+    "url": "https://jobs.ardoq.com/",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Itera",
+    "ats": "teamtailor_sub",
+    "slug": "itera",
+    "url": "https://careers.itera.com/jobs",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Sopra Steria",
+    "ats": "teamtailor_sub",
+    "slug": "soprasteria",
+    "url": "https://careers.soprasteria.com/jobs",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Folio",
+    "ats": "ashby",
+    "slug": "folio",
+    "url": "https://jobs.ashbyhq.com/folio",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Dune Analytics",
+    "ats": "ashby",
+    "slug": "dune",
+    "url": "https://jobs.ashbyhq.com/dune",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Schibsted Norway",
+    "ats": "teamtailor_sub",
+    "slug": "schibsted",
+    "url": "https://schibsted.teamtailor.com/jobs",
+    "country": "NO",
+    "tier": "growth"
+  },
+  {
+    "name": "Pleo",
+    "ats": "greenhouse",
+    "slug": "pleo",
+    "url": "https://jobs.ashbyhq.com/pleo",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Trustpilot",
+    "ats": "greenhouse",
+    "slug": "trustpilot",
+    "url": "https://corporate.trustpilot.com/careers",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Vivino",
+    "ats": "teamtailor_sub",
+    "slug": "vivino",
+    "url": "https://careers.vivino.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Cobalt",
+    "ats": "teamtailor_sub",
+    "slug": "cobalt",
+    "url": "https://cobalt.teamtailor.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Monta",
+    "ats": "teamtailor_sub",
+    "slug": "monta",
+    "url": "https://monta.teamtailor.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Veo",
+    "ats": "lever",
+    "slug": "veo",
+    "url": "https://jobs.lever.co/veo",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Templafy",
+    "ats": "teamtailor_sub",
+    "slug": "templafy",
+    "url": "https://templafy.teamtailor.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Lunar",
+    "ats": "ashby",
+    "slug": "lunar",
+    "url": "https://jobs.ashbyhq.com/lunar",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Podimo",
+    "ats": "teamtailor_sub",
+    "slug": "podimo",
+    "url": "https://careers.podimo.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Famly",
+    "ats": "teamtailor_sub",
+    "slug": "famly",
+    "url": "https://famly.teamtailor.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Corti",
+    "ats": "ashby",
+    "slug": "corti",
+    "url": "https://jobs.ashbyhq.com/corti",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Tonsser",
+    "ats": "lever",
+    "slug": "tonsser",
+    "url": "https://jobs.lever.co/tonsser",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Maersk",
+    "ats": "teamtailor_sub",
+    "slug": "maersk",
+    "url": "https://maersk.teamtailor.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Novo Nordisk",
+    "ats": "greenhouse",
+    "slug": "novonordisk",
+    "url": "https://jobs.novonordisk.com/login",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Coloplast",
+    "ats": "teamtailor_sub",
+    "slug": "coloplast",
+    "url": "https://careers.coloplast.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Vestas",
+    "ats": "teamtailor_sub",
+    "slug": "vestas",
+    "url": "https://careers.vestas.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Carlsberg",
+    "ats": "teamtailor_sub",
+    "slug": "carlsberg",
+    "url": "https://careers.carlsberg.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Nordea",
+    "ats": "teamtailor_sub",
+    "slug": "nordea",
+    "url": "https://nordea.teamtailor.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Banking Circle",
+    "ats": "greenhouse",
+    "slug": "bankingcircle",
+    "url": "https://www.bankingcircle.com/",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Issuu",
+    "ats": "lever",
+    "slug": "issuu",
+    "url": "https://jobs.lever.co/issuu",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Sitecore",
+    "ats": "teamtailor_sub",
+    "slug": "sitecore",
+    "url": "https://jobs.jobvite.com/sitecore",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Lunar Way",
+    "ats": "teamtailor_sub",
+    "slug": "lunarway",
+    "url": "https://jobs.lunar.app/",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Cego",
+    "ats": "teamtailor_sub",
+    "slug": "cego",
+    "url": "https://cego.teamtailor.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Abzu",
+    "ats": "teamtailor_sub",
+    "slug": "abzu",
+    "url": "https://abzu.teamtailor.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Performativ",
+    "ats": "teamtailor_sub",
+    "slug": "performativ",
+    "url": "https://careers.performativ.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Famly App",
+    "ats": "teamtailor_sub",
+    "slug": "famly",
+    "url": "https://famly.teamtailor.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "LucaNet",
+    "ats": "greenhouse",
+    "slug": "lucanet",
+    "url": "https://www.lucanet.com/en/careers/",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Templafy Cloud",
+    "ats": "teamtailor_sub",
+    "slug": "templafy",
+    "url": "https://templafy.teamtailor.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Trifork",
+    "ats": "teamtailor_sub",
+    "slug": "trifork",
+    "url": "https://trifork.teamtailor.com/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "IO Interactive",
+    "ats": "teamtailor_sub",
+    "slug": "ioi",
+    "url": "https://apply.ioi.dk/jobs",
+    "country": "DK",
+    "tier": "growth"
+  },
+  {
+    "name": "Bolt",
+    "ats": "greenhouse",
+    "slug": "bolt",
+    "url": "https://bolt.eu/en/careers/",
+    "country": "EE",
+    "tier": "growth"
+  },
+  {
+    "name": "Pipedrive",
+    "ats": "lever",
+    "slug": "pipedrive",
+    "url": "https://jobs.lever.co/pipedrive",
+    "country": "EE",
+    "tier": "growth"
+  },
+  {
+    "name": "Starship Technologies",
+    "ats": "teamtailor_sub",
+    "slug": "starship",
+    "url": "https://starship.teamtailor.com/jobs",
+    "country": "EE",
+    "tier": "growth"
+  },
+  {
+    "name": "Glia",
+    "ats": "greenhouse",
+    "slug": "glia",
+    "url": "https://jobs.ashbyhq.com/glia",
+    "country": "EE",
+    "tier": "growth"
+  },
+  {
+    "name": "Lightyear",
+    "ats": "teamtailor_sub",
+    "slug": "lightyear",
+    "url": "https://careers.lightyear.com/jobs",
+    "country": "EE",
+    "tier": "growth"
+  },
+  {
+    "name": "Comodule",
+    "ats": "teamtailor_sub",
+    "slug": "comodule",
+    "url": "https://comodule.teamtailor.com/jobs",
+    "country": "EE",
+    "tier": "growth"
+  },
+  {
+    "name": "Outfunnel",
+    "ats": "teamtailor_sub",
+    "slug": "outfunnel",
+    "url": "https://jobs.outfunnel.com/jobs",
+    "country": "EE",
+    "tier": "growth"
+  },
+  {
+    "name": "Adcash",
+    "ats": "teamtailor_sub",
+    "slug": "adcash",
+    "url": "https://careers.adcash.com/jobs",
+    "country": "EE",
+    "tier": "growth"
+  },
+  {
+    "name": "Net Group",
+    "ats": "teamtailor_sub",
+    "slug": "netgroup",
+    "url": "https://careers.netgroup.com/jobs",
+    "country": "EE",
+    "tier": "growth"
+  },
+  {
+    "name": "Mailerlite",
+    "ats": "greenhouse",
+    "slug": "mailerlite",
+    "url": "https://accounts.mailerlite.com/",
+    "country": "EE",
+    "tier": "growth"
+  },
+  {
+    "name": "Pactum AI",
+    "ats": "teamtailor_sub",
+    "slug": "pactum",
+    "url": "https://careers.pactum.com/jobs",
+    "country": "EE",
+    "tier": "growth"
+  },
+  {
+    "name": "LeapIN",
+    "ats": "teamtailor_sub",
+    "slug": "leapin",
+    "url": "https://leapin.teamtailor.com/jobs",
+    "country": "EE",
+    "tier": "growth"
+  },
+  {
+    "name": "Stardust",
+    "ats": "teamtailor_sub",
+    "slug": "stardust",
+    "url": "https://stardust.teamtailor.com/jobs",
+    "country": "EE",
+    "tier": "growth"
+  }
+]

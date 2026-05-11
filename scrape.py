@@ -150,13 +150,18 @@ SCRAPERS = {
     "ashby": scrape_ashby,
     "teamtailor": scrape_teamtailor,
     "teamtailor_sub": scrape_teamtailor,
+    "teamtailor_career": scrape_teamtailor,
+    "teamtailor_careers": scrape_teamtailor,
     "workable": scrape_workable,
+    "custom_jobs": scrape_greenhouse,
 }
 
 
 async def scrape_company(browser, company):
     ats = company["ats"]
-    url = ATS_URLS[ats].format(slug=company["slug"])
+    # Prefer the explicit `url` field (from discovery probes). Fall back to
+    # ATS_URLS template + slug for legacy entries.
+    url = company.get("url") or ATS_URLS[ats].format(slug=company["slug"])
     page = await browser.new_page()
     try:
         jobs = await SCRAPERS[ats](page, url)
