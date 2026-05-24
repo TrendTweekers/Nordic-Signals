@@ -1,0 +1,88 @@
+{
+  "date": "2026-05-24",
+  "compared_to": "2026-05-23",
+  "added_count": 6,
+  "removed_count": 3,
+  "added": [
+    {
+      "title": "Restaurant Development Associate - fixed term (9 months)",
+      "url": "https://careers.wolt.com/jobs/1/7955686",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Merchant Services Associate",
+      "url": "https://careers.wolt.com/jobs/1/7944099",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Utvecklare inom Business Intelligence, Linköping",
+      "url": "https://polisen.se/jobb-och-utbildning/lediga-jobb/2026/maj/utvecklare-inom-business-intelligence-placering-linkoping/",
+      "location": "Linköping",
+      "company": "Polismyndigheten",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior DevOps Engineer till plattformsteamet bakom vår SaaS-tjänst",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31074783",
+      "location": "Umeå",
+      "company": "Senseworks AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior .Net-utvecklare för rekrytering i spännande konsultbolag",
+      "url": "https://www.jappa.jobs/jobb/7785040-net",
+      "location": "Göteborg",
+      "company": "New Terms AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Studio Engineer (temporary contract)",
+      "url": "https://www.capgemini.com/se-en/jobs/470258-en_US+sap_btp",
+      "location": "Stockholm",
+      "company": "Capgemini Engineering Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Operations & Projects Specialist, Courier Experience",
+      "url": "https://careers.wolt.com/jobs/1/7893059",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Senior .Net-utvecklare för rekrytering i spännande konsultbolag",
+      "url": "www.jappa.jobs",
+      "location": "Göteborg",
+      "company": "New Terms AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Junior Devops Engineer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31044005",
+      "location": "Solna",
+      "company": "Teleoffice Viewcom AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
