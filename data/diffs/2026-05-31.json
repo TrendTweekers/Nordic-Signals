@@ -1,0 +1,165 @@
+{
+  "date": "2026-05-31",
+  "compared_to": "2026-05-30",
+  "added_count": 7,
+  "removed_count": 11,
+  "added": [
+    {
+      "title": "Spontanansökan: Jobba med oss på Omni",
+      "url": "https://schibsted.teamtailor.com/sv/jobs/7675626-spontanansokan-jobba-med-oss-pa-omni",
+      "location": "",
+      "company": "Schibsted",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "title": "(WM Shift Manager, Ashdod) מנהלי משמרת - אשדוד",
+      "url": "https://careers.wolt.com/jobs/1/7443195",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Spontanansökan: Jobba med oss på Omni",
+      "url": "https://schibsted.teamtailor.com/sv/jobs/7675626-spontanansokan-jobba-med-oss-pa-omni",
+      "location": "",
+      "company": "Schibsted Norway",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "title": "Test Automation Engineer  Autonomous & Safety-Critical Systems",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31107446",
+      "location": "Göteborg",
+      "company": "Tatvanord AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Full Stack Developer  Business Intelligence",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31107381",
+      "location": "",
+      "company": "Semicon Service Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Backend utvecklare som vill elektrifiera världen",
+      "url": "https://pnty-apply.ponty-system.se/cilbuper?id=550",
+      "location": "Göteborg",
+      "company": "Grid Collective AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Apputvecklare REMOTE i Sverige",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31107402",
+      "location": "Norrköping",
+      "company": "KAMLIN CAREERS AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "VGTV søker prosjektleder for Love Island",
+      "url": "https://schibsted.teamtailor.com/no/jobs/7682274-vgtv-soker-prosjektleder-for-love-island",
+      "location": "",
+      "company": "Schibsted",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "title": "(Inventory, Raanana) מחסנאים - רעננה",
+      "url": "https://careers.wolt.com/jobs/3/7073036",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "(WM Shift Manager, Or Yehuda) מנהלי משמרת - אור יהודה",
+      "url": "https://careers.wolt.com/jobs/3/7442984",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "VGTV søker prosjektleder for Love Island",
+      "url": "https://schibsted.teamtailor.com/no/jobs/7682274-vgtv-soker-prosjektleder-for-love-island",
+      "location": "",
+      "company": "Schibsted Norway",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "title": "Utvecklare med samordningsuppdrag kultur för äldre",
+      "url": "https://regionhalland.varbi.com/se/what:job/jobID:939613/type:job/where:125/apply:1",
+      "location": "Halmstad",
+      "company": "REGION HALLAND",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "AI Platform Specialist  17878",
+      "url": "https://veritaz.se/jobs/ai-platform-specialist-17878/",
+      "location": "",
+      "company": "Veritaz AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Digital Product Analyst  17879",
+      "url": "https://veritaz.se/jobs/digital-product-analyst-17879/",
+      "location": "",
+      "company": "Veritaz AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior DevOps Engineer till plattformsteamet bakom vår SaaS-tjänst",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31074783",
+      "location": "Umeå",
+      "company": "Senseworks AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Steam Turbine Supervisor - Nuclear Power Plants",
+      "url": "https://ars2.equest.com/?response_id=1f11fe7daac5cdb47a5f25c524d6b784",
+      "location": "Finspång",
+      "company": "Siemens Energy AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Java AWS Developer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31074611",
+      "location": "",
+      "company": "Semicon Service Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior .NET Azure Developer  Cyber Security",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31074576",
+      "location": "",
+      "company": "Semicon Service Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
