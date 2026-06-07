@@ -1,0 +1,335 @@
+{
+  "date": "2026-06-07",
+  "compared_to": "2026-06-06",
+  "added_count": 9,
+  "removed_count": 29,
+  "added": [
+    {
+      "title": "Full-Stack JavaScript Developer",
+      "url": "https://careers.adcash.com/jobs/6560767-full-stack-javascript-developer",
+      "location": "",
+      "company": "Adcash",
+      "country": "EE",
+      "tier": "early"
+    },
+    {
+      "title": "Vår kund söker en systemutvecklare med inriktning på integrationer",
+      "url": "https://apply.recman.page/job_post.php?id=479378&apply_only&sub_id=406&path=ams",
+      "location": "Solna",
+      "company": "NXT Interim Stockholm AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Engineering Team Lead",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31147914",
+      "location": "Stockholm",
+      "company": "Lovable Labs Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Experienced Data Engineer (Informatica PowerCenter)",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31147986",
+      "location": "",
+      "company": "Semicon Service Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Data Scientist till AI-team inom samhällsviktig verksamhet",
+      "url": "https://www.becausemondays.com/assignments/efcfaac4-f1e4-418c-84d1-20e7299f0f41",
+      "location": "Stockholm",
+      "company": "Letsgig AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Postdoktor specialiserad på mikro-/nannofossiler och AI ",
+      "url": "https://recruit.visma.com/spa/public/apply?guidAssignment=1adfc7a8-adf2-4e15-a3c8-5925da9559f9&publishCode=PB&TK=5e8def44-fef4-4fda-9b89-634be26c894a",
+      "location": "Stockholm",
+      "company": "NATURHISTORISKA RIKSMUSEET",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Business Controller",
+      "url": "https://www.aplitrak.com/?adid=YS5kb21iZXJnLjY0NzkxLjEzNzY1QHNhYWIuYXBsaXRyYWsuY29t",
+      "location": "Arboga",
+      "company": "SAAB AKTIEBOLAG",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "HSE-resurs till spännande industriprojekt i Karlshamn ",
+      "url": "https://www.academicwork.se/lediga-jobb/p/platsbanken/F4D4UH",
+      "location": "Karlshamn",
+      "company": "ACADEMIC WORK SWEDEN AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Mechanical Design Engineer (Robotics)",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31147967",
+      "location": "",
+      "company": "Semicon Service Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Senior Customer Success Manager",
+      "url": "https://www.relexsolutions.com/careers/jobs/senior-customer-success-manager/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Business Development Representative",
+      "url": "https://www.relexsolutions.com/careers/jobs/business-development-representative/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Senior Account Executive – Supply Chain SaaS – Retail Industry",
+      "url": "https://www.relexsolutions.com/careers/jobs/senior-account-executive-retail-west/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Business Consultant/Supply Chain Consultant(Japanese and English Speaking)",
+      "url": "https://www.relexsolutions.com/careers/jobs/business-consultant-supply-chain-consultantjapanese-and-english-speaking-2/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Business Development Representative (Swedish Speaker)",
+      "url": "https://www.relexsolutions.com/careers/jobs/business-development-representative-swedish-speaker/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Business Development Representative (Arabic, Spanish, French, German Speakers)",
+      "url": "https://www.relexsolutions.com/careers/jobs/business-development-representative-arabic-spanish-french-german-speakers/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Office Coordinator",
+      "url": "https://www.relexsolutions.com/careers/jobs/office-coordinator/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Forward Deployed Engineer | Pricing & Promotions",
+      "url": "https://www.relexsolutions.com/careers/jobs/forward-deployed-engineer-pricing-promotions/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Customer Success Manager – Supply Chain SaaS – Nashville, TN",
+      "url": "https://www.relexsolutions.com/careers/jobs/customer-success-manager-supply-chain-saas-nashville-tn/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Supply Chain Consultant",
+      "url": "https://www.relexsolutions.com/careers/jobs/supply-chain-consultant-2/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Customer Success Manager – Supply Chain SaaS",
+      "url": "https://www.relexsolutions.com/careers/jobs/customer-success-manager-supply-chain-saas/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Project Coordinator",
+      "url": "https://www.relexsolutions.com/careers/jobs/project-coordinator/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Senior Data Architect\n\nHybrid - Helsinki, Uusimaa",
+      "url": "https://job-boards.greenhouse.io/oura/jobs/4246508009",
+      "location": "",
+      "company": "Oura",
+      "country": "FI",
+      "tier": "growth"
+    },
+    {
+      "title": "Media Buyer",
+      "url": "https://careers.adcash.com/jobs/7725795-media-buyer",
+      "location": "",
+      "company": "Adcash",
+      "country": "EE",
+      "tier": "early"
+    },
+    {
+      "title": "Senior Performance Marketing Specialist",
+      "url": "https://careers.adcash.com/jobs/7725719-senior-performance-marketing-specialist",
+      "location": "",
+      "company": "Adcash",
+      "country": "EE",
+      "tier": "early"
+    },
+    {
+      "title": "Devops Engineer",
+      "url": "https://careers.adcash.com/jobs/7725646-devops-engineer",
+      "location": "",
+      "company": "Adcash",
+      "country": "EE",
+      "tier": "early"
+    },
+    {
+      "title": "ETL Developer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31130016",
+      "location": "Stockholm",
+      "company": "Nordic Analytiq AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Digital Workflows Developer - ServiceNow",
+      "url": "https://www.aplitrak.com/?adid=YS5vbHNzb24uMjk3ODkuMTM3NjVAc2FhYi5hcGxpdHJhay5jb20",
+      "location": "Göteborg",
+      "company": "SAAB AKTIEBOLAG",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Business Controller",
+      "url": "https://www.aplitrak.com/?adid=YS5kb21iZXJnLjQzOTY2LjEzNzY1QHNhYWIuYXBsaXRyYWsuY29t",
+      "location": "Arboga",
+      "company": "SAAB AKTIEBOLAG",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Contracts Manager",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31127358",
+      "location": "Gävle",
+      "company": "Collen Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Project Manager",
+      "url": "https://se.sodexo.com/jobba-hos-oss/lediga-jobb?rmpage=job&rmjob=8944&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Lund",
+      "company": "Sodexo AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Högspänningselektriker Skövde",
+      "url": "https://iss.onecruiter.com/jobs/314499-hogspanningselektriker-skovde?ref=platsbankenv2",
+      "location": "Skövde",
+      "company": "ISS FACILITY SERVICES AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Engineering Manager",
+      "url": "https://lyten.wd503.myworkdayjobs.com/Lyten_EU_Career_Site/job/Skelleftea-Sweden/Engineering-Manager_JR100643",
+      "location": "Skellefteå",
+      "company": "Lyten Ett AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Backend utvecklare som vill elektrifiera världen",
+      "url": "https://pnty-apply.ponty-system.se/cilbuper?id=550",
+      "location": "Göteborg",
+      "company": "Grid Collective AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Backendutvecklare (.NET / Azure / DDD / AI)  (5+ år)",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31107079",
+      "location": "Malmö",
+      "company": "Qronos AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Full Stack Developer  Business Intelligence",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31107381",
+      "location": "",
+      "company": "Semicon Service Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Apputvecklare REMOTE i Sverige",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31107402",
+      "location": "Norrköping",
+      "company": "KAMLIN CAREERS AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "IT SECURITY SPECIALIST - PROJECT & RISK TO ASKER HEALTHCARE GROUP",
+      "url": "https://lediga-jobb.nexerrecruit.com/en-GB/jobs/7829655-it-security-specialist-project-risk-to-asker-healthcare-group/applications/new?promotion=2029596-arbetsformedlingen",
+      "location": "Malmö",
+      "company": "Nexer Recruit AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "IT Specialist & Solution Architect",
+      "url": "pears.ser",
+      "location": "",
+      "company": "We are Pears AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
