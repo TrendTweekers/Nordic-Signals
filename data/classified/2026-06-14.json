@@ -1,0 +1,303 @@
+{
+  "date": "2026-06-14",
+  "added": [
+    {
+      "title": "מלקטים - וולט מרקט - רעננה",
+      "url": "https://careers.wolt.com/jobs/3/6694134",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "מלקטים - וולט מרקט - רעננה",
+      "url": "https://careers.wolt.com/jobs/3/6694133",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Lageransvarig till Taklagrets bygghandel i Örebro",
+      "url": "https://evalio.se/karriar/taklagretrebro/jobb/9ebf320a-3bdd-4b7e-86cd-04b1fd8e3d67/jobb/9ebf320a-3bdd-4b7e-86cd-04b1fd8e3d67",
+      "location": "Örebro",
+      "company": "Taklagret Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    }
+  ],
+  "removed": [
+    {
+      "title": "Medical Director, Sweden",
+      "url": "https://jobs.ashbyhq.com/neko-health/1eddfeeb-e2c9-422a-be04-7c6c8af4751b",
+      "location": "Stockholm",
+      "company": "Neko Health",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "title": "Senior Customer Success Manager",
+      "url": "https://www.relexsolutions.com/careers/jobs/senior-customer-success-manager/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Business Development Representative",
+      "url": "https://www.relexsolutions.com/careers/jobs/business-development-representative/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Senior Account Executive – Supply Chain SaaS – Retail Industry",
+      "url": "https://www.relexsolutions.com/careers/jobs/senior-account-executive-retail-west/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Business Development Representative (Swedish Speaker)",
+      "url": "https://www.relexsolutions.com/careers/jobs/business-development-representative-swedish-speaker/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Business Development Representative (Arabic, Spanish, French, German Speakers)",
+      "url": "https://www.relexsolutions.com/careers/jobs/business-development-representative-arabic-spanish-french-german-speakers/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Office Coordinator",
+      "url": "https://www.relexsolutions.com/careers/jobs/office-coordinator/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Forward Deployed Engineer | Pricing & Promotions",
+      "url": "https://www.relexsolutions.com/careers/jobs/forward-deployed-engineer-pricing-promotions/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Customer Success Manager – Supply Chain SaaS – Nashville, TN",
+      "url": "https://www.relexsolutions.com/careers/jobs/customer-success-manager-supply-chain-saas-nashville-tn/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Supply Chain Consultant",
+      "url": "https://www.relexsolutions.com/careers/jobs/supply-chain-consultant-2/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Project Coordinator",
+      "url": "https://www.relexsolutions.com/careers/jobs/project-coordinator/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Forward Deployed Engineer | Fresh",
+      "url": "https://www.relexsolutions.com/careers/jobs/forward-deployed-engineer-fresh/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Principle Field Presales, Manufacturing (Japan)",
+      "url": "https://www.relexsolutions.com/careers/jobs/principle-field-presales-manufacturing-japan/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Account Manager - Restaurants",
+      "url": "https://careers.wolt.com/jobs/1/7828848",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Customer Success Manager- Restaurants",
+      "url": "https://careers.wolt.com/jobs/1/7988106",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Store Operations Associate - Peristeri",
+      "url": "https://careers.wolt.com/jobs/1/6694750",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Venture Trainee, Reaktor Ecosystem",
+      "url": "https://jobs.ashbyhq.com/reaktor/879decfd-beb7-46ef-aeef-b02a4e1be146",
+      "location": "Helsinki",
+      "company": "Reaktor",
+      "country": "FI",
+      "tier": "growth"
+    },
+    {
+      "title": "Engineering Manager - Trading",
+      "url": "https://jobs.tibber.com/jobs/7800583-engineering-manager-trading",
+      "location": "",
+      "company": "Tibber",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "title": "DEMO – Hospitality Manager",
+      "url": "https://famly.teamtailor.com/jobs/5685716-demo-hospitality-manager",
+      "location": "",
+      "company": "Famly",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "title": "DEMO – Technology Technician",
+      "url": "https://famly.teamtailor.com/jobs/5685715-demo-technology-technician",
+      "location": "",
+      "company": "Famly",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "title": "DEMO – Human Developer",
+      "url": "https://famly.teamtailor.com/jobs/5685714-demo-human-developer",
+      "location": "",
+      "company": "Famly",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "title": "DEMO – Senior Sales Associate",
+      "url": "https://famly.teamtailor.com/jobs/5685713-demo-senior-sales-associate",
+      "location": "",
+      "company": "Famly",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "title": "DEMO – Hospitality Manager",
+      "url": "https://famly.teamtailor.com/jobs/5685716-demo-hospitality-manager",
+      "location": "",
+      "company": "Famly App",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "title": "DEMO – Technology Technician",
+      "url": "https://famly.teamtailor.com/jobs/5685715-demo-technology-technician",
+      "location": "",
+      "company": "Famly App",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "title": "DEMO – Human Developer",
+      "url": "https://famly.teamtailor.com/jobs/5685714-demo-human-developer",
+      "location": "",
+      "company": "Famly App",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "title": "DEMO – Senior Sales Associate",
+      "url": "https://famly.teamtailor.com/jobs/5685713-demo-senior-sales-associate",
+      "location": "",
+      "company": "Famly App",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "title": "Experienced Data Engineer (Informatica PowerCenter)",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31147986",
+      "location": "",
+      "company": "Semicon Service Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Data Scientist till AI-team inom samhällsviktig verksamhet",
+      "url": "https://www.becausemondays.com/assignments/efcfaac4-f1e4-418c-84d1-20e7299f0f41",
+      "location": "Stockholm",
+      "company": "Letsgig AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Postdoktor specialiserad på mikro-/nannofossiler och AI ",
+      "url": "https://recruit.visma.com/spa/public/apply?guidAssignment=1adfc7a8-adf2-4e15-a3c8-5925da9559f9&publishCode=PB&TK=5e8def44-fef4-4fda-9b89-634be26c894a",
+      "location": "Stockholm",
+      "company": "NATURHISTORISKA RIKSMUSEET",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Engineering Team Lead",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31147914",
+      "location": "Stockholm",
+      "company": "Lovable Labs Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
