@@ -1,0 +1,86 @@
+{
+  "date": "2026-06-21",
+  "added": [
+    {
+      "title": "Data Analyst",
+      "url": "https://careers.wolt.com/jobs/1/7866045",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Account Manager - Supermarkets Enterprise",
+      "url": "https://careers.wolt.com/jobs/1/7904724",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Integration Test & Validation Engineer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31197315",
+      "location": "Göteborg",
+      "company": "markley Konsult AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Production Engineering",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31197213",
+      "location": "",
+      "company": "Semicon Service Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    }
+  ],
+  "removed": [
+    {
+      "title": "Senior Infotainment Test and Verification Engineer",
+      "url": "https://openings.incluso.se/jobs/7914515-senior-infotainment-test-and-verification-engineer",
+      "location": "Lund",
+      "company": "Incluso AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}

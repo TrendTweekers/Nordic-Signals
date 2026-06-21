@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-21",
+  "compared_to": "2026-06-20",
+  "added_count": 4,
+  "removed_count": 1,
+  "added": [
+    {
+      "title": "Data Analyst",
+      "url": "https://careers.wolt.com/jobs/1/7866045",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Account Manager - Supermarkets Enterprise",
+      "url": "https://careers.wolt.com/jobs/1/7904724",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Integration Test & Validation Engineer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31197315",
+      "location": "Göteborg",
+      "company": "markley Konsult AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Production Engineering",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31197213",
+      "location": "",
+      "company": "Semicon Service Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Senior Infotainment Test and Verification Engineer",
+      "url": "https://openings.incluso.se/jobs/7914515-senior-infotainment-test-and-verification-engineer",
+      "location": "Lund",
+      "company": "Incluso AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
