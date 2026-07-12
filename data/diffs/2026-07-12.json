@@ -1,0 +1,70 @@
+{
+  "date": "2026-07-12",
+  "compared_to": "2026-07-11",
+  "added_count": 5,
+  "removed_count": 2,
+  "added": [
+    {
+      "title": "Workforce Planner, Sweden",
+      "url": "https://jobs.ashbyhq.com/neko-health/015d09c9-06f8-4920-86b9-12ce25e6fe55",
+      "location": "Stockholm",
+      "company": "Neko Health",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "title": "Electrician",
+      "url": "https://career.airahome.com/jobs/8056020-electrician",
+      "location": "",
+      "company": "Aira",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Senior AWS Platform Engineer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31267074",
+      "location": "Malmö",
+      "company": "Induconsult Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Azure DevOps Specialist (nivå 3 – medior)",
+      "url": "https://careers.progalaxy.se/jobs/8056032-azure-devops-specialist-niva-3-medior/applications/new?promotion=2097959-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Professional Galaxy AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Integration engineer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31267045",
+      "location": "Sollentuna",
+      "company": "DataBees AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Plumbing and Heating Engineer",
+      "url": "https://career.airahome.com/jobs/7903835-plumbing-and-heating-engineer",
+      "location": "",
+      "company": "Aira",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Fullstack Developer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31248818",
+      "location": "Göteborg",
+      "company": "WEON GALAXY AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
