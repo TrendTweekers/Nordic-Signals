@@ -1,0 +1,196 @@
+{
+  "date": "2026-07-19",
+  "compared_to": "2026-07-18",
+  "added_count": 9,
+  "removed_count": 13,
+  "added": [
+    {
+      "title": "Senior Data Engineer",
+      "url": "https://jobs.storytel.com/jobs/8090473-senior-data-engineer",
+      "location": "",
+      "company": "Storytel",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "title": "Analytics Engineer",
+      "url": "https://jobs.storytel.com/jobs/8090471-analytics-engineer",
+      "location": "",
+      "company": "Storytel",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "title": "EHS coordinator/specialist",
+      "url": "https://jobs.ashbyhq.com/iceye/42ec11f9-2c5a-417d-aca7-1ff6740dea7d",
+      "location": "Valencia",
+      "company": "ICEYE",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Devops Engineer",
+      "url": "https://careers.adcash.com/jobs/7725646-devops-engineer",
+      "location": "",
+      "company": "Adcash",
+      "country": "EE",
+      "tier": "early"
+    },
+    {
+      "title": "Operatör ytbehandling",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31280655",
+      "location": "Arboga",
+      "company": "YTS AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Design Engineer Mechanics",
+      "url": "https://flextronics.wd1.myworkdayjobs.com/en-US/Careers/details/Design-Engineer-Mechanics_WD224538?primaryLocation=5c6acd061ffa01b0b50f6e5faf00b00e",
+      "location": "Kalmar",
+      "company": "FLEXTRONICS INTERNATIONAL SWEDEN AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "QA Automation Engineer",
+      "url": "https://albertgroup.careers.haileyhr.app/en-GB/job/2344e157-aa74-46c4-a036-cfa12e8b1609/97e0b5c4-39cc-4f2d-af5b-7b090ae93c54/fe6460ef-a92b-45dc-90b6-b2030e056da5",
+      "location": "Göteborg",
+      "company": "eEducation Albert AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Fullstack engineer",
+      "url": "https://albertgroup.careers.haileyhr.app/en-GB/job/2344e157-aa74-46c4-a036-cfa12e8b1609/ea2a0334-fd85-4c64-afb3-4d9b8c837a22/7972a3b6-4229-4fc1-883c-317754c8d2f7",
+      "location": "Göteborg",
+      "company": "eEducation Albert AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Architect / Tech Lead",
+      "url": "https://albertgroup.careers.haileyhr.app/en-GB/job/2344e157-aa74-46c4-a036-cfa12e8b1609/f6598ae8-56f9-4a04-b7f8-6928b188b0d3/e99b4931-d9cd-4788-8def-9b4bb02da827",
+      "location": "Göteborg",
+      "company": "eEducation Albert AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Marknads- och säljansvarig",
+      "url": "https://karriar.corem.se/jobs/7781825-marknads-och-saljansvarig",
+      "location": "",
+      "company": "Klövern",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Office & Operations Administrator",
+      "url": "https://careers.wolt.com/jobs/1/8035522",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Application Engineer- Data Centers (m/f/x)",
+      "url": "https://apply.workable.com/skeletontech/j/9E9972DDCE/",
+      "location": "Houston, Texas, United States",
+      "company": "Skeleton Technologies",
+      "country": "EE",
+      "tier": "growth"
+    },
+    {
+      "title": "Senior Sales Manager - Grid (m/f/x)",
+      "url": "https://apply.workable.com/skeletontech/j/B95C98A4AA/",
+      "location": "United States",
+      "company": "Skeleton Technologies",
+      "country": "EE",
+      "tier": "growth"
+    },
+    {
+      "title": "SVP of Sales & Marketing (m/f/x)",
+      "url": "https://apply.workable.com/skeletontech/j/D2B7397241/",
+      "location": "Houston, Texas, United States",
+      "company": "Skeleton Technologies",
+      "country": "EE",
+      "tier": "growth"
+    },
+    {
+      "title": "Senior Sales Manager - Data Centers (m/f/x)",
+      "url": "https://apply.workable.com/skeletontech/j/465C3C4549/",
+      "location": "United States",
+      "company": "Skeleton Technologies",
+      "country": "EE",
+      "tier": "growth"
+    },
+    {
+      "title": "Legal Advisor",
+      "url": "https://careers.adcash.com/jobs/7891961-legal-advisor",
+      "location": "",
+      "company": "Adcash",
+      "country": "EE",
+      "tier": "early"
+    },
+    {
+      "title": "Social Media Specialist",
+      "url": "https://careers.adcash.com/jobs/7401106-social-media-specialist",
+      "location": "",
+      "company": "Adcash",
+      "country": "EE",
+      "tier": "early"
+    },
+    {
+      "title": "Senior AWS Platform Engineer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31267074",
+      "location": "Malmö",
+      "company": "Induconsult Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Azure DevOps Specialist (nivå 3 – medior)",
+      "url": "https://careers.progalaxy.se/jobs/8056032-azure-devops-specialist-niva-3-medior/applications/new?promotion=2097959-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Professional Galaxy AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Lifting Coordinator for Megaproject in Luleå, Northern Sweden",
+      "url": "https://www.ncc.se/dispatcher/jobposts/4da111d5-54f7-4604-ab30-3b6054dbf69e",
+      "location": "Stockholm",
+      "company": "NCC AKTIEBOLAG",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Lifting Coordinator for Megaproject in Luleå, Northern Sweden",
+      "url": "https://www.ncc.se/dispatcher/jobposts/d7d9682a-5c7f-46e1-bd5e-acbecb18d9f2",
+      "location": "Boden",
+      "company": "NCC AKTIEBOLAG",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Integration engineer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31267045",
+      "location": "Sollentuna",
+      "company": "DataBees AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
