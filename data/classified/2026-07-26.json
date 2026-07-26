@@ -1,0 +1,114 @@
+{
+  "date": "2026-07-26",
+  "added": [
+    {
+      "title": "Systemutvecklare, vikariat 50%",
+      "url": "https://recruit.visma.com/spa/public/apply?guidAssignment=eadc3ab8-8192-419a-b45a-4e698e4789a3&publishCode=PB&TK=c8e5b6cc-e5b9-4342-a85f-b4f4922e94ed",
+      "location": "Motala",
+      "company": "MOTALA KOMMUN",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Supply Chain & Site Operations Manager",
+      "url": "https://apply.workspacerecruit.com/job/17847",
+      "location": "Vellinge",
+      "company": "Roi Rekrytering Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Digital Designer Internship",
+      "url": "https://itsbirger.com/careers",
+      "location": "",
+      "company": "Birger AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    }
+  ],
+  "removed": [
+    {
+      "title": "Nordic Community Manager",
+      "url": "https://jobs.ashbyhq.com/lovable/f59fa303-3714-4d5d-8e9a-08d427121d07",
+      "location": "Stockholm",
+      "company": "Lovable",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "title": "Master Data Specialist (temporary assignment)",
+      "url": "https://careers.oatly.com/jobs/7972195-master-data-specialist-temporary-assignment/applications/new?promotion=2106459-arbetsformedlingen",
+      "location": "Malmö",
+      "company": "Oatly AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Design Engineer Mechanics",
+      "url": "https://flextronics.wd1.myworkdayjobs.com/en-US/Careers/details/Design-Engineer-Mechanics_WD224538?primaryLocation=5c6acd061ffa01b0b50f6e5faf00b00e",
+      "location": "Kalmar",
+      "company": "FLEXTRONICS INTERNATIONAL SWEDEN AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "QA Automation Engineer",
+      "url": "https://albertgroup.careers.haileyhr.app/en-GB/job/2344e157-aa74-46c4-a036-cfa12e8b1609/97e0b5c4-39cc-4f2d-af5b-7b090ae93c54/fe6460ef-a92b-45dc-90b6-b2030e056da5",
+      "location": "Göteborg",
+      "company": "eEducation Albert AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Fullstack engineer",
+      "url": "https://albertgroup.careers.haileyhr.app/en-GB/job/2344e157-aa74-46c4-a036-cfa12e8b1609/ea2a0334-fd85-4c64-afb3-4d9b8c837a22/7972a3b6-4229-4fc1-883c-317754c8d2f7",
+      "location": "Göteborg",
+      "company": "eEducation Albert AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Architect / Tech Lead",
+      "url": "https://albertgroup.careers.haileyhr.app/en-GB/job/2344e157-aa74-46c4-a036-cfa12e8b1609/f6598ae8-56f9-4a04-b7f8-6928b188b0d3/e99b4931-d9cd-4788-8def-9b4bb02da827",
+      "location": "Göteborg",
+      "company": "eEducation Albert AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
