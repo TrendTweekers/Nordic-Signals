@@ -1,0 +1,1209 @@
+{
+  "date": "2026-07-31",
+  "compared_to": "2026-07-30",
+  "added_count": 75,
+  "removed_count": 64,
+  "added": [
+    {
+      "title": "Creator Manager",
+      "url": "https://careers.acast.com/jobs/8105264-creator-manager",
+      "location": "",
+      "company": "Acast",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "title": "Head of Product Design",
+      "url": "https://jobs.ashbyhq.com/kindred/210ddddd-0242-4831-802d-a0b0480c5500",
+      "location": "Remote - US",
+      "company": "Kindred",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "title": "Fleet Specialist (Refurbishment)",
+      "url": "https://careers.voi.com/jobs/7992923-fleet-specialist-refurbishment",
+      "location": "",
+      "company": "Voi",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "title": "Renewable Energy Sales",
+      "url": "https://career.airahome.com/jobs/8039186-renewable-energy-sales",
+      "location": "",
+      "company": "Aira",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Heat Pump Installer",
+      "url": "https://career.airahome.com/jobs/8033655-heat-pump-installer",
+      "location": "",
+      "company": "Aira",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Head of Product Design",
+      "url": "https://jobs.ashbyhq.com/kindred/210ddddd-0242-4831-802d-a0b0480c5500",
+      "location": "Remote - US",
+      "company": "Kindred Group",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Applied AI Analyst",
+      "url": "https://careers.northmill.com/jobs/8143642-applied-ai-analyst",
+      "location": "",
+      "company": "Northmill",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Cyber Security Engineer",
+      "url": "https://jobs.qred.com/jobs/7759884-cyber-security-engineer",
+      "location": "",
+      "company": "Qred",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Senior Product Manager - Analytics",
+      "url": "https://careers.quinyx.com/jobs/7571768-senior-product-manager-analytics",
+      "location": "",
+      "company": "Quinyx",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Senior Software Engineer - Tasking and Planning",
+      "url": "https://jobs.ashbyhq.com/iceye/b12fce39-5cbb-44ed-8f02-ca1654d41659",
+      "location": "Valencia",
+      "company": "ICEYE",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Senior Software Engineer (Networking)",
+      "url": "https://jobs.ashbyhq.com/iceye/781f4574-906c-44ef-a7b4-8a5d8e59ad4f",
+      "location": "Espoo",
+      "company": "ICEYE",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "AOCS Engineer",
+      "url": "https://jobs.ashbyhq.com/iceye/e445d7f9-cdf6-4df8-9da5-bced47318ff2",
+      "location": "Espoo",
+      "company": "ICEYE",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Supply Chain Consultant",
+      "url": "https://www.relexsolutions.com/careers/jobs/supply-chain-consultant/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Customer Success Manager",
+      "url": "https://www.relexsolutions.com/careers/jobs/customer-success-manager/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Sales Manager",
+      "url": "https://careers.wolt.com/jobs/1/8098204",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "(Fully Remote) - English and Georgian Speaking Support Associate Full-Time",
+      "url": "https://careers.wolt.com/jobs/4/8083233",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Sales Manager (Śląsk)",
+      "url": "https://careers.wolt.com/jobs/1/8081447",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Restaurant Onboarding Specialist (m/f/x)",
+      "url": "https://careers.wolt.com/jobs/1/7394228",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Support Team Lead SSC",
+      "url": "https://careers.wolt.com/jobs/1/6693760",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Supply Chain Analyst (WM)",
+      "url": "https://careers.wolt.com/jobs/1/8055309",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Strategic Account Manager (R-19498)",
+      "url": "https://jobs.lever.co/dnb/7786be01-b2ac-4403-919e-708ee2a2def2",
+      "location": "REMOTE - INDIA",
+      "company": "DNB",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "title": "Mystery Shopper sökes till uppdrag i Borlänge med omnejd",
+      "url": "https://jobb.remarkable.se/jobs/7074819-mystery-shopper-sokes-till-uppdrag-i-borlange-med-omnejd",
+      "location": "",
+      "company": "reMarkable",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "title": "CRM & Marketing Automation Specialist",
+      "url": "https://careers.spond.com/jobs/8134065-crm-marketing-automation-specialist",
+      "location": "",
+      "company": "Spond",
+      "country": "NO",
+      "tier": "early"
+    },
+    {
+      "title": "Senior Buyer",
+      "url": "https://jobs.lever.co/veo/bca22fab-7527-4018-a6a2-a60d4b384590",
+      "location": "COPENHAGEN",
+      "company": "Veo",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "title": "Brand Partnerships Specialist",
+      "url": "https://careers.adcash.com/jobs/8113812-brand-partnerships-specialist",
+      "location": "",
+      "company": "Adcash",
+      "country": "EE",
+      "tier": "early"
+    },
+    {
+      "title": "Senior Software Engineer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31305893",
+      "location": "",
+      "company": "Remote Technology Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Software Engineer",
+      "url": "https://volvo-car-corporation.contactrh.com/jobs/9669/44348101",
+      "location": "Göteborg",
+      "company": "Volvo Personvagnar Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Software Engineer to Telecom Company",
+      "url": "https://www.academicwork.se/lediga-jobb/p/platsbanken/BTCLHU",
+      "location": "Stockholm",
+      "company": "ACADEMIC WORK SWEDEN AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior systemutvecklare inom modern C#/.NET",
+      "url": "https://polisen.se/jobb-och-utbildning/lediga-jobb/2026/juli/senior-systemutvecklare-inom-modern-c.net--teknik-som-starker-polisens-operativa-arbete/",
+      "location": "Stockholm",
+      "company": "POLISMYNDIGHETEN",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "QA Engineer - AI first Developer Experience, Lund",
+      "url": "https://www.aplitrak.com/?adid=QW1hbmRhLkJqdXJzdGFtLjY5NjU3LjEzNzY1QGF4aXNjb21tcy5hcGxpdHJhay5jb20",
+      "location": "Lund",
+      "company": "AXIS COMMUNICATIONS AKTIEBOLAG",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "MSI-paketerare för SQL Server-migrering",
+      "url": "https://jobs.avaron.se/jobs/8153525-msi-paketerare-for-sql-server-migrering/applications/new?promotion=2124647-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Software developer within the AI and Analytics Department, Lund",
+      "url": "https://www.aplitrak.com/?adid=QW1hbmRhLkJqdXJzdGFtLjI4MDM1LjEzNzY1QGF4aXNjb21tcy5hcGxpdHJhay5jb20",
+      "location": "Lund",
+      "company": "AXIS COMMUNICATIONS AKTIEBOLAG",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Systemutvecklare  / PHP ",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31306871",
+      "location": "Sigtuna",
+      "company": "ABS Wheels Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Utvecklare inom ITSM till Quest Consulting",
+      "url": "https://pnty-apply.ponty-system.se/quest?id=8254&pnty_src=platsbanken",
+      "location": "Stockholm",
+      "company": "Quest Consulting Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Systemutvecklare inom Unit4 och Dynamics",
+      "url": "https://jobs.avaron.se/jobs/8151348-systemutvecklare-inom-unit4-och-dynamics/applications/new?promotion=2124320-arbetsformedlingen",
+      "location": "Uppsala",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Systemutvecklare med inriktning testning",
+      "url": "https://web103.reachmee.com/ext/I005/333/main?site=2&validator=a75fbd88f1b2a3a49de2af9c8b7bc228&lang=SE&rmpage=job&rmjob=49961&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Stockholm",
+      "company": "FÖRSVARSMAKTEN",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Systemutvecklare",
+      "url": "https://web103.reachmee.com/ext/I005/333/main?site=2&validator=a75fbd88f1b2a3a49de2af9c8b7bc228&lang=SE&rmpage=job&rmjob=49959&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Stockholm",
+      "company": "FÖRSVARSMAKTEN",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Junior Java Systemutvecklare till Sundsvall",
+      "url": "https://www.csn.se/om-csn/jobba-hos-oss/lediga-tjanster.html?rmpage=job&rmjob=765&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Sundsvall",
+      "company": "CENTRALA STUDIESTÖDSNÄMNDEN",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Backend-utvecklare till global molntjänst i Linköping",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31284948",
+      "location": "Linköping",
+      "company": "TaxiCaller Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": " Logistics developer till Metso i Sala ",
+      "url": "https://www.aplitrak.com/?adid=YW5lZGVuLjczNTAyLjEzNzY1QG1hbnBvd2VyZ3JvdXBub3JkaWNzLmFwbGl0cmFrLmNvbQ",
+      "location": "Sala",
+      "company": "Experis AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "MLOps Engineer role",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31305297",
+      "location": "Göteborg",
+      "company": "SkillHuset Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior iOS Developer",
+      "url": "https://majority.com/en/company/career/position/8043661002-senior-ios-developer",
+      "location": "Stockholm",
+      "company": "Majority Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Java Developer",
+      "url": "https://sandvik.wd3.myworkdayjobs.com/sandvik-jobs/job/Sweden-Svedala/Senior-Java-Developer_R0095106",
+      "location": "Svedala",
+      "company": "Sandvik Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Data Engineer",
+      "url": "https://www.academicwork.se/lediga-jobb/p/platsbanken/YM6K62",
+      "location": "Stockholm",
+      "company": "ACADEMIC WORK SWEDEN AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Data Signing Service DevOps Engineer",
+      "url": "https://ericsson-ab.contactrh.com/jobs/9669/44347744",
+      "location": "Stockholm",
+      "company": "ERICSSON AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "AI/ML Engineer",
+      "url": "https://assaabloy.jobs2web.com/job-invite/48272/",
+      "location": "Stockholm",
+      "company": "ASSA ABLOY AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Data Scientist",
+      "url": "https://jobs.smartrecruiters.com/HMGroup/744000140403999-data-scientist",
+      "location": "Stockholm",
+      "company": "H & M Hennes & Mauritz GBC AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Data Scientist",
+      "url": "https://ericsson-ab.contactrh.com/jobs/9669/44347732",
+      "location": "Stockholm",
+      "company": "ERICSSON AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior DevOps / DevSecOps Engineer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31306482",
+      "location": "Solna",
+      "company": "I-Ray IT Solutions AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "DevOps Team Lead",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31306074",
+      "location": "Danderyd",
+      "company": "Teleoffice Viewcom AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Kommersiell projektledare",
+      "url": "https://www.unikresurs.se/lediga-tjanster/?mtrpage=assignment&mtrt=ams&mtrid=9772",
+      "location": "Finspång",
+      "company": "UNIK Resurs i Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Process Engineer",
+      "url": "https://career.stegra.com/jobs/8062921-process-engineer/762b6b5f-32ef-4353-baa3-785672d528fa",
+      "location": "Boden",
+      "company": "Stegra Boden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Maintenance engineer",
+      "url": "https://chatgpt.com/c/6a6c5b63-a538-832a-bad3-a5c00b8fa698",
+      "location": "Boden",
+      "company": "Stegra Boden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Maintenance Lead",
+      "url": "https://career.stegra.com/jobs/8143541-maintenance-lead",
+      "location": "Boden",
+      "company": "Stegra Boden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Test Engineer",
+      "url": "https://stoneridge.wd5.myworkdayjobs.com/Careers/job/Orebro-Sweden/Test-Engineer_JR102431",
+      "location": "Örebro",
+      "company": "STONERIDGE ELECTRONICS AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "PLC Automation Engineer  18617",
+      "url": "https://veritaz.se/jobs/plc-automation-engineer-18617-uppsala-county-or-stockholm-county-sweden/",
+      "location": "",
+      "company": "Veritaz AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Head of Strategy, Autonomous Technologies",
+      "url": "https://emp.jobylon.com/jobs/373668/",
+      "location": "Stockholm",
+      "company": "Einride AB (publ)",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Site Manager (m/f/x)",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31305605",
+      "location": "Göteborg",
+      "company": "Sverige BAUER GL AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Quality Multiskilled Operator",
+      "url": "https://careers-se.icims.com/jobs/128030/quality-multiskilled-operator/job?mode=view",
+      "location": "Örebro",
+      "company": "Schneider Electric Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Food & Beverage Manager",
+      "url": "https://iss.onecruiter.com/jobs/316730-food-and-beverage-manager?ref=platsbankenv2",
+      "location": "Finspång",
+      "company": "ISS FACILITY SERVICES AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior HSE Specialist Getinge Sterilization",
+      "url": "https://maquet-holding-bv-co-kg.contactrh.com/jobs/9669/44347624",
+      "location": "Halmstad",
+      "company": "Getinge AB (publ)",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Airsafe Sweden söker en Office Manager",
+      "url": "https://astorgroup.teamtailor.com/jobs/8147947-airsafe-sweden-soker-en-office-manager/applications/new?promotion=2123167-arbetsformedlingen",
+      "location": "Upplands Väsby",
+      "company": "Scandinavian Astor Group AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Area Lead Planner (Construction Projects)",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31302436",
+      "location": "Boden",
+      "company": "GLOBAL PAYROLL SERVICES FILIAL SWEDEN",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Supplier Liaison & Quality Assistant",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31303913",
+      "location": "Stockholm",
+      "company": "Remote Technology Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Data Scientist till Swedbank",
+      "url": "https://www.academicwork.se/lediga-jobb/p/platsbanken/HJUILP",
+      "location": "Stockholm",
+      "company": "ACADEMIC WORK SWEDEN AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Fullstack Product Engineer",
+      "url": "https://lovable.dev/careers?ashby_jid=b9894757-c26b-4c5e-9ee8-3e18d9947fd6#open-positions",
+      "location": "Stockholm",
+      "company": "Lovable Labs Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Aftermarket Methods Engineer at Volvo CE",
+      "url": "https://volvo-information-technology-ab.contactrh.com/jobs/9669/44347509",
+      "location": "Eskilstuna",
+      "company": "VOLVO BUSINESS SERVICES AKTIEBOLAG",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Solution Architect  Digital Commerce",
+      "url": "https://husqvarnagroup.wd3.myworkdayjobs.com/External_Career_Site/job/Huskvarna-Drottninggatan/Solution-Architect---Digital-Commerce--Backend-focus-_R-14277",
+      "location": "Jönköping",
+      "company": "Husqvarna AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior QA Engineer",
+      "url": "https://leovegasgroup.com/careers/open-positions/?job_location=C7ACXfw0",
+      "location": "Stockholm",
+      "company": "Gears of Leo AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Receptionist Scandic Anglais, deltid  50%",
+      "url": "https://easyapply.jobs/r/EIByGME26Xf5mESBjQn",
+      "location": "Stockholm",
+      "company": "Scandic Hotels Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Uppdragsledare till brottsbekämpande verksamhetssystem i Stockholm",
+      "url": "https://polisen.se/jobb-och-utbildning/lediga-jobb/2026/juli/uppdragsledare-till-brottsbekampande-verksamhetssystem-i-stockholm/",
+      "location": "Stockholm",
+      "company": "POLISMYNDIGHETEN",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Software Architect – Embedded Systems to Husqvarna Construction",
+      "url": "https://mpyascitech.com/jobba-hos-oss?jobid=316755&ref=platsbankenv2",
+      "location": "Partille",
+      "company": "Mpya Sci & Tech AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Lead Qualification Specialist (part-time)",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31284944",
+      "location": "Linköping",
+      "company": "TaxiCaller Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Junior Account Manager (English and Spanish speaking) to Linköping",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31284952",
+      "location": "Linköping",
+      "company": "Avenda Solutions AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "SAP Team Leader",
+      "url": "https://epiroc-rock-drills-ab.contactrh.com/jobs/9669/44348158",
+      "location": "Örebro",
+      "company": "Epiroc Rock Drills Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Dermatologist ",
+      "url": "https://jobs.ashbyhq.com/neko-health/1087f395-2725-425e-a3f5-1d2e9bea33e3",
+      "location": "Remote",
+      "company": "Neko Health",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "title": "Tecnico Riparazioni Flotta / Fleet Repair Techn...",
+      "url": "https://careers.voi.com/jobs/8089006-tecnico-riparazioni-flotta-fleet-repair-technician-turin",
+      "location": "",
+      "company": "Voi",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "title": "Plumbing and Heating Engineer",
+      "url": "https://career.airahome.com/jobs/8129975-plumbing-and-heating-engineer",
+      "location": "",
+      "company": "Aira",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Plumbing and Heating Engineer",
+      "url": "https://career.airahome.com/jobs/8051317-plumbing-and-heating-engineer",
+      "location": "",
+      "company": "Aira",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Sales Development Representative",
+      "url": "https://careers.detectify.com/jobs/7995951-sales-development-representative",
+      "location": "",
+      "company": "Detectify",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Revenue Operations Manager",
+      "url": "https://jobs.ashbyhq.com/legora/0bdcadc7-bac2-4d20-aadc-4e33f74b7542",
+      "location": "Stockholm HQ",
+      "company": "Legora",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Senior Applied AI Analyst",
+      "url": "https://careers.northmill.com/jobs/8143642-senior-applied-ai-analyst",
+      "location": "",
+      "company": "Northmill",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "SecOps Engineer",
+      "url": "https://jobs.qred.com/jobs/7759884-secops-engineer",
+      "location": "",
+      "company": "Qred",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Product Manager - Analytics",
+      "url": "https://careers.quinyx.com/jobs/7571768-product-manager-analytics",
+      "location": "",
+      "company": "Quinyx",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Supply Chain Specialist (Mechanics & Structures)",
+      "url": "https://jobs.ashbyhq.com/iceye/8f1aaed7-9418-49f5-9dcf-c71359b0bc8e",
+      "location": "Espoo",
+      "company": "ICEYE",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Solution Analyst",
+      "url": "https://www.relexsolutions.com/careers/jobs/solution-analyst-2/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Support Analyst (24/7) – Mexico",
+      "url": "https://www.relexsolutions.com/careers/jobs/support-analyst-24-7-mexico/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Merchant Onboarding Associate",
+      "url": "https://careers.wolt.com/jobs/1/8079739",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Store Operations Associate - Nea Ionia",
+      "url": "https://careers.wolt.com/jobs/1/6694341",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Store Operations Associate - Papafi",
+      "url": "https://careers.wolt.com/jobs/4/8079394",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Marketing Intern – New Verticals & Retail Partnerships (w/m/d)",
+      "url": "https://careers.wolt.com/jobs/1/7995173",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Sales Manager, Wolt for Work",
+      "url": "https://careers.wolt.com/jobs/1/7976699",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Account Management Executive",
+      "url": "https://careers.wolt.com/jobs/1/7984822",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Account Manager m/w/d",
+      "url": "https://careers.wolt.com/jobs/1/7807596",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Retail Account Manager",
+      "url": "https://careers.wolt.com/jobs/1/8020428",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Senior Territory Sales Manager/ Vertriebsmitarbeiter (m/w/d)",
+      "url": "https://careers.wolt.com/jobs/1/8020533",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Inside Sales Specialist",
+      "url": "https://careers.wolt.com/jobs/1/7899183",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "(WM Shift Manager, Hertzeliya) מנהלי משמרת - הרצליה",
+      "url": "https://careers.wolt.com/jobs/3/7443229",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Senior Applied Scientist, Operations Research",
+      "url": "https://careers.wolt.com/jobs/1/7938129",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Team Lead Sales, Region North (m/w/d)",
+      "url": "https://careers.wolt.com/jobs/1/7870388",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Senior/Staff Quantum Error Correction Engineer",
+      "url": "https://iqm.teamtailor.com/jobs/7634424-senior-staff-quantum-error-correction-engineer",
+      "location": "",
+      "company": "IQM Quantum",
+      "country": "FI",
+      "tier": "growth"
+    },
+    {
+      "title": "Strategic Account Manager (R-19498)",
+      "url": "https://jobs.lever.co/dnb/ff1d2f45-2ab4-41ae-9f4c-af605d076857",
+      "location": "REMOTE - INDIA",
+      "company": "DNB",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "title": "Embedded Software Integration Engineer , Automotive - Gothenburg",
+      "url": "https://jobb.marketpeople.se/jobs/8096010-embedded-software-integration-engineer-automotive-gothenburg/applications/new?promotion=2114374-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Marketpeople AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Software Engineer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31290490",
+      "location": "",
+      "company": "Remote Technology Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Lead SAP Software Engineer",
+      "url": "https://jobs.smartrecruiters.com/HMGroup/744000139050263-lead-sap-software-engineer",
+      "location": "Stockholm",
+      "company": "H & M Hennes & Mauritz GBC AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "IT Business Intelligence Analyst - BST GI",
+      "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Ludvika-Dalarna-County-Sweden/IT-Business-Intelligence-Analyst---BST-GI_R0134818",
+      "location": "Ludvika",
+      "company": "Hitachi Energy Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Systemutvecklare inom Qlik Sense",
+      "url": "https://jobs.avaron.se/jobs/8117237-systemutvecklare-inom-qlik-sense/applications/new?promotion=2114300-arbetsformedlingen",
+      "location": "Sigtuna",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "RPA-utvecklare inom Power Automate",
+      "url": "https://jobs.avaron.se/jobs/8117254-rpa-utvecklare-inom-power-automate/applications/new?promotion=2114293-arbetsformedlingen",
+      "location": "Halmstad",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Systemutvecklare inom genetisk diagnostik",
+      "url": "https://jobs.avaron.se/jobs/8117259-systemutvecklare-inom-genetisk-diagnostik/applications/new?promotion=2114292-arbetsformedlingen",
+      "location": "Solna",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "IT Data Engineer - BST GI",
+      "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Ludvika-Dalarna-County-Sweden/IT-Data-Engineer---BST-GI_R0134813",
+      "location": "Ludvika",
+      "company": "Hitachi Energy Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior iOS Developer",
+      "url": "https://rebtel.teamtailor.com/jobs/8115132-senior-ios-developer/applications/new?promotion=2113565-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "RebTel Networks AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Full Stack Java Developer - 18489",
+      "url": "https://veritaz.se/jobs/full-stack-java-developer-18489-2/",
+      "location": "",
+      "company": "Veritaz AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Systemutvecklare - Angular och .NET",
+      "url": "https://web103.reachmee.com/ext/I012/720/main?site=11&validator=de18ad15dd6595b4fad583d3d11e2c65&lang=SE&rmpage=job&rmjob=1988&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Uppsala",
+      "company": "LÄKEMEDELSVERKET",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": ".NET-utvecklare",
+      "url": "https://career.knightecgroup.com/jobs/8113320-net-utvecklare/applications/new?promotion=2113022-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Knightec Group Software and Cloud AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Javautvecklare",
+      "url": "https://career.knightecgroup.com/jobs/8112745-javautvecklare/applications/new?promotion=2112995-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Knightec Group Software and Cloud AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Data Engineer till innovativt techbolag",
+      "url": "https://www.nordicrule.se/jobs/27-data-engineer-till-innovativt-techbolag/?pnty_src=platsbanken",
+      "location": "Stockholm",
+      "company": "Nordicrule AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Systemutvecklare inom identitetshantering",
+      "url": "https://goteborgsstad.varbi.com/se/what:job/jobID:956162/type:job/where:125/apply:1",
+      "location": "Göteborg",
+      "company": "GÖTEBORGS KOMMUN",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Javautvecklare med 5 års erfarenhet",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31289823",
+      "location": "Stockholm",
+      "company": "ORADEV AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Fullstackutvecklare med 5 års erfarenhet",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31289817",
+      "location": "Stockholm",
+      "company": "ORADEV AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Lead Data Engineer",
+      "url": "https://jobs.avaron.se/jobs/8134143-lead-data-engineer/applications/new?promotion=2118810-arbetsformedlingen",
+      "location": "Solna",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Data Scientist",
+      "url": "https://jobs.smartrecruiters.com/HMGroup/744000140028208-data-scientist",
+      "location": "Stockholm",
+      "company": "H & M Hennes & Mauritz GBC AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "AI Enablement Engineer",
+      "url": "https://career.extendaretail.com/jobs/7856573-ai-enablement-engineer",
+      "location": "Solna",
+      "company": "Extenda Retail AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior AI Solution Engineer",
+      "url": "https://volvo-information-technology-ab.contactrh.com/jobs/9669/44332221",
+      "location": "Göteborg",
+      "company": "VOLVO BUSINESS SERVICES AKTIEBOLAG",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Computer Vision / Machine Learning Engineer",
+      "url": "https://manomotion.teamtailor.com/jobs/4966895-computer-vision-machine-learning-engineer/applications/new?promotion=2113048-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "ManoMotion AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "OpenShift Platform Engineer  18498",
+      "url": "https://veritaz.se/jobs/openshift-platform-engineer-18498-2/",
+      "location": "",
+      "company": "Veritaz AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "DevOps Engineer till utvecklingsteam",
+      "url": "https://pensionsmyndigheten.varbi.com/se/what:job/jobID:954802/type:job/where:125/apply:1",
+      "location": "Luleå",
+      "company": "PENSIONSMYNDIGHETEN",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "DevOps Engineer till utvecklingsteam",
+      "url": "https://pensionsmyndigheten.varbi.com/se/what:job/jobID:952111/type:job/where:125/apply:1",
+      "location": "Stockholm",
+      "company": "PENSIONSMYNDIGHETEN",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Flying Doctor",
+      "url": "https://jobs.scania.com/job-invite/30097/",
+      "location": "Södertälje",
+      "company": "SCANIA CV AKTIEBOLAG",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Industrial Quality Inspector - 501835",
+      "url": "https://jobsearch.alstom.com/job/Gothenburg-Industrial-Quality-Inspector/1265810101/",
+      "location": "Göteborg",
+      "company": "ALSTOM TRANSPORT AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Test Rig Maintenance Technician, Automotive - Malmo",
+      "url": "https://jobb.marketpeople.se/jobs/8092678-test-rig-maintenance-technician-automotive-malmo/applications/new?promotion=2113706-arbetsformedlingen",
+      "location": "Malmö",
+      "company": "Marketpeople AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Quality Inspector",
+      "url": "http://coolcompany.com",
+      "location": "Boden",
+      "company": "Cool Company Skandinavien AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Linux Kernel Engineer in Stockholm",
+      "url": "https://www.aplitrak.com/?adid=QW1hbmRhLkJqdXJzdGFtLjk5MDA1LjEzNzY1QGF4aXNjb21tcy5hcGxpdHJhay5jb20",
+      "location": "Stockholm",
+      "company": "AXIS COMMUNICATIONS AKTIEBOLAG",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Sales Coordinator ",
+      "url": "https://apply.careers.transcom.com/careers/JobDetail?jobId=12226&source=Arbetsformedlingen.se",
+      "location": "Örebro",
+      "company": "TRANSCOM AKTIEBOLAG",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Product Merchandising Lead",
+      "url": "https://smrtr.io/zsKBv",
+      "location": "Stockholm",
+      "company": "H & M Hennes & Mauritz Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Secure Boot Engineer, Stockholm",
+      "url": "https://www.aplitrak.com/?adid=QW1hbmRhLkJqdXJzdGFtLjg3NTQyLjEzNzY1QGF4aXNjb21tcy5hcGxpdHJhay5jb20",
+      "location": "Stockholm",
+      "company": "AXIS COMMUNICATIONS AKTIEBOLAG",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Frontend Lead React Native till Axfood IT",
+      "url": "https://tng.zerolime.se/ams/?3b6d066f-7ae3-4a65-a726-fd2f849c2614&utm_source=AMS&utm_medium=platsbanken&utm_campaign=tech",
+      "location": "Stockholm",
+      "company": "TNG Group AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Uppdragsledare till brottsbekämpande verksamhetssystem ",
+      "url": "https://polisen.se/jobb-och-utbildning/lediga-jobb/2026/juli/uppdragsledare-till-brottsbekampande-verksamhetssystem/",
+      "location": "Linköping",
+      "company": "POLISMYNDIGHETEN",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Kommunikatör till Kultur och fritidsförvaltningens administration",
+      "url": "https://vanersborg.varbi.com/se/what:job/jobID:950946/type:job/where:125/apply:1",
+      "location": "Vänersborg",
+      "company": "VÄNERSBORGS KOMMUN",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Receptionist Scandic Skellefteå, deltid  20%",
+      "url": "https://easyapply.jobs/r/OHqUu8O26UgS1O2LAK71",
+      "location": "Skellefteå",
+      "company": "Scandic Hotels Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
