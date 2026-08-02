@@ -1,0 +1,172 @@
+{
+  "date": "2026-08-02",
+  "added": [
+    {
+      "title": "Product Manager, Advertising Products",
+      "url": "https://schibsted.teamtailor.com/no/jobs/7879342-product-manager-advertising-products",
+      "location": "",
+      "company": "Schibsted",
+      "country": "SE",
+      "tier": "scale",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Marknads- och säljansvarig",
+      "url": "https://karriar.corem.se/jobs/7781825-marknads-och-saljansvarig",
+      "location": "",
+      "company": "Klövern",
+      "country": "SE",
+      "tier": "early",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "(WM Shift Manager, Hertzeliya) מנהלי משמרת - הרצליה",
+      "url": "https://careers.wolt.com/jobs/3/7443229",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Product Manager, Advertising Products",
+      "url": "https://schibsted.teamtailor.com/no/jobs/7879342-product-manager-advertising-products",
+      "location": "",
+      "company": "Schibsted Norway",
+      "country": "NO",
+      "tier": "growth",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Fullstackutvecklare till Customer First",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31309077",
+      "location": "Danderyd",
+      "company": "Teleoffice Viewcom AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Senior UX/UI Designer till Internationellt produktuppdrag",
+      "url": "www.pears.se",
+      "location": "",
+      "company": "We are Pears AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    }
+  ],
+  "removed": [
+    {
+      "title": "Reporter till 200 sekunder",
+      "url": "https://aftonbladet.teamtailor.com/jobs/7978491-reporter-till-200-sekunder",
+      "location": "",
+      "company": "Schibsted",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "title": "Reporter till 200 sekunder",
+      "url": "https://aftonbladet.teamtailor.com/jobs/7978491-reporter-till-200-sekunder",
+      "location": "",
+      "company": "Schibsted Norway",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "title": "Systemutvecklare, vikariat 50%",
+      "url": "https://recruit.visma.com/spa/public/apply?guidAssignment=eadc3ab8-8192-419a-b45a-4e698e4789a3&publishCode=PB&TK=c8e5b6cc-e5b9-4342-a85f-b4f4922e94ed",
+      "location": "Motala",
+      "company": "MOTALA KOMMUN",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior HSE Specialist Getinge Sterilization",
+      "url": "https://maquet-holding-bv-co-kg.contactrh.com/jobs/9669/44347624",
+      "location": "Halmstad",
+      "company": "Getinge AB (publ)",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Multiskilled Warehouse Operator",
+      "url": "https://ars2.equest.com/?response_id=8da5a3dc5c7cead1d853ef01e66395c6",
+      "location": "Örebro",
+      "company": "Schneider Electric Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Supply Chain & Site Operations Manager",
+      "url": "https://apply.workspacerecruit.com/job/17847",
+      "location": "Vellinge",
+      "company": "Roi Rekrytering Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Digital Designer Internship",
+      "url": "https://itsbirger.com/careers",
+      "location": "",
+      "company": "Birger AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
