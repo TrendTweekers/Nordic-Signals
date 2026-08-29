@@ -1,0 +1,183 @@
+{
+  "date": "2026-08-29",
+  "compared_to": "2026-08-28",
+  "added_count": 5,
+  "removed_count": 15,
+  "added": [
+    {
+      "title": "Store Operations Associate - Papafi",
+      "url": "https://careers.wolt.com/jobs/4/8079394",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Product Manager",
+      "url": "https://careers.adcash.com/jobs/7938006-product-manager",
+      "location": "",
+      "company": "Adcash",
+      "country": "EE",
+      "tier": "early"
+    },
+    {
+      "title": "Senior systemutvecklare till samhällsviktiga webbtjänster",
+      "url": "https://web103.reachmee.com/ext/I011/1056/main?site=6&validator=c8d2e684ac333a98cbca2724c6422cf2&lang=SE&rmpage=job&rmjob=826&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Norrköping",
+      "company": "Sveriges Meteorologiska och Hydrologiska Institu",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Site Manager till DSV Åkeri",
+      "url": "https://jobs.dsv.com/job-invite/126178/",
+      "location": "Värnamo",
+      "company": "DSV Road AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Androidutvecklare",
+      "url": "https://jobs.avaron.se/jobs/8266852-senior-androidutvecklare/applications/new?promotion=2161318-arbetsformedlingen",
+      "location": "Solna",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Digital Sculptor\n\nHybrid - Helsinki, Uusimaa",
+      "url": "https://job-boards.greenhouse.io/oura/jobs/4235244009",
+      "location": "",
+      "company": "Oura",
+      "country": "FI",
+      "tier": "growth"
+    },
+    {
+      "title": "Senior Partner Success Manager",
+      "url": "https://supermetrics.com/careers/jobs/4908720101",
+      "location": "",
+      "company": "Supermetrics",
+      "country": "FI",
+      "tier": "early"
+    },
+    {
+      "title": "Strategic Business Development Director - Platform Partnerships",
+      "url": "https://supermetrics.com/careers/jobs/4847190101",
+      "location": "",
+      "company": "Supermetrics",
+      "country": "FI",
+      "tier": "early"
+    },
+    {
+      "title": "HR Specialist",
+      "url": "https://careers.adcash.com/jobs/8203779-hr-specialist",
+      "location": "",
+      "company": "Adcash",
+      "country": "EE",
+      "tier": "early"
+    },
+    {
+      "title": "Office assistant",
+      "url": "https://careers.adcash.com/jobs/8166390-office-assistant",
+      "location": "",
+      "company": "Adcash",
+      "country": "EE",
+      "tier": "early"
+    },
+    {
+      "title": "Senior .NET Software Engineer",
+      "url": "https://jobs.avaron.se/jobs/8267449-senior-net-software-engineer/applications/new?promotion=2161527-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "IFS-utvecklare",
+      "url": "https://jobs.avaron.se/jobs/8268100-ifs-utvecklare/applications/new?promotion=2161803-arbetsformedlingen",
+      "location": "Linköping",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Systemutvecklare inom Quadient Inspire",
+      "url": "https://jobs.avaron.se/jobs/8265800-systemutvecklare-inom-quadient-inspire/applications/new?promotion=2160948-arbetsformedlingen",
+      "location": "Borås",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Site Manager till DSV Åkeri",
+      "url": "https://jobs.dsv.com/job-invite/125789/",
+      "location": "Värnamo",
+      "company": "DSV Road AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior AI Engineer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31384814",
+      "location": "Umeå",
+      "company": "Senseworks AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Androidutvecklare",
+      "url": "https://jobs.avaron.se/jobs/8268054-senior-androidutvecklare/applications/new?promotion=2161765-arbetsformedlingen",
+      "location": "Solna",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Backend Engineer Node.js TypeScript OpenSearch",
+      "url": "https://jobs.avaron.se/jobs/8264368-senior-backend-engineer-node-js-typescript-opensearch/applications/new?promotion=2160437-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Lärare inom Webbutveckling",
+      "url": "https://globalflygteknikab-1735550209.teamtailor.com/jobs/8255886-larare-inom-webbutveckling/applications/new?promotion=2157663-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "TeknikAkademin Norden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Nätverksexpert med OT- och molnfokus",
+      "url": "https://jobs.avaron.se/jobs/8260285-natverksexpert-med-ot-och-molnfokus/applications/new?promotion=2159067-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Cloud Site Reliability Engineer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31385006",
+      "location": "Göteborg",
+      "company": "Norvion Systems AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
