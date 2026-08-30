@@ -1,0 +1,140 @@
+{
+  "date": "2026-08-30",
+  "added": [
+    {
+      "title": "Legal Counsel",
+      "url": "https://www.relexsolutions.com/careers/jobs/legal-counsel/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Backend Utvecklare ",
+      "url": "https://sorosconsulting.se/2026/08/30/backend-utvecklare/",
+      "location": "Stockholm",
+      "company": "Soros Consulting AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Platform Engineer, AI/Data",
+      "url": "https://sorosconsulting.se/2026/08/30/platform-engineer-ai-data/",
+      "location": "Stockholm",
+      "company": "Soros Consulting AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Condition Monitoring Engineer",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31363848",
+      "location": "Västerås",
+      "company": "TGS Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    }
+  ],
+  "removed": [
+    {
+      "title": "Senior People Tech Specialist (Workday)",
+      "url": "https://www.relexsolutions.com/careers/jobs/senior-people-tech-specialist-workday/",
+      "location": "",
+      "company": "RELEX Solutions",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Senior systemutvecklare till samhällsviktiga webbtjänster",
+      "url": "https://web103.reachmee.com/ext/I011/1056/main?site=6&validator=c8d2e684ac333a98cbca2724c6422cf2&lang=SE&rmpage=job&rmjob=826&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Norrköping",
+      "company": "Sveriges Meteorologiska och Hydrologiska Institu",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior AI Platform Engineer",
+      "url": "https://jobs.avaron.se/jobs/8265818-senior-ai-platform-engineer/applications/new?promotion=2160932-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Technical Project Manager",
+      "url": "https://jobs.avaron.se/jobs/8265810-senior-technical-project-manager/applications/new?promotion=2160940-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Junior Frontend utvecklare",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31385450",
+      "location": "Upplands Väsby",
+      "company": "Hotmat.se Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Backend-Focused Fullstack Engineer - 18912",
+      "url": "https://veritaz.se/jobs/backend-focused-fullstack-engineer-18912-58",
+      "location": "",
+      "company": "Veritaz AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Frontend Engineer - 18855/18868/18856",
+      "url": "https://veritaz.se/jobs/senior-frontend-engineer-188551886818856-57",
+      "location": "",
+      "company": "Veritaz AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
