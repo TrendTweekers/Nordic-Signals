@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-06",
+  "added": [
+    {
+      "title": "מלקטים- וולט מרקט- מודיעין",
+      "url": "https://careers.wolt.com/jobs/1/6739427",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Systemutvecklare ",
+      "url": "https://konsultia.se/lediga-jobb/jobb/3707",
+      "location": "Göteborg",
+      "company": "Konsultia AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Junior ekonomiassistent till växande bolag i Solna!",
+      "url": "https://www.academicwork.se/lediga-jobb/p/platsbanken/DE2SZF",
+      "location": "Stockholm",
+      "company": "Academic Work Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    }
+  ],
+  "removed": [
+    {
+      "title": "מלקטים לוולט מרקט ראש העין, משרה זמנית (GA, Israel)",
+      "url": "https://careers.wolt.com/he/jobs/3/7566500",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Java backendutvecklare",
+      "url": "https://career.deploja.se/jobs/8303810-java-backendutvecklare/applications/new?promotion=2174580-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Deploja AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Continuous improvement (CI) Process Engineer",
+      "url": "https://wd3.myworkdaysite.com/recruiting/mdlz/External/job/Upplands-Vaesby-Sweden/CI-Engineer_R-174130-1",
+      "location": "Upplands Väsby",
+      "company": "Mondelez Sverige Production AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
