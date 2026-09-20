@@ -1,0 +1,270 @@
+{
+  "date": "2026-09-20",
+  "compared_to": "2026-09-19",
+  "added_count": 4,
+  "removed_count": 25,
+  "added": [
+    {
+      "title": "Product Manager - Energy Market",
+      "url": "https://jobs.tibber.com/jobs/7845484-product-manager-energy-market",
+      "location": "",
+      "company": "Tibber",
+      "country": "NO",
+      "tier": "scale"
+    },
+    {
+      "title": "SW Developer - Python/Go/AWS",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31497710",
+      "location": "Göteborg",
+      "company": "Integro Consulting AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Java-utvecklare med Kotlin Linköping",
+      "url": "https://nexergroup.teamtailor.com/jobs/8405811-java-utvecklare-med-kotlin-linkoping/applications/new?promotion=2205285-arbetsformedlingen",
+      "location": "Linköping",
+      "company": "Nexer AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Taktisk/Operativ Inköpare till ledande industribolag i Västerås",
+      "url": "https://karriar.poolia.se/jobs/8407558-senior-taktisk-operativ-inkopare-till-ledande-industribolag-i-vasteras/applications/new?promotion=2205284-arbetsformedlingen",
+      "location": "Västerås",
+      "company": "Poolia AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Senior Robotics Software Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369057-senior-robotics-software-engineer/applications/new?promotion=2193269-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Embedded Software Engineer C and C Plus Plus",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369054-senior-embedded-software-engineer-c-and-c-plus-plus/applications/new?promotion=2193266-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Java AWS Developer",
+      "url": "https://jobs.avaron.se/jobs/8386550-senior-java-aws-developer/applications/new?promotion=2198685-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Avaron AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Data Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369073-senior-data-engineer/applications/new?promotion=2193285-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "MLOps Platform Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369077-mlops-platform-engineer/applications/new?promotion=2193289-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Machine Learning Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369075-senior-machine-learning-engineer/applications/new?promotion=2193287-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Observability Platform Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369068-senior-observability-platform-engineer/applications/new?promotion=2193282-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Kubernetes Platform Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369064-kubernetes-platform-engineer/applications/new?promotion=2193278-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior AWS Platform Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369062-senior-aws-platform-engineer/applications/new?promotion=2193276-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Java Platform Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369042-senior-java-platform-engineer/applications/new?promotion=2193259-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "DevOps Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369066-devops-engineer/applications/new?promotion=2193280-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "HR Manager Manufacturing",
+      "url": "https://jobs.nordicinvestin.se/jobs/8387829-hr-manager-manufacturing/applications/new?promotion=2199135-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Application Security Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369084-senior-application-security-engineer/applications/new?promotion=2193295-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Cloud Security Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369083-senior-cloud-security-engineer/applications/new?promotion=2193294-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Generative AI Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369076-senior-generative-ai-engineer/applications/new?promotion=2193288-arbetsformedlingen",
+      "location": "Lund",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior PostgreSQL Migration Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369080-senior-postgresql-migration-engineer/applications/new?promotion=2193292-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Analytics Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369074-analytics-engineer/applications/new?promotion=2193286-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Full Stack Product Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369050-full-stack-product-engineer/applications/new?promotion=2193263-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Software Architect",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369060-software-architect/applications/new?promotion=2193274-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "API and Integration Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369059-api-and-integration-engineer/applications/new?promotion=2193273-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior iOS Engineer Swift",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369053-senior-ios-engineer-swift/applications/new?promotion=2193265-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Frontend Engineer React and TypeScript",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369047-senior-frontend-engineer-react-and-typescript/applications/new?promotion=2193261-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Principal Backend Engineer Python",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369034-principal-backend-engineer-python/applications/new?promotion=2193258-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "UX Engineer",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369093-ux-engineer/applications/new?promotion=2193304-arbetsformedlingen",
+      "location": "Borås",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Android Engineer Kotlin",
+      "url": "https://jobs.nordicinvestin.se/jobs/8369052-senior-android-engineer-kotlin/applications/new?promotion=2193264-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Nordic Investin Group Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
