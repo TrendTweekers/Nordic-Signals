@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-04",
+  "added": [
+    {
+      "title": "Heating System Design Engineer (Field)",
+      "url": "https://career.airahome.com/jobs/8495342-heating-system-design-engineer-field",
+      "location": "",
+      "company": "Aira",
+      "country": "SE",
+      "tier": "early",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "IT Specialist - Drift, Förvaltning & Vidareutveckling",
+      "url": "https://www.akkodis.com/en-se/careers/jobs/job/ZL_MODIS_051912?src=ams_direct",
+      "location": "Göteborg",
+      "company": "Akkodis Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Senior Kafka Platform Engineer  Integration & Cloud",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31550132",
+      "location": "",
+      "company": "Hykmann Global Business Solutions AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    }
+  ],
+  "removed": [
+    {
+      "title": "Heat Pump Installer",
+      "url": "https://career.airahome.com/jobs/8427114-heat-pump-installer",
+      "location": "",
+      "company": "Aira",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Embedded Software Integration Engineer (Specialist)",
+      "url": "https://regma.se/career.html",
+      "location": "",
+      "company": "Regma IT AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Systemadministratör inom Dataplattform",
+      "url": "https://web103.reachmee.com/ext/I003/493/main?site=5&validator=b073f118b5fe762c32b44abda804bb19&lang=SE&rmpage=job&rmjob=4080&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Stockholm",
+      "company": "Svenska Kraftnät",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "AI Architect",
+      "url": "https://careersweden.knowit.se/jobs/8461743-ai-architect/applications/new?promotion=2216664-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Knowit Aktiebolag (publ)",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
