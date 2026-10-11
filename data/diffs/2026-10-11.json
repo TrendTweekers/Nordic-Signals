@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-11",
+  "compared_to": "2026-10-10",
+  "added_count": 5,
+  "removed_count": 4,
+  "added": [
+    {
+      "title": "Web Designer ( web design + react background, 6-month contract)",
+      "url": "https://careers.stravito.com/jobs/8495736-web-designer-web-design-react-background-6-month-contract",
+      "location": "",
+      "company": "Stravito",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Partnership Associate",
+      "url": "https://careers.wolt.com/en/jobs/1/8272680",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Junior Baseband Software Developer",
+      "url": "https://ericsson-ab.contactrh.com/jobs/9669/44499418",
+      "location": "Stockholm",
+      "company": "Ericsson AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior applikationstestare inom SCADA",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31580935",
+      "location": "Västerås",
+      "company": "Victory Current AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Spotter for Datacenter Construction Site in Eskilstuna",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31580602",
+      "location": "Eskilstuna",
+      "company": "NorthLane Group AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Web Designer (6-month contract)",
+      "url": "https://careers.stravito.com/jobs/8495736-web-designer-6-month-contract",
+      "location": "",
+      "company": "Stravito",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "DevOps Developer",
+      "url": "https://ericsson-ab.contactrh.com/jobs/9669/44498738",
+      "location": "Stockholm",
+      "company": "Ericsson AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Kafka Platform Engineer  Integration & Cloud",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31550132",
+      "location": "",
+      "company": "Hykmann Global Business Solutions AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Project Manager External",
+      "url": "https://ars2.equest.com/?response_id=88c139b18ccc30cd55074aa79d882e03",
+      "location": "Finspång",
+      "company": "Siemens Energy AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
