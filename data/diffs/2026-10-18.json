@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-18",
+  "compared_to": "2026-10-17",
+  "added_count": 7,
+  "removed_count": 7,
+  "added": [
+    {
+      "title": "Supply Chain Manager (WM)",
+      "url": "https://careers.wolt.com/en/jobs/1/8111554",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "IT Consultant, Developer",
+      "url": "www.netlight.com",
+      "location": "Stockholm",
+      "company": "Netlight Consulting AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "React / Redux - Webbutvecklare till TaxiCaller i Linköping",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31591518",
+      "location": "Linköping",
+      "company": "TaxiCaller Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Javautvecklare med backendprofil",
+      "url": "http://valorabemanning.se",
+      "location": "Stockholm",
+      "company": "Valora bemanning AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Data Engineer (Python and Java/Scala skills)",
+      "url": "https://www.hykmann.com/careers/jobs/3145ed6d-4cc6-4aa0-9f1b-36147ddff226",
+      "location": "Malmö",
+      "company": "Hykmann Global Business Solutions AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Data Engineer sökes till uppdrag",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31609954",
+      "location": "Helsingborg",
+      "company": "Valora bemanning AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Backend Engineer (Scala, Java, C++)",
+      "url": "https://www.hykmann.com/careers/jobs/357b6c5a-80a3-4a64-9904-3c35e42af011",
+      "location": "Malmö",
+      "company": "Hykmann Global Business Solutions AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Climate Data Analyst Intern",
+      "url": "https://careers.greenly.earth/jobs/8544615-climate-data-analyst-intern",
+      "location": "",
+      "company": "Normative",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Senior automationsutvecklare inom Security & Compliance",
+      "url": "https://jobs.gigstep.se/jobs/8536066-senior-automationsutvecklare-inom-security-compliance/applications/new?promotion=2242800-arbetsformedlingen",
+      "location": "Lund",
+      "company": "Gigstep AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Javautvecklare",
+      "url": "https://jobs.smartrecruiters.com/AFRY/744000155184679-javautvecklare?oga=true&trid=4de896fd-3759-406c-8d07-8a7da8844ce0",
+      "location": "Stockholm",
+      "company": "AFRY AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Data Engineer inom Microsoft Fabric och Data & AI",
+      "url": "https://www.academicwork.se/lediga-jobb/p/platsbanken/FIPE92",
+      "location": "Stockholm",
+      "company": "Academic Work Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Junior Baseband Software Developer",
+      "url": "https://ericsson-ab.contactrh.com/jobs/9669/44499418",
+      "location": "Stockholm",
+      "company": "Ericsson AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Systemutvecklare .NET",
+      "url": "https://career.deploja.se/jobs/8529832-systemutvecklare-net/applications/new?promotion=2240622-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Deploja AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Software Solution Architect ",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31580317",
+      "location": "Göteborg",
+      "company": "Integro Consulting AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
