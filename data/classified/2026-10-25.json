@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-25",
+  "added": [
+    {
+      "title": "Power Platform Specialist",
+      "url": "https://apply.recman.page/job_post.php?id=484931&apply_only&sub_id=1019&path=ams",
+      "location": "Stockholm",
+      "company": "2Complete AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Heron City Taco Bell",
+      "url": "https://tbgroupscandinavia.teamtailor.com/jobs/8611764-heron-city-taco-bell/applications/new?promotion=2263380-arbetsformedlingen",
+      "location": "Huddinge",
+      "company": "T B Group Scandinavia AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    }
+  ],
+  "removed": [
+    {
+      "title": "Wolt Benefits Marketing Manager - Maternity leave replacement",
+      "url": "https://careers.wolt.com/en/jobs/1/8299523",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Vormgevingstagiair [Tonny Media]",
+      "url": "https://careers.podimo.com/jobs/8153831-vormgevingstagiair-tonny-media",
+      "location": "",
+      "company": "Podimo",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "title": "Data Engineer (Python and Java/Scala skills)",
+      "url": "https://www.hykmann.com/careers/jobs/3145ed6d-4cc6-4aa0-9f1b-36147ddff226",
+      "location": "Malmö",
+      "company": "Hykmann Global Business Solutions AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Data Engineer sökes till uppdrag",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31609954",
+      "location": "Helsingborg",
+      "company": "Valora bemanning AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "IT Consultant, Developer",
+      "url": "www.netlight.com",
+      "location": "Stockholm",
+      "company": "Netlight Consulting AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "DevOps Engineer",
+      "url": "http://valorabemanning.se",
+      "location": "Stockholm",
+      "company": "Valora bemanning AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Project Controller for ABB Motion",
+      "url": "https://careers.abb/global/en/job/JR00049652/Senior-Project-Controller-for-ABB-Motion",
+      "location": "Västerås",
+      "company": "ABB AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Backend Engineer (Scala, Java, C++)",
+      "url": "https://www.hykmann.com/careers/jobs/357b6c5a-80a3-4a64-9904-3c35e42af011",
+      "location": "Malmö",
+      "company": "Hykmann Global Business Solutions AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
