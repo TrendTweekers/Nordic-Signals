@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-01",
+  "compared_to": "2026-10-31",
+  "added_count": 7,
+  "removed_count": 5,
+  "added": [
+    {
+      "title": "Senior Fullstackutvecklare  Angular med fokus på Frontend",
+      "url": "https://www.hykmann.com/careers/jobs/ab1e0b40-c0e9-4678-917d-9068643bf8c7",
+      "location": "Jönköping",
+      "company": "Hykmann Global Business Solutions AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "IT konsult",
+      "url": "https://www.sogeti.se/karriar/lediga-jobb/?size=15",
+      "location": "Stockholm",
+      "company": "Sogeti Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Systemutvecklare Dynamics (CRM) till JM, Solna",
+      "url": "https://apply.recman.page/job_post.php?id=481623&apply_only&sub_id=582&path=ams",
+      "location": "Solna",
+      "company": "Level Recruitment AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "AI & Data Solution Engineer / Tech Lead",
+      "url": "https://recruit.agile.nu/apply/jp-b66abd918b6c6a74?source=platsbanken",
+      "location": "Göteborg",
+      "company": "Agile Resources AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Data Engineer till JM, Solna",
+      "url": "https://apply.recman.page/job_post.php?id=481630&apply_only&sub_id=582&path=ams",
+      "location": "Solna",
+      "company": "Level Recruitment AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Sales Representative",
+      "url": "https://www.capgemini.com/se-en/careers/join-capgemini/job-search/?country_code=se-en&country_name=Sweden&size=15",
+      "location": "Stockholm",
+      "company": "Capgemini Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "IT-konsult",
+      "url": "https://www.capgemini.com/se-en/careers/join-capgemini/",
+      "location": "Stockholm",
+      "company": "Capgemini Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Strategy & Operations Manager",
+      "url": "https://careers.wolt.com/en/jobs/1/7483616",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Legal Counsel",
+      "url": "https://capaloai.teamtailor.com/jobs/7380609-legal-counsel",
+      "location": "",
+      "company": "Capalo AI",
+      "country": "FI",
+      "tier": "early"
+    },
+    {
+      "title": "Senior AI Researcher",
+      "url": "https://ericsson-ab.contactrh.com/jobs/9669/44539712",
+      "location": "Stockholm",
+      "company": "Ericsson AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "AI Researcher",
+      "url": "https://ericsson-ab.contactrh.com/jobs/9669/44543029",
+      "location": "Stockholm",
+      "company": "Ericsson AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Associate Senior Lecturer in Cybersecurity",
+      "url": "https://web103.reachmee.com/ext/I003/583/main?site=5&validator=68a0c61034f021baa4299701b2dc5325&lang=SE&rmpage=job&rmjob=10581&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Luleå",
+      "company": "Luleå Tekniska Universitet",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
