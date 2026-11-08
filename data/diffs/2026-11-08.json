@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-08",
+  "compared_to": "2026-11-07",
+  "added_count": 9,
+  "removed_count": 9,
+  "added": [
+    {
+      "title": "Group Financial Controller",
+      "url": "https://careers.stravito.com/jobs/8685366-group-financial-controller",
+      "location": "",
+      "company": "Stravito",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Restaurant Partnership Manager - North",
+      "url": "https://careers.wolt.com/en/jobs/1/8355902",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Full Stack Developer (TypeScript/React)",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31700619",
+      "location": "Malmö",
+      "company": "Conrec Infinity AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Drift och jour av Linuxsystem (SRE/DevOps)",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31695891",
+      "location": "Stockholm",
+      "company": "Scalability AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Restaurant Assistant",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31700516",
+      "location": "Borås",
+      "company": "Omami Central AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Restuarant Assistant",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31700485",
+      "location": "Borås",
+      "company": "Omami Central AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Quality/Test Engineer  POS & Retail Systems-Banking",
+      "url": "https://www.hykmann.com/careers/jobs/0591713e-c266-4311-ad55-249bed1c5b10",
+      "location": "Stockholm",
+      "company": "Hykmann Global Business Solutions AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Frontendutvecklare – React och TypeScript",
+      "url": "https://recruit.agile.nu/apply/jp-37ec18d1c52252bd?source=platsbanken",
+      "location": "Göteborg",
+      "company": "Agile Resources AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Hybrid Cloud - Systemansvarig",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31700337",
+      "location": "Linköping",
+      "company": "Rosenthal, Emanuel",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "IT-arkitekt med utvecklarbakgrund till Verksamt.se",
+      "url": "https://tillvaxtverket.se/ledigajobb?rmpage=job&rmjob=2108&utm_medium=talentech_publishing&utm_source=jobtip",
+      "location": "Östersund",
+      "company": "Tillväxtverket",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "AI & Data Solution Engineer / Tech Lead",
+      "url": "https://recruit.agile.nu/apply/jp-b66abd918b6c6a74?source=platsbanken",
+      "location": "Göteborg",
+      "company": "Agile Resources AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Data Engineer till JM, Solna",
+      "url": "https://apply.recman.page/job_post.php?id=481630&apply_only&sub_id=582&path=ams",
+      "location": "Solna",
+      "company": "Level Recruitment AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Supplier Quality Assurance till Siemens Energy",
+      "url": "https://www.unikresurs.se/lediga-tjanster/?mtrpage=assignment&mtrt=ams&mtrid=9943",
+      "location": "Finspång",
+      "company": "UNIK Resurs i Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Projektledare inom digitalisering & verksamhetsutveckling - Siemens Energy",
+      "url": "https://www.unikresurs.se/lediga-tjanster/?mtrpage=assignment&mtrt=ams&mtrid=9942",
+      "location": "Finspång",
+      "company": "UNIK Resurs i Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Logistisk projektplanerare till Siemens Energy",
+      "url": "https://www.unikresurs.se/lediga-tjanster/?mtrpage=assignment&mtrt=ams&mtrid=9941",
+      "location": "Finspång",
+      "company": "UNIK Resurs i Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "IT konsult",
+      "url": "https://www.sogeti.se/karriar/lediga-jobb/?size=15",
+      "location": "Stockholm",
+      "company": "Sogeti Sverige AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Lead Data Analyst",
+      "url": "https://jobs.smartrecruiters.com/HMGroup/744000158708538-lead-data-analyst",
+      "location": "Stockholm",
+      "company": "H & M Hennes & Mauritz GBC AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Tech Lead - Customer Success",
+      "url": "https://career.vitrolifegroup.com/jobs/8650366-tech-lead-customer-success/applications/new?promotion=2275873-arbetsformedlingen",
+      "location": "Göteborg",
+      "company": "Vitrolife Sweden Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
