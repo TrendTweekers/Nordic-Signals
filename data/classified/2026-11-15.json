@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-15",
+  "added": [
+    {
+      "title": "Monitoring and Sensing Expert",
+      "url": "https://nkt-as.contactrh.com/jobs/9669/44574991",
+      "location": "Västerås",
+      "company": "NKT HV Cables AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "English and Spanish speaking Account Manager to Linköping",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31676911",
+      "location": "Linköping",
+      "company": "TaxiCaller Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    }
+  ],
+  "removed": [
+    {
+      "title": "Senior Associate, Subscription Performance",
+      "url": "https://careers.wolt.com/en/jobs/1/8314175",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "AI Engineer",
+      "url": "https://consultant.dev/via/bytelope/mm2fdidq",
+      "location": "Göteborg",
+      "company": "Bytelope AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Software Team Lead – Industriell automation",
+      "url": "https://recruit.agile.nu/apply/jp-4f446e6cfed71601?source=platsbanken",
+      "location": "Västerås",
+      "company": "Agile Resources AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Automation Engineer",
+      "url": "https://jobs.tetrapak.com/job/Automation-Engineer/101247-en_GB/",
+      "location": "Lund",
+      "company": "Aktiebolaget Tetra Pak",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Full Stack Developer (TypeScript/React)",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31700619",
+      "location": "Malmö",
+      "company": "Conrec Infinity AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Quality/Test Engineer  POS & Retail Systems-Banking",
+      "url": "https://www.hykmann.com/careers/jobs/0591713e-c266-4311-ad55-249bed1c5b10",
+      "location": "Stockholm",
+      "company": "Hykmann Global Business Solutions AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Product Owner – Android Automotive",
+      "url": "https://recruit.agile.nu/apply/jp-9bbdc460febfcffc?source=platsbanken",
+      "location": "Göteborg",
+      "company": "Agile Resources AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
