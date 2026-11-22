@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-22",
+  "added": [
+    {
+      "title": "Staff Design Engineer",
+      "url": "https://jobs.ashbyhq.com/legora/bb0aaeaa-d380-4e88-be7a-12f738af574d",
+      "location": "Stockholm HQ",
+      "company": "Legora",
+      "country": "SE",
+      "tier": "early",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Cleanroom Coordinator",
+      "url": "https://iqm.teamtailor.com/jobs/8569876-cleanroom-coordinator",
+      "location": "",
+      "company": "IQM Quantum",
+      "country": "FI",
+      "tier": "growth",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    },
+    {
+      "title": "Software Engineer till Råsta Lake Systems",
+      "url": "https://needo.se/lediga-jobb/3313-software-engineer-till-rasta-lake-systems/?pnty_src=platsbanken",
+      "location": "Stockholm",
+      "company": "Needo Recruitment Sthlm AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech",
+      "department": "Other",
+      "specialty": "",
+      "seniority": "Other",
+      "ai_signal": false,
+      "infra_signal": false,
+      "is_relevant": false,
+      "leadership_hire": false,
+      "strategic_signal": "",
+      "summary": ""
+    }
+  ],
+  "removed": [
+    {
+      "title": "Business Analytics Intern",
+      "url": "https://jobs.storytel.com/jobs/8695161-business-analytics-intern",
+      "location": "",
+      "company": "Storytel",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "title": "Business Controlling Intern",
+      "url": "https://jobs.storytel.com/jobs/8695151-business-controlling-intern",
+      "location": "",
+      "company": "Storytel",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "title": "Supply Chain Planner",
+      "url": "https://careers.wolt.com/he/jobs/3/8398673",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Brand Creative Specialist",
+      "url": "https://careers.wolt.com/en/jobs/1/8400441",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Strategy & Operations Manager, New Verticals",
+      "url": "https://careers.wolt.com/en/jobs/1/8395847",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Supply Chain Manager (WM)",
+      "url": "https://careers.wolt.com/en/jobs/1/8111554",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "אחראי/ת משמרת בן יהודה (Shift Supervisor, Ben Yehuda)",
+      "url": "https://careers.wolt.com/he/jobs/3/7475877",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "אחראי/ת משמרת יד אליהו (Shift Supervisor, Yad Eliyahu)",
+      "url": "https://careers.wolt.com/he/jobs/3/7474827",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "מלקטים- וולט מרקט- תל אביב (בן יהודה)",
+      "url": "https://careers.wolt.com/he/jobs/3/6693574",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Bolt munkatárs - Wolt Market Keleti",
+      "url": "https://careers.wolt.com/en/jobs/1/8025611",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Shift Lead - Wolt Market Buda",
+      "url": "https://careers.wolt.com/en/jobs/1/8045935",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Shift Lead - Wolt Market Keleti",
+      "url": "https://careers.wolt.com/en/jobs/1/7971951",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Shift Lead - Wolt Market Zugló",
+      "url": "https://careers.wolt.com/en/jobs/1/8121261",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Software Engineer, QPU Numerics",
+      "url": "https://iqm.teamtailor.com/jobs/8382820-software-engineer-qpu-numerics",
+      "location": "",
+      "company": "IQM Quantum",
+      "country": "FI",
+      "tier": "growth"
+    },
+    {
+      "title": "Senior Social Media Manager",
+      "url": "https://careers.podimo.com/jobs/8681254-senior-social-media-manager",
+      "location": "",
+      "company": "Podimo",
+      "country": "DK",
+      "tier": "growth"
+    },
+    {
+      "title": "Software Developer C#",
+      "url": "https://career.deploja.se/jobs/8755673-software-developer-c/applications/new?promotion=2299691-arbetsformedlingen",
+      "location": "Stockholm",
+      "company": "Deploja AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Data Scientist",
+      "url": "https://www.atalenttech.se/jobb/data-scientist-1906/?pnty_src=platsbanken",
+      "location": "Sundbyberg",
+      "company": "A-Talent Tech Management Sweden AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Monitoring and Sensing Expert",
+      "url": "https://nkt-as.contactrh.com/jobs/9669/44574991",
+      "location": "Västerås",
+      "company": "NKT HV Cables AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "English and Spanish speaking Account Manager to Linköping",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31676911",
+      "location": "Linköping",
+      "company": "TaxiCaller Nordic AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
