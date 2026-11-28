@@ -1,0 +1,281 @@
+{
+  "date": "2026-11-28",
+  "compared_to": "2026-11-27",
+  "added_count": 14,
+  "removed_count": 18,
+  "added": [
+    {
+      "title": "Sociala medier-redaktör till TV4 Sporten",
+      "url": "https://schibsted.teamtailor.com/jobs/8809864-sociala-medier-redaktor-till-tv4-sporten",
+      "location": "",
+      "company": "Schibsted",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "title": "Data Annotator",
+      "url": "https://jobs.ashbyhq.com/neko-health/25c435d9-d72b-4a6c-814c-358af177ba7b",
+      "location": "Stockholm",
+      "company": "Neko Health",
+      "country": "SE",
+      "tier": "growth"
+    },
+    {
+      "title": "HR Coordinator",
+      "url": "https://career.airahome.com/jobs/8809834-hr-coordinator",
+      "location": "",
+      "company": "Aira",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Renewables Installation Manager",
+      "url": "https://career.airahome.com/jobs/8809799-renewables-installation-manager",
+      "location": "",
+      "company": "Aira",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Software Engineer - Frontend",
+      "url": "https://jobs.ashbyhq.com/endra/094e7d98-cc68-42e7-b50b-bc1251633d33",
+      "location": "Stockholm",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Software Engineer - Frontend",
+      "url": "https://jobs.ashbyhq.com/endra/355fb32b-6142-40d8-84d6-3f1a7c200201",
+      "location": "Malmö",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Software Engineer - Core",
+      "url": "https://jobs.ashbyhq.com/endra/fed6499b-6443-42e6-997c-48f0cc40c78d",
+      "location": "Malmö",
+      "company": "Endra",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Grocery Shift Lead",
+      "url": "https://careers.wolt.com/en/jobs/1/8237053",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Grocery Shift Lead",
+      "url": "https://careers.wolt.com/en/jobs/1/7559951",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "Senior Ground Software Engineer",
+      "url": "https://careers.reorbit.space/jobs/7189745-senior-ground-software-engineer",
+      "location": "",
+      "company": "ReOrbit",
+      "country": "FI",
+      "tier": "early"
+    },
+    {
+      "title": "Sociala medier-redaktör till TV4 Sporten",
+      "url": "https://schibsted.teamtailor.com/jobs/8809864-sociala-medier-redaktor-till-tv4-sporten",
+      "location": "",
+      "company": "Schibsted Norway",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "title": "Hacka för Sverige",
+      "url": "https://recruit.visma.com/spa/public/apply?guidAssignment=40ecbffa-4242-4a13-b266-46eddfb269ec&publishCode=PB&TK=f863056e-8d32-47fc-a887-317d76608ce6",
+      "location": "Stockholm",
+      "company": "Försvarets Radioanstalt",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Embedded Systemutvecklare erfarenhet av hårdvara",
+      "url": "http://www.houseofrecruitment.se",
+      "location": "Stockholm",
+      "company": "Bumbli Group AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "ServiceNow-utvecklare till Arbetsförmedlingen",
+      "url": "https://arbetsformedlingen.varbi.com/se/what:job/jobID:993865/type:job/where:125/apply:1",
+      "location": "Solna",
+      "company": "Arbetsförmedlingen",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ],
+  "removed": [
+    {
+      "title": "Brand Designer VG",
+      "url": "https://schibsted.teamtailor.com/no/jobs/8746519-brand-designer-vg",
+      "location": "",
+      "company": "Schibsted",
+      "country": "SE",
+      "tier": "scale"
+    },
+    {
+      "title": "Renewable Energy Sales",
+      "url": "https://career.airahome.com/jobs/8757782-renewable-energy-sales",
+      "location": "",
+      "company": "Aira",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Renewable Energy Sales",
+      "url": "https://career.airahome.com/jobs/8757770-renewable-energy-sales",
+      "location": "",
+      "company": "Aira",
+      "country": "SE",
+      "tier": "early"
+    },
+    {
+      "title": "Head of Public Policy - Israel",
+      "url": "https://careers.wolt.com/en/jobs/1/8245851",
+      "location": "",
+      "company": "Wolt",
+      "country": "FI",
+      "tier": "scale"
+    },
+    {
+      "title": "HR Operations Specialist",
+      "url": "https://careers.reorbit.space/jobs/8697492-hr-operations-specialist",
+      "location": "",
+      "company": "ReOrbit",
+      "country": "FI",
+      "tier": "early"
+    },
+    {
+      "title": "Brand Designer VG",
+      "url": "https://schibsted.teamtailor.com/no/jobs/8746519-brand-designer-vg",
+      "location": "",
+      "company": "Schibsted Norway",
+      "country": "NO",
+      "tier": "growth"
+    },
+    {
+      "title": "Senior Embedded Software Application Engineer",
+      "url": "https://www.clicktohire.se/",
+      "location": "",
+      "company": "Click to Hire AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Machine Learning & Software Engineer  Edge AI & Autonomous Systems",
+      "url": "https://arbetsformedlingen.se/platsbanken/annonser/31761653",
+      "location": "Göteborg",
+      "company": "Aeronis AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Embedded Software Engineer",
+      "url": "https://newperkinelmer.wd1.myworkdayjobs.com/External/job/Stockholm/Senior-Embedded-Software-Engineer_REQ-058911",
+      "location": "Stockholm",
+      "company": "Perten Instruments Aktiebolag",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "ServiceNow-utvecklare AI och App Engine  Eskilstuna",
+      "url": "https://sorosconsulting.se/2026/11/26/servicenow-utvecklare-ai-och-app-engine-eskilstuna/",
+      "location": "Eskilstuna",
+      "company": "Soros Consulting AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Developer .NET / Angular",
+      "url": "https://nordjobs.se/jobs/11795",
+      "location": "Solna",
+      "company": "markley Konsult AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Developer/System Engineer, autonom körning  Södertälje",
+      "url": "https://sorosconsulting.se/2026/11/25/developer-system-engineer-autonom-korning-sodertalje/",
+      "location": "Södertälje",
+      "company": "Soros Consulting AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "AI Agent Platform Engineer",
+      "url": "https://kubo.traffit.com/public/an/11c8ced3606df8205a48f0bcb84dddc05938392f62673d3d",
+      "location": "Göteborg",
+      "company": "KUBO International AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Database Platform Automation Engineer",
+      "url": "https://recruit.agile.nu/apply/jp-b5d19f4241379944?source=platsbanken",
+      "location": "Solna",
+      "company": "Agile Resources AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Security Engineer  Microsoft Security",
+      "url": "https://kubo.traffit.com/public/form/a/3d485ce146caaaf810c0c305ccaa1c665156396647413d3d",
+      "location": "Stockholm",
+      "company": "KUBO International AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Androidutvecklare – uppkopplad fordonsapp",
+      "url": "https://recruit.agile.nu/apply/jp-ebe73c17e0d112dd?source=platsbanken",
+      "location": "Göteborg",
+      "company": "Agile Resources AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Javautvecklare – Spring Boot och Kafka",
+      "url": "https://recruit.agile.nu/apply/jp-adf53c5a0faf53e7?source=platsbanken",
+      "location": "Solna",
+      "company": "Agile Resources AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    },
+    {
+      "title": "Senior Observability Engineer  GCP-migrering (Stockholm/Visby)",
+      "url": "https://sorosconsulting.se/2026/11/23/senior-observability-engineer-gcp-migrering-stockholm-visby/",
+      "location": "Stockholm",
+      "company": "Soros Consulting AB",
+      "country": "SE",
+      "tier": "aggregator",
+      "source": "jobtech"
+    }
+  ]
+}
